@@ -1,0 +1,1511 @@
+order_id,order_date,region,product_category,sales_channel,unit_price,quantity,discount_pct,revenue,customer_email,customer_satisfaction
+ORD-101487,2023-01-01,Europe,Sports,Marketplace,114.84,13,10,1343.61,customer1487@example.com,5.0
+ORD-101408,2023-01-02,Europe,Electronics,Retail Store,92.24,2,0,185.02,customer1408@example.com,4.1
+ORD-101481,2023-01-02,North America,Home & Garden,Wholesale,87.25,10,0,875.01,customer1481@example.com,3.7
+ORD-100772,2023-01-04,North America,Toys,Marketplace,312.29,11,0,3465.2,customer772@example.com,4.4
+ORD-101236,2023-01-04,Middle East,Groceries,Wholesale,68.48,6,0,414.47,customer1236@example.com,4.6
+ORD-100380,2023-01-04,Asia Pacific,Groceries,Wholesale,30.23,12,0,365.88,customer380@example.com,3.9
+ORD-100845,2023-01-04,Europe,Toys,Retail Store,54.07,6,5,310.89,customer845@example.com,5.0
+ORD-101293,2023-01-04,North America,Sports,Marketplace,119.42,8,0,963.74,customer1293@example.com,3.2
+ORD-100844,2023-01-04,Middle East,Sports,Marketplace,123.56,5,15,529.72,customer844@example.com,3.8
+ORD-100900,2023-01-04,Middle East,Toys,Wholesale,11.56,8,0,93.28,customer900@example.com,3.8
+ORD-100464,2023-01-05,North America,Groceries,Marketplace,83.91,7,15,505.11,customer464@example.com,4.2
+ORD-100706,2023-01-06,Asia Pacific,Sports,Retail Store,113.13,2,5,218.08,customer706@example.com,4.8
+ORD-100103,2023-01-06,Asia Pacific,Sports,Online,71.98,9,20,525.8,customer103@example.com,3.2
+ORD-101189,2023-01-06,Latin America,Sports,Online,44.37,5,20,180.07,customer1189@example.com,4.6
+ORD-100574,2023-01-06,Latin America,Electronics,Retail Store,103.81,11,20,926.87,customer574@example.com,4.2
+ORD-101278,2023-01-06,Latin America,Apparel,Online,111.01,10,0,1126.32,customer1278@example.com,3.2
+ORD-101174,2023-01-07,Latin America,Electronics,Wholesale,142.14,12,5,1648.72,customer1174@example.com,3.4
+ORD-101069,2023-01-08,Latin America,Apparel,Retail Store,95.9,13,20,1017.66,customer1069@example.com,5.0
+ORD-100302,2023-01-08,Europe,Sports,Online,30.14,4,0,123.03,customer302@example.com,3.7
+ORD-100800,2023-01-09,Europe,Apparel,Online,27.28,8,10,201.01,customer800@example.com,3.5
+ORD-100789,2023-01-09,Middle East,Electronics,Retail Store,86.06,8,20,563.62,customer789@example.com,3.2
+ORD-101037,2023-01-11,Latin America,Sports,Marketplace,228.61,10,15,1999.75,customer1037@example.com,4.8
+ORD-100409,2023-01-11,Latin America,Apparel,Wholesale,119.97,6,15,629.67,customer409@example.com,3.4
+ORD-100838,2023-01-11,Europe,Apparel,Online,31.7,8,20,208.76,customer838@example.com,4.4
+ORD-101120,2023-01-11,Middle East,Apparel,Online,286.94,11,0,3248.27,customer1120@example.com,4.0
+ORD-100888,2023-01-12,Latin America,Electronics,Retail Store,150.28,9,5,1326.01,customer888@example.com,4.1
+ORD-101365,2023-01-13,North America,Home & Garden,Marketplace,117.13,11,10,1200.02,customer1365@example.com,3.0
+ORD-100414,2023-01-14,Middle East,Groceries,Retail Store,80.39,3,0,250.28,customer414@example.com,4.3
+ORD-100477,2023-01-14,Europe,Sports,Marketplace,63.97,11,10,657.19,customer477@example.com,3.0
+ORD-100232,2023-01-15,Latin America,Sports,Retail Store,138.4,5,5,684.12,customer232@example.com,3.9
+ORD-100539,2023-01-16,Latin America,Electronics,Wholesale,132.36,8,15,939.17,customer539@example.com,4.2
+ORD-100299,2023-01-16,Europe,Toys,Wholesale,135.15,5,0,705.12,customer299@example.com,3.3
+ORD-100368,2023-01-17,North America,Apparel,Wholesale,23.21,9,15,185.75,customer368@example.com,5.0
+ORD-101166,2023-01-17,Latin America,Groceries,Wholesale,34.99,8,10,263.61,customer1166@example.com,2.7
+ORD-100271,2023-01-17,Middle East,Home & Garden,Wholesale,107.26,10,0,1122.26,customer271@example.com,3.6
+ORD-100169,2023-01-17,Middle East,Home & Garden,Retail Store,43.62,2,0,91.28,customer169@example.com,4.2
+ORD-100820,2023-01-18,North America,Groceries,Wholesale,35.54,1,20,29.83,customer820@example.com,3.7
+ORD-100453,2023-01-19,North America,Apparel,Wholesale,20.49,6,15,109.92,customer453@example.com,3.4
+ORD-101179,2023-01-19,Europe,Toys,Online,120.57,6,10,684.93,customer1179@example.com,3.6
+ORD-101398,2023-01-19,Middle East,Sports,Retail Store,140.57,10,0,1478.82,customer1398@example.com,3.6
+ORD-100428,2023-01-19,Europe,Electronics,Marketplace,97.87,2,5,195.63,customer428@example.com,3.2
+ORD-101299,2023-01-22,Middle East,Electronics,Online,38.12,2,0,80.84,customer1299@example.com,4.7
+ORD-100829,2023-01-22,Europe,Sports,Wholesale,16.73,14,10,223.53,customer829@example.com,4.4
+ORD-101492,2023-01-22,Latin America,Toys,Online,39.7,12,20,404.13,customer1492@example.com,5.0
+ORD-100137,2023-01-23,Europe,Home & Garden,Wholesale,78.65,13,5,1032.71,customer137@example.com,
+ORD-100786,2023-01-24,Middle East,Electronics,Wholesale,10.19,12,5,123.8,customer786@example.com,5.0
+ORD-100384,2023-01-24,Asia Pacific,Toys,Online,44.33,10,0,472.59,customer384@example.com,4.1
+ORD-100662,2023-01-26,Latin America,Groceries,Online,103.0,2,0,220.71,customer662@example.com,5.0
+ORD-100146,2023-01-26,North America,Toys,Online,74.4,13,20,829.0,customer146@example.com,4.8
+ORD-101445,2023-01-27,Asia Pacific,Sports,Online,53.36,11,0,630.48,customer1445@example.com,3.8
+ORD-100969,2023-01-27,Asia Pacific,Groceries,Retail Store,31.31,12,0,403.61,customer969@example.com,3.8
+ORD-100843,2023-01-27,Asia Pacific,Home & Garden,Online,33.03,8,0,283.81,customer843@example.com,4.1
+ORD-101265,2023-01-27,Latin America,Electronics,Retail Store,164.27,8,0,1411.59,customer1265@example.com,5.0
+ORD-100116,2023-01-28,Latin America,Apparel,Wholesale,49.67,11,5,558.88,customer116@example.com,3.8
+ORD-100327,2023-01-28,Asia Pacific,Electronics,Online,63.52,3,20,164.16,customer327@example.com,3.4
+ORD-101451,2023-01-30,North America,Groceries,Marketplace,71.89,9,0,700.17,customer1451@example.com,3.3
+ORD-101239,2023-01-30,Europe,Sports,Marketplace,183.98,14,20,2229.92,customer1239@example.com,4.6
+ORD-100869,2023-01-30,Latin America,Sports,Wholesale,119.56,5,10,582.22,customer869@example.com,3.9
+ORD-101098,2023-01-31,Asia Pacific,Toys,Online,118.74,4,15,437.95,customer1098@example.com,4.0
+ORD-100901,2023-01-31,Latin America,Apparel,Wholesale,53.9,12,0,701.71,customer901@example.com,4.2
+ORD-101018,2023-01-31,Middle East,Home & Garden,Wholesale,51.05,9,20,398.69,customer1018@example.com,4.2
+ORD-100249,2023-01-31,Asia Pacific,Apparel,Wholesale,102.55,7,5,739.78,customer249@example.com,3.9
+ORD-100561,2023-02-01,North America,Apparel,Retail Store,139.77,14,5,2021.41,customer561@example.com,5.0
+ORD-100055,2023-02-01,Middle East,Home & Garden,Wholesale,94.27,3,20,246.04,customer55@example.com,3.6
+ORD-100816,2023-02-01,Europe,Apparel,Retail Store,18.32,3,0,59.76,customer816@example.com,4.9
+ORD-100396,2023-02-02,North America,Groceries,Retail Store,108.89,10,15,1008.91,customer396@example.com,3.1
+ORD-100810,2023-02-02,North America,Apparel,Marketplace,54.98,9,5,512.36,customer810@example.com,4.9
+ORD-100351,2023-02-02,Asia Pacific,Electronics,Wholesale,34.28,11,10,369.93,customer351@example.com,
+ORD-101109,2023-02-02,Asia Pacific,Groceries,Marketplace,70.09,3,20,183.36,customer1109@example.com,
+ORD-101462,2023-02-04,North America,Home & Garden,Marketplace,105.07,12,5,1311.78,customer1462@example.com,5.0
+ORD-100573,2023-02-05,Asia Pacific,Toys,Retail Store,82.52,11,0,996.33,customer573@example.com,4.4
+ORD-101285,2023-02-05,North America,Electronics,Retail Store,87.43,11,0,1055.64,customer1285@example.com,3.8
+ORD-101269,2023-02-05,North America,Toys,Retail Store,87.04,12,0,1146.47,customer1269@example.com,3.9
+ORD-100698,2023-02-06,Asia Pacific,Toys,Online,331.47,9,10,2953.88,customer698@example.com,4.8
+ORD-101452,2023-02-07,Europe,Home & Garden,Online,94.68,8,5,793.45,customer1452@example.com,5.0
+ORD-100583,2023-02-07,Latin America,Groceries,Wholesale,79.57,1,15,74.57,customer583@example.com,3.7
+ORD-101463,2023-02-07,Asia Pacific,Sports,Marketplace,51.09,3,0,169.01,customer1463@example.com,5.0
+ORD-100847,2023-02-07,Latin America,Sports,Wholesale,47.68,12,5,599.3,customer847@example.com,4.3
+ORD-100886,2023-02-08,Middle East,Groceries,Marketplace,68.12,14,15,895.77,customer886@example.com,4.7
+ORD-100545,2023-02-08,Asia Pacific,Home & Garden,Retail Store,74.68,9,0,742.71,customer545@example.com,4.5
+ORD-100897,2023-02-09,North America,Groceries,Marketplace,239.92,2,0,531.43,customer897@example.com,
+ORD-101020,2023-02-10,Asia Pacific,Toys,Online,48.4,7,15,319.64,customer1020@example.com,5.0
+ORD-100541,2023-02-10,Latin America,Groceries,Marketplace,119.8,11,10,1316.41,customer541@example.com,5.0
+ORD-101025,2023-02-10,Asia Pacific,Groceries,Wholesale,32.73,14,0,508.59,customer1025@example.com,
+ORD-101266,2023-02-10,Europe,Apparel,Retail Store,138.53,13,0,1998.88,customer1266@example.com,4.1
+ORD-100857,2023-02-11,Europe,Electronics,Online,50.58,12,20,540.1,customer857@example.com,4.4
+ORD-101135,2023-02-12,North America,Groceries,Wholesale,72.35,1,20,735.9625051071305,customer1135@example.com,5.0
+ORD-100149,2023-02-12,North America,Home & Garden,Retail Store,95.15,10,20,848.45,customer149@example.com,5.0
+ORD-100149,2023-02-12,North America,Home & Garden,Retail Store,95.15,10,20,848.45,customer149@example.com,5.0
+ORD-101410,2023-02-14,Asia Pacific,Groceries,Wholesale,81.74,7,15,544.37,customer1410@example.com,4.1
+ORD-101350,2023-02-14,Latin America,Apparel,Wholesale,84.63,14,0,1326.1,customer1350@example.com,3.9
+ORD-101469,2023-02-14,North America,Sports,Online,38.63,7,5,287.56,customer1469@example.com,3.1
+ORD-100618,2023-02-14,North America,Electronics,Marketplace,46.71,7,20,292.77,customer618@example.com,5.0
+ORD-100035,2023-02-16,North America,Home & Garden,Marketplace,40.08,1,0,45.04,customer35@example.com,3.3
+ORD-101455,2023-02-17,North America,Groceries,Marketplace,29.45,13,10,388.0,customer1455@example.com,3.3
+ORD-100278,2023-02-17,Middle East,Toys,Retail Store,121.79,3,10,370.23,customer278@example.com,4.4
+ORD-100517,2023-02-18,Middle East,Toys,Wholesale,56.86,8,15,436.19,customer517@example.com,2.9
+ORD-101034,2023-02-18,Asia Pacific,Home & Garden,Wholesale,88.32,11,0,1096.01,customer1034@example.com,5.0
+ORD-101361,2023-02-19,Middle East,Sports,Online,149.39,11,0,1857.23,customer1361@example.com,4.2
+ORD-100044,2023-02-19,Europe,Home & Garden,Retail Store,56.51,4,10,229.92,customer44@example.com,4.8
+ORD-100386,2023-02-19,Europe,Apparel,Marketplace,100.88,12,10,1231.36,customer386@example.com,5.0
+ORD-100898,2023-02-21,North America,Toys,Marketplace,100.95,11,5,1196.68,customer898@example.com,3.1
+ORD-101021,2023-02-22,North America,Toys,Retail Store,112.99,13,15,1418.91,customer1021@example.com,5.0
+ORD-100658,2023-02-22,Latin America,Home & Garden,Online,21.38,4,10,87.49,customer658@example.com,4.5
+ORD-101214,2023-02-24,Europe,Apparel,Wholesale,105.3,8,10,864.59,customer1214@example.com,4.0
+ORD-101252,2023-02-24,Europe,Groceries,Retail Store,197.73,2,5,428.42,customer1252@example.com,3.9
+ORD-101054,2023-02-25,Asia Pacific,Home & Garden,Online,109.98,13,5,1551.51,customer1054@example.com,3.1
+ORD-100068,2023-02-25,North America,Groceries,Wholesale,90.6,3,5,294.96,customer68@example.com,3.4
+ORD-101026,2023-02-26,Latin America,Electronics,Retail Store,77.44,8,15,602.51,customer1026@example.com,4.4
+ORD-100216,2023-02-27,Asia Pacific,Apparel,Retail Store,21.99,9,15,192.75,customer216@example.com,
+ORD-100126,2023-02-27,North America,Sports,Marketplace,146.53,7,0,1175.51,customer126@example.com,4.5
+ORD-101095,2023-02-28,Asia Pacific,Toys,Online,84.1,11,5,1008.78,customer1095@example.com,3.0
+ORD-100438,2023-03-01,Europe,Groceries,Online,103.09,7,0,829.65,customer438@example.com,4.7
+ORD-100279,2023-03-02,Europe,Apparel,Marketplace,85.45,4,0,393.56,customer279@example.com,4.6
+ORD-101360,2023-03-02,North America,Electronics,Retail Store,11.0,6,0,75.98,customer1360@example.com,3.8
+ORD-101255,2023-03-03,North America,Home & Garden,Marketplace,194.35,4,5,851.62,customer1255@example.com,4.7
+ORD-100430,2023-03-03,Europe,Electronics,Retail Store,30.34,6,0,209.89,customer430@example.com,4.4
+ORD-100245,2023-03-03,Latin America,Sports,Wholesale,9.91,7,0,79.97,customer245@example.com,4.1
+ORD-101121,2023-03-03,Asia Pacific,Sports,Wholesale,39.4,7,0,318.05,customer1121@example.com,4.6
+ORD-101327,2023-03-03,Middle East,Groceries,Marketplace,100.53,3,0,347.77,customer1327@example.com,3.5
+ORD-100677,2023-03-03,North America,Electronics,Wholesale,85.82,10,15,841.13,customer677@example.com,4.1
+ORD-100880,2023-03-04,Asia Pacific,Sports,Online,78.26,1,0,90.38,customer880@example.com,3.7
+ORD-100752,2023-03-04,Latin America,Toys,Retail Store,140.57,7,10,1022.64,customer752@example.com,3.7
+ORD-100006,2023-03-04,Latin America,Electronics,Online,104.21,9,0,1083.02,customer6@example.com,2.8
+ORD-100195,2023-03-05,Middle East,Electronics,Retail Store,54.7,3,0,189.75,customer195@example.com,4.2
+ORD-100727,2023-03-06,Middle East,Toys,Online,144.51,1,0,167.34,customer727@example.com,4.7
+ORD-100171,2023-03-07,Latin America,Home & Garden,Marketplace,177.6,13,20,2141.72,customer171@example.com,4.2
+ORD-100000,2023-03-07,Middle East,Apparel,Retail Store,66.82,1,0,77.48,customer0@example.com,2.0
+ORD-100694,2023-03-07,North America,Toys,Retail Store,38.34,6,0,266.74,customer694@example.com,3.2
+ORD-100909,2023-03-08,Latin America,Toys,Marketplace,110.47,8,0,1026.12,customer909@example.com,2.3
+ORD-100825,2023-03-08,North America,Groceries,Retail Store,36.2,1,15,35.73,customer825@example.com,4.3
+ORD-100132,2023-03-08,Middle East,Electronics,Retail Store,57.23,3,0,199.34,customer132@example.com,3.4
+ORD-100358,2023-03-08,Asia Pacific,Toys,Marketplace,184.64,6,0,1286.24,customer358@example.com,4.6
+ORD-100032,2023-03-09,Asia Pacific,Sports,Retail Store,72.26,1,0,84.0,customer32@example.com,3.5
+ORD-100580,2023-03-10,Middle East,Sports,Online,143.7,3,10,451.61,customer580@example.com,4.1
+ORD-100375,2023-03-10,Middle East,Apparel,Online,90.2,5,20,419.94,customer375@example.com,4.0
+ORD-100009,2023-03-10,Latin America,Sports,Online,18.13,4,0,84.39,customer9@example.com,3.6
+ORD-100950,2023-03-10,Europe,Toys,Wholesale,37.44,11,0,479.32,customer950@example.com,5.0
+ORD-100242,2023-03-11,Europe,Apparel,Marketplace,49.47,5,0,288.22,customer242@example.com,1.8
+ORD-100699,2023-03-11,Middle East,Toys,Retail Store,40.99,12,20,458.53,customer699@example.com,5.0
+ORD-100790,2023-03-11,North America,Apparel,Retail Store,49.37,9,0,517.78,customer790@example.com,3.4
+ORD-100976,2023-03-11,Middle East,Sports,Retail Store,62.97,5,5,348.59,customer976@example.com,4.0
+ORD-100673,2023-03-11,Middle East,Home & Garden,Retail Store,82.26,11,15,896.27,customer673@example.com,3.4
+ORD-100086,2023-03-12,North America,Sports,Wholesale,42.5,2,0,99.16,customer86@example.com,3.3
+ORD-100217,2023-03-12,Latin America,Sports,Online,54.61,14,0,892.01,customer217@example.com,4.2
+ORD-100587,2023-03-14,Latin America,Electronics,Online,21.0,12,10,265.17,customer587@example.com,3.8
+ORD-100890,2023-03-14,Middle East,Groceries,Marketplace,63.03,13,20,766.49,customer890@example.com,3.8
+ORD-101435,2023-03-16,Asia Pacific,Apparel,Retail Store,34.37,4,0,161.07,customer1435@example.com,4.8
+ORD-100579,2023-03-16,North America,Toys,Retail Store,30.12,8,0,282.29,customer579@example.com,4.1
+ORD-101288,2023-03-16,Asia Pacific,Apparel,Retail Store,69.89,11,10,810.69,customer1288@example.com,5.0
+ORD-101358,2023-03-17,Latin America,Groceries,Marketplace,145.75,13,15,1888.8,customer1358@example.com,4.5
+ORD-100257,2023-03-17,Middle East,Sports,Online,32.18,8,0,301.88,customer257@example.com,5.0
+ORD-101449,2023-03-17,Europe,Electronics,Marketplace,91.3,8,0,856.56,customer1449@example.com,5.0
+ORD-101165,2023-03-18,Middle East,Home & Garden,Marketplace,117.6,3,0,414.13,customer1165@example.com,3.4
+ORD-100515,2023-03-18,North America,Groceries,Retail Store,125.29,10,15,1250.17,customer515@example.com,2.9
+ORD-100170,2023-03-19,North America,Groceries,Online,30.22,2,15,60.36,customer170@example.com,5.0
+ORD-100459,2023-03-19,Middle East,Electronics,Wholesale,93.81,3,10,297.58,customer459@example.com,3.6
+ORD-100582,2023-03-19,Asia Pacific,Apparel,Retail Store,27.89,5,0,163.85,customer582@example.com,4.3
+ORD-100817,2023-03-19,Latin America,Sports,Marketplace,148.11,3,15,443.73,customer817@example.com,3.9
+ORD-100321,2023-03-20,Middle East,Groceries,Marketplace,134.51,8,20,1012.31,customer321@example.com,3.3
+ORD-101226,2023-03-20,North America,Home & Garden,Wholesale,89.62,10,0,1053.87,customer1226@example.com,3.7
+ORD-100309,2023-03-21,North America,Sports,Marketplace,276.23,5,20,1300.34,customer309@example.com,5.0
+ORD-101271,2023-03-21,Latin America,Sports,Marketplace,109.11,14,0,1797.69,customer1271@example.com,4.4
+ORD-100479,2023-03-21,Latin America,Home & Garden,Online,95.17,5,15,476.03,customer479@example.com,3.1
+ORD-100807,2023-03-22,Middle East,Home & Garden,Online,35.67,1,5,39.91,customer807@example.com,4.5
+ORD-101488,2023-03-23,Middle East,Home & Garden,Wholesale,54.12,2,0,127.59,customer1488@example.com,4.9
+ORD-101483,2023-03-23,Middle East,Electronics,Retail Store,130.66,11,15,1439.95,customer1483@example.com,4.8
+ORD-101465,2023-03-23,Latin America,Electronics,Marketplace,96.27,12,10,1225.44,customer1465@example.com,4.6
+ORD-101320,2023-03-25,Asia Pacific,Home & Garden,Marketplace,106.59,1,5,119.51,customer1320@example.com,4.5
+ORD-101215,2023-03-25,Asia Pacific,Sports,Retail Store,23.04,14,0,380.69,customer1215@example.com,4.9
+ORD-100500,2023-03-25,Middle East,Home & Garden,Marketplace,62.35,3,0,220.77,customer500@example.com,3.3
+ORD-100872,2023-03-25,Europe,Apparel,Online,47.18,14,0,779.6,customer872@example.com,4.5
+ORD-100119,2023-03-25,North America,Apparel,Retail Store,32.15,8,0,303.53,customer119@example.com,4.5
+ORD-100537,2023-03-26,Europe,Sports,Wholesale,71.3,11,0,926.26,customer537@example.com,3.0
+ORD-100364,2023-03-26,Middle East,Sports,Retail Store,91.87,7,5,721.54,customer364@example.com,4.0
+ORD-101019,2023-03-26,Europe,Electronics,Wholesale,66.22,1,10,70.38,customer1019@example.com,4.3
+ORD-100725,2023-03-27,Middle East,Home & Garden,Wholesale,47.51,3,20,134.73,customer725@example.com,3.4
+ORD-100197,2023-03-28,Middle East,Apparel,Wholesale,71.83,3,15,216.56,customer197@example.com,4.8
+ORD-100496,2023-03-28,Europe,Electronics,Wholesale,73.62,9,10,705.08,customer496@example.com,3.6
+ORD-100777,2023-03-28,Latin America,Groceries,Online,163.03,11,0,2120.29,customer777@example.com,3.2
+ORD-100312,2023-03-28,Middle East,Apparel,Retail Store,105.12,10,20,994.31,customer312@example.com,3.2
+ORD-101049,2023-03-29,North America,Apparel,Marketplace,176.22,3,0,625.38,customer1049@example.com,3.7
+ORD-101156,2023-03-29,North America,Sports,Online,96.76,8,10,824.15,customer1156@example.com,3.2
+ORD-101342,2023-03-29,Latin America,Toys,Marketplace,235.36,4,0,1113.66,customer1342@example.com,2.7
+ORD-100723,2023-03-29,Asia Pacific,Toys,Retail Store,62.78,11,0,816.94,customer723@example.com,4.0
+ORD-100862,2023-03-29,Europe,Electronics,Online,216.35,13,0,3327.03,customer862@example.com,4.6
+ORD-100945,2023-03-29,Europe,Sports,Marketplace,33.46,14,10,498.69,customer945@example.com,3.2
+ORD-100417,2023-03-30,Europe,Sports,Retail Store,71.0,8,0,672.23,customer417@example.com,4.2
+ORD-100385,2023-03-31,Europe,Sports,Online,90.22,5,0,534.09,customer385@example.com,3.9
+ORD-100782,2023-03-31,Asia Pacific,Toys,Wholesale,266.42,8,0,2523.51,customer782@example.com,4.7
+ORD-100783,2023-03-31,Middle East,Groceries,Marketplace,95.76,3,0,340.13,customer783@example.com,5.0
+ORD-101237,2023-04-01,Asia Pacific,Apparel,Online,24.59,5,20,116.52,customer1237@example.com,3.9
+ORD-100435,2023-04-01,Europe,Groceries,Online,53.75,10,10,572.95,customer435@example.com,3.6
+ORD-100873,2023-04-02,Middle East,Apparel,Wholesale,104.5,1,0,123.82,customer873@example.com,4.0
+ORD-100156,2023-04-03,Latin America,Sports,Wholesale,122.53,3,20,348.54,customer156@example.com,3.8
+ORD-101004,2023-04-04,Latin America,Toys,Online,18.18,14,0,301.7,customer1004@example.com,3.6
+ORD-100017,2023-04-04,Latin America,Groceries,Wholesale,212.87,6,20,1211.41,customer17@example.com,3.0
+ORD-100220,2023-04-04,Middle East,Apparel,Retail Store,214.7,2,0,509.1,customer220@example.com,4.0
+ORD-100758,2023-04-04,Latin America,Toys,Marketplace,108.28,7,10,808.77,customer758@example.com,4.2
+ORD-100944,2023-04-05,Europe,Toys,Marketplace,67.23,7,20,446.46,customer944@example.com,4.9
+ORD-100073,2023-04-05,Europe,Apparel,Online,45.8,11,0,597.38,customer73@example.com,4.1
+ORD-100704,2023-04-05,North America,Apparel,Wholesale,83.93,14,0,1393.46,customer704@example.com,3.8
+ORD-100433,2023-04-06,Middle East,Electronics,Online,169.27,14,5,2670.21,customer433@example.com,2.3
+ORD-100413,2023-04-07,Europe,Apparel,Marketplace,43.96,14,5,693.66,customer413@example.com,5.0
+ORD-100442,2023-04-07,Latin America,Electronics,Online,152.66,2,0,362.19,customer442@example.com,4.7
+ORD-100669,2023-04-07,Latin America,Home & Garden,Marketplace,28.08,10,15,283.09,customer669@example.com,5.0
+ORD-100947,2023-04-08,Europe,Sports,Marketplace,48.5,12,0,690.57,customer947@example.com,2.3
+ORD-100603,2023-04-09,Europe,Toys,Wholesale,85.16,4,5,383.96,customer603@example.com,2.8
+ORD-101357,2023-04-09,North America,Home & Garden,Retail Store,19.47,11,15,216.03,customer1357@example.com,4.4
+ORD-101341,2023-04-10,North America,Apparel,Wholesale,58.05,2,0,137.75,customer1341@example.com,2.4
+ORD-100822,2023-04-10,Europe,Apparel,Wholesale,43.63,10,10,465.89,customer822@example.com,4.6
+ORD-100681,2023-04-11,Asia Pacific,Sports,Online,38.36,13,10,532.56,customer681@example.com,3.9
+ORD-100720,2023-04-12,Latin America,Apparel,Marketplace,116.63,1,10,124.55,customer720@example.com,4.9
+ORD-101444,2023-04-12,Europe,Toys,Marketplace,20.78,14,5,327.9,customer1444@example.com,3.2
+ORD-100117,2023-04-13,Europe,Home & Garden,Wholesale,71.57,10,0,849.11,customer117@example.com,5.0
+ORD-100305,2023-04-13,Middle East,Groceries,Wholesale,111.74,2,5,251.89,customer305@example.com,3.6
+ORD-100240,2023-04-13,Europe,Groceries,Wholesale,35.78,14,5,564.63,customer240@example.com,4.1
+ORD-100768,2023-04-13,Asia Pacific,Home & Garden,Marketplace,135.43,14,15,1912.12,customer768@example.com,3.7
+ORD-100619,2023-04-13,Europe,Sports,Wholesale,59.48,7,20,395.19,customer619@example.com,4.9
+ORD-100461,2023-04-13,Europe,Sports,Marketplace,286.5,1,0,339.92,customer461@example.com,4.2
+ORD-100099,2023-04-13,Asia Pacific,Sports,Online,78.01,8,0,740.49,customer99@example.com,3.6
+ORD-101089,2023-04-14,Middle East,Toys,Online,127.42,11,0,1662.72,customer1089@example.com,5.0
+ORD-101186,2023-04-14,Asia Pacific,Toys,Retail Store,95.34,6,15,576.84,customer1186@example.com,4.1
+ORD-100328,2023-04-14,Middle East,Groceries,Retail Store,76.65,6,0,545.59,customer328@example.com,5.0
+ORD-100833,2023-04-15,North America,Toys,Marketplace,14.34,14,0,238.19,customer833@example.com,3.4
+ORD-100527,2023-04-16,Asia Pacific,Groceries,Wholesale,139.06,11,10,1632.65,customer527@example.com,3.6
+ORD-100923,2023-04-16,Latin America,Home & Garden,Retail Store,140.94,2,0,334.29,customer923@example.com,5.0
+ORD-101062,2023-04-16,North America,Apparel,Wholesale,47.6,3,10,152.4,customer1062@example.com,4.5
+ORD-100255,2023-04-16,North America,Apparel,Retail Store,105.68,3,5,357.19,customer255@example.com,3.5
+ORD-100407,2023-04-16,Latin America,Sports,Retail Store,54.52,4,5,245.69,customer407@example.com,2.0
+ORD-100521,2023-04-17,Asia Pacific,Apparel,Retail Store,83.15,13,0,1281.6,customer521@example.com,5.0
+ORD-100751,2023-04-18,North America,Groceries,Online,112.96,10,10,1205.08,customer751@example.com,4.0
+ORD-100974,2023-04-18,Middle East,Groceries,Online,29.15,10,0,345.54,customer974@example.com,5.0
+ORD-100937,2023-04-19,Latin America,Electronics,Retail Store,179.66,4,0,851.58,customer937@example.com,5.0
+ORD-100456,2023-04-19,Latin America,Toys,Wholesale,48.78,9,5,494.21,customer456@example.com,3.2
+ORD-101103,2023-04-20,Latin America,Electronics,Marketplace,25.26,7,15,178.04,customer1103@example.com,3.9
+ORD-101480,2023-04-21,Middle East,Apparel,Retail Store,97.38,10,0,1153.16,customer1480@example.com,5.0
+ORD-100356,2023-04-21,Europe,Sports,Marketplace,176.98,6,10,1131.65,customer356@example.com,
+ORD-100272,2023-04-21,Latin America,Home & Garden,Wholesale,178.01,6,0,1264.75,customer272@example.com,4.0
+ORD-100181,2023-04-22,Latin America,Apparel,Wholesale,111.41,7,20,738.47,customer181@example.com,5.0
+ORD-100389,2023-04-22,Europe,Home & Garden,Marketplace,104.17,6,0,739.78,customer389@example.com,3.5
+ORD-100535,2023-04-23,Latin America,Sports,Wholesale,71.64,12,20,813.65,customer535@example.com,4.4
+ORD-101045,2023-04-23,Middle East,Home & Garden,Online,117.05,7,10,872.43,customer1045@example.com,4.6
+ORD-101228,2023-04-23,Asia Pacific,Sports,Marketplace,68.54,5,0,405.45,customer1228@example.com,4.4
+ORD-100960,2023-04-23,Asia Pacific,Home & Garden,Marketplace,99.99,12,10,1277.66,customer960@example.com,4.4
+ORD-100057,2023-04-23,North America,Toys,Retail Store,39.86,2,10,84.88,customer57@example.com,4.6
+ORD-100532,2023-04-24,Latin America,Sports,Marketplace,51.31,5,15,257.86,customer532@example.com,4.1
+ORD-100883,2023-04-24,Latin America,Apparel,Marketplace,61.16,3,0,216.96,customer883@example.com,5.0
+ORD-101405,2023-04-24,Europe,Toys,Wholesale,116.0,14,20,1536.28,customer1405@example.com,4.6
+ORD-100846,2023-04-25,Middle East,Groceries,Retail Store,119.78,7,15,842.35,customer846@example.com,4.0
+ORD-100936,2023-04-26,Latin America,Electronics,Online,63.97,4,20,241.81,customer936@example.com,2.7
+ORD-100749,2023-04-26,North America,Groceries,Retail Store,68.88,14,0,1139.12,customer749@example.com,2.8
+ORD-100286,2023-04-28,Middle East,Toys,Marketplace,33.21,2,0,78.36,customer286@example.com,4.9
+ORD-100177,2023-04-28,Latin America,Toys,Wholesale,85.06,8,15,682.42,customer177@example.com,3.8
+ORD-100082,2023-04-28,North America,Groceries,Wholesale,158.83,4,20,599.65,customer82@example.com,3.1
+ORD-101486,2023-04-29,North America,Apparel,Wholesale,85.25,6,15,512.61,customer1486@example.com,4.7
+ORD-101075,2023-04-30,Europe,Electronics,Retail Store,47.6,5,0,280.4,customer1075@example.com,5.0
+ORD-100349,2023-05-01,North America,Electronics,Online,131.45,2,0,309.5,customer349@example.com,4.4
+ORD-100040,2023-05-01,Asia Pacific,Sports,Retail Store,36.86,4,15,147.53,customer40@example.com,5.0
+ORD-100622,2023-05-01,Middle East,Electronics,Online,23.21,1,20,21.86,customer622@example.com,4.6
+ORD-100531,2023-05-01,Latin America,Home & Garden,Online,64.31,8,0,605.68,customer531@example.com,4.8
+ORD-100167,2023-05-02,Middle East,Home & Garden,Marketplace,64.04,12,0,904.03,customer167@example.com,4.0
+ORD-100186,2023-05-02,Asia Pacific,Electronics,Marketplace,158.57,5,0,932.65,customer186@example.com,4.2
+ORD-100466,2023-05-02,Asia Pacific,Toys,Retail Store,67.16,7,20,442.42,customer466@example.com,4.2
+ORD-101077,2023-05-02,Latin America,Groceries,Marketplace,72.71,4,0,342.12,customer1077@example.com,5.0
+ORD-100702,2023-05-03,North America,Electronics,Retail Store,68.44,14,5,1069.92,customer702@example.com,4.1
+ORD-100684,2023-05-04,Latin America,Electronics,Marketplace,100.27,10,15,1000.9,customer684@example.com,4.8
+ORD-100261,2023-05-05,Latin America,Sports,Wholesale,19.21,2,0,45.08,customer261@example.com,5.0
+ORD-101192,2023-05-05,Europe,Sports,Retail Store,234.17,7,15,1634.89,customer1192@example.com,4.5
+ORD-101432,2023-05-05,Latin America,Toys,Marketplace,44.23,10,0,518.94,customer1432@example.com,2.6
+ORD-100703,2023-05-06,Europe,Electronics,Marketplace,36.8,8,15,293.38,customer703@example.com,4.8
+ORD-101031,2023-05-07,Europe,Electronics,Wholesale,47.67,11,15,522.0,customer1031@example.com,4.1
+ORD-100907,2023-05-07,Middle East,Sports,Online,97.04,9,15,869.38,customer907@example.com,4.6
+ORD-100410,2023-05-08,North America,Home & Garden,Retail Store,64.42,2,5,143.2,customer410@example.com,4.6
+ORD-100258,2023-05-08,Latin America,Electronics,Marketplace,47.83,11,20,492.5,customer258@example.com,4.1
+ORD-100543,2023-05-08,Europe,Home & Garden,Marketplace,112.87,4,0,528.21,customer543@example.com,5.0
+ORD-100760,2023-05-09,Middle East,Sports,Wholesale,109.87,12,20,1232.77,customer760@example.com,3.1
+ORD-100660,2023-05-10,Europe,Apparel,Marketplace,56.95,10,10,598.42,customer660@example.com,4.7
+ORD-101404,2023-05-10,Middle East,Sports,Retail Store,171.46,10,0,2001.89,customer1404@example.com,4.5
+ORD-101173,2023-05-10,Middle East,Sports,Marketplace,48.17,5,10,253.09,customer1173@example.com,4.4
+ORD-100229,2023-05-10,North America,Electronics,Retail Store,22.86,2,0,53.37,customer229@example.com,4.7
+ORD-100391,2023-05-11,North America,Groceries,Marketplace,83.13,12,10,1047.05,customer391@example.com,3.5
+ORD-100250,2023-05-12,Latin America,Sports,Marketplace,46.1,1,0,53.71,customer250@example.com,4.2
+ORD-100348,2023-05-12,Asia Pacific,Home & Garden,Wholesale,34.81,14,15,482.54,customer348@example.com,4.6
+ORD-100563,2023-05-13,Latin America,Apparel,Marketplace,113.2,3,5,375.42,customer563@example.com,4.6
+ORD-101105,2023-05-13,North America,Electronics,Retail Store,73.14,3,20,204.26,customer1105@example.com,3.7
+ORD-100468,2023-05-13,Europe,Apparel,Retail Store,60.6,1,15,59.94,customer468@example.com,3.9
+ORD-100634,2023-05-14,Asia Pacific,Home & Garden,Retail Store,71.14,9,0,744.15,customer634@example.com,4.8
+ORD-100911,2023-05-14,Europe,Apparel,Wholesale,93.36,10,20,868.03,customer911@example.com,4.6
+ORD-100022,2023-05-14,Europe,Groceries,Online,90.86,4,15,359.04,customer22@example.com,3.6
+ORD-101431,2023-05-16,Middle East,Toys,Marketplace,58.87,10,0,682.55,customer1431@example.com,4.6
+ORD-101344,2023-05-17,Middle East,Electronics,Online,146.64,10,15,1443.24,customer1344@example.com,5.0
+ORD-101325,2023-05-17,Latin America,Toys,Marketplace,115.44,6,10,721.78,customer1325@example.com,4.1
+ORD-100252,2023-05-18,Europe,Home & Garden,Wholesale,28.87,9,0,300.46,customer252@example.com,3.6
+ORD-100071,2023-05-19,Middle East,Electronics,Online,41.88,6,0,290.2,customer71@example.com,3.7
+ORD-101177,2023-05-20,Europe,Sports,Wholesale,37.88,12,0,524.2,customer1177@example.com,5.0
+ORD-100887,2023-05-21,Middle East,Sports,Online,144.63,4,0,666.21,customer887@example.com,3.5
+ORD-100522,2023-05-21,Asia Pacific,Groceries,Retail Store,179.28,10,0,2064.55,customer522@example.com,3.8
+ORD-101112,2023-05-21,Europe,Toys,Marketplace,44.86,10,0,516.63,customer1112@example.com,3.8
+ORD-101114,2023-05-22,Asia Pacific,Sports,Retail Store,62.07,11,0,785.07,customer1114@example.com,4.2
+ORD-100542,2023-05-23,Middle East,Groceries,Wholesale,110.8,5,20,508.87,customer542@example.com,3.1
+ORD-100051,2023-05-23,Europe,Electronics,Wholesale,27.86,7,5,212.74,customer51@example.com,
+ORD-100992,2023-05-24,Europe,Toys,Online,60.25,13,15,763.23,customer992@example.com,3.8
+ORD-100397,2023-05-24,Asia Pacific,Groceries,Online,88.95,2,0,203.97,customer397@example.com,4.9
+ORD-100837,2023-05-25,Latin America,Apparel,Wholesale,19.91,4,0,91.16,customer837@example.com,3.9
+ORD-100101,2023-05-26,Asia Pacific,Sports,Online,63.28,13,0,940.24,customer101@example.com,3.6
+ORD-100425,2023-05-26,Europe,Toys,Marketplace,50.8,5,0,290.32,customer425@example.com,4.6
+ORD-101084,2023-05-27,Europe,Home & Garden,Retail Store,83.93,8,5,727.91,customer1084@example.com,4.6
+ORD-100223,2023-05-28,Asia Pacific,Toys,Retail Store,32.27,9,0,330.92,customer223@example.com,2.7
+ORD-100663,2023-05-28,Middle East,Electronics,Online,55.51,8,0,505.96,customer663@example.com,4.8
+ORD-100652,2023-05-28,Middle East,Electronics,Online,28.87,13,20,342.02,customer652@example.com,3.9
+ORD-100871,2023-05-28,North America,Electronics,Wholesale,65.56,10,0,746.9,customer871@example.com,4.5
+ORD-100338,2023-05-28,Latin America,Home & Garden,Retail Store,114.36,8,15,885.95,customer338@example.com,
+ORD-101363,2023-05-28,Middle East,Home & Garden,Online,135.73,8,15,1051.55,customer1363@example.com,5.0
+ORD-100008,2023-05-28,North America,Electronics,Wholesale,120.44,8,20,878.15,customer8@example.com,4.0
+ORD-101473,2023-06-01,North America,Home & Garden,Retail Store,38.92,10,15,374.33,customer1473@example.com,4.1
+ORD-100734,2023-06-02,Middle East,Electronics,Marketplace,43.45,4,10,176.68,customer734@example.com,4.6
+ORD-101071,2023-06-02,Europe,Toys,Retail Store,26.66,1,20,24.09,customer1071@example.com,4.2
+ORD-100141,2023-06-06,Latin America,Groceries,Wholesale,112.6,6,10,681.93,customer141@example.com,4.6
+ORD-101394,2023-06-07,Latin America,Toys,Wholesale,58.83,3,10,177.82,customer1394@example.com,4.0
+ORD-100963,2023-06-08,North America,Sports,Retail Store,97.97,8,0,875.67,customer963@example.com,3.8
+ORD-100902,2023-06-09,North America,Electronics,Wholesale,125.1,6,0,837.04,customer902@example.com,3.2
+ORD-101354,2023-06-10,Asia Pacific,Electronics,Wholesale,100.4,8,10,804.59,customer1354@example.com,5.0
+ORD-101256,2023-06-12,Latin America,Home & Garden,Retail Store,94.22,1,20,83.57,customer1256@example.com,4.7
+ORD-100362,2023-06-13,Middle East,Home & Garden,Online,65.94,4,15,248.06,customer362@example.com,5.0
+ORD-100975,2023-06-14,Europe,Sports,Marketplace,153.59,14,10,2136.93,customer975@example.com,3.6
+ORD-100077,2023-06-15,Latin America,Toys,Retail Store,71.03,10,0,782.75,customer77@example.com,
+ORD-100031,2023-06-15,Middle East,Sports,Online,214.24,2,20,377.73,customer31@example.com,5.0
+ORD-100566,2023-06-16,Latin America,Toys,Marketplace,27.05,12,10,321.32,customer566@example.com,5.0
+ORD-100411,2023-06-17,Asia Pacific,Groceries,Retail Store,79.16,11,15,812.21,customer411@example.com,
+ORD-100325,2023-06-18,North America,Sports,Marketplace,81.25,7,0,622.82,customer325@example.com,3.4
+ORD-101478,2023-06-18,Latin America,Toys,Marketplace,75.92,11,5,868.79,customer1478@example.com,4.1
+ORD-100485,2023-06-19,Asia Pacific,Home & Garden,Wholesale,86.0,8,0,751.89,customer485@example.com,3.7
+ORD-100625,2023-06-19,Middle East,Groceries,Marketplace,94.03,13,20,1068.67,customer625@example.com,4.4
+ORD-101111,2023-06-19,North America,Apparel,Marketplace,38.82,11,0,466.6,customer1111@example.com,4.5
+ORD-101290,2023-06-20,Middle East,Home & Garden,Online,58.17,11,10,627.97,customer1290@example.com,5.0
+ORD-100147,2023-06-20,Middle East,Home & Garden,Wholesale,55.74,8,0,486.29,customer147@example.com,4.3
+ORD-100636,2023-06-21,Europe,Sports,Online,43.05,8,0,374.79,customer636@example.com,3.8
+ORD-101385,2023-06-21,Middle East,Home & Garden,Wholesale,93.57,10,15,865.5,customer1385@example.com,4.5
+ORD-101287,2023-06-21,Europe,Sports,Online,59.06,2,0,128.55,customer1287@example.com,4.7
+ORD-100326,2023-06-22,Asia Pacific,Toys,Online,180.39,12,10,2115.45,customer326@example.com,5.0
+ORD-100718,2023-06-22,Middle East,Home & Garden,Wholesale,65.57,2,20,113.92,customer718@example.com,5.0
+ORD-100565,2023-06-22,Latin America,Apparel,Retail Store,46.66,8,0,405.32,customer565@example.com,4.7
+ORD-100509,2023-06-22,Asia Pacific,Home & Garden,Online,109.69,10,0,1191.11,customer509@example.com,4.3
+ORD-101307,2023-06-23,Middle East,Sports,Wholesale,88.58,7,0,671.8,customer1307@example.com,5.0
+ORD-101264,2023-06-24,Latin America,Apparel,Online,119.75,6,20,621.46,customer1264@example.com,5.0
+ORD-101046,2023-06-24,Asia Pacific,Apparel,Marketplace,30.95,11,15,312.83,customer1046@example.com,4.0
+ORD-100188,2023-06-24,North America,Toys,Wholesale,102.26,6,0,663.37,customer188@example.com,4.2
+ORD-100096,2023-06-24,Middle East,Toys,Marketplace,176.74,7,0,1337.59,customer96@example.com,4.4
+ORD-100853,2023-06-24,Middle East,Groceries,Marketplace,64.0,14,20,774.92,customer853@example.com,4.4
+ORD-100592,2023-06-25,North America,Home & Garden,Wholesale,117.09,9,0,1136.85,customer592@example.com,4.5
+ORD-100383,2023-06-25,Latin America,Sports,Wholesale,27.37,6,20,141.75,customer383@example.com,3.0
+ORD-100831,2023-06-25,North America,Sports,Online,40.12,4,0,173.13,customer831@example.com,4.4
+ORD-101250,2023-06-26,Latin America,Home & Garden,Retail Store,135.04,13,0,1889.61,customer1250@example.com,4.7
+ORD-101401,2023-06-26,Asia Pacific,Sports,Wholesale,106.41,5,15,486.79,customer1401@example.com,4.6
+ORD-101123,2023-06-27,Middle East,Home & Garden,Online,55.86,9,0,539.94,customer1123@example.com,4.8
+ORD-101106,2023-06-28,North America,Apparel,Wholesale,174.19,7,15,1110.7,customer1106@example.com,4.9
+ORD-100314,2023-06-28,Latin America,Apparel,Online,98.75,4,0,423.31,customer314@example.com,4.6
+ORD-100856,2023-06-28,Middle East,Home & Garden,Retail Store,112.02,2,5,228.09,customer856@example.com,4.2
+ORD-100988,2023-06-29,Middle East,Groceries,Online,25.37,12,15,276.68,customer988@example.com,3.7
+ORD-100830,2023-06-29,North America,Groceries,Retail Store,146.98,13,15,1736.6,customer830@example.com,4.5
+ORD-101012,2023-06-29,Latin America,Sports,Online,50.47,8,0,431.71,customer1012@example.com,4.4
+ORD-101453,2023-06-29,Middle East,Sports,Wholesale,89.28,5,0,477.29,customer1453@example.com,4.6
+ORD-100118,2023-06-29,Latin America,Groceries,Marketplace,194.87,4,10,750.1,customer118@example.com,3.8
+ORD-100507,2023-06-30,Asia Pacific,Toys,Retail Store,44.54,9,10,384.89,customer507@example.com,3.8
+ORD-100924,2023-07-01,Middle East,Home & Garden,Online,174.33,6,0,1113.38,customer924@example.com,
+ORD-100567,2023-07-02,Latin America,Groceries,Retail Store,14.81,7,10,99.08,customer567@example.com,4.1
+ORD-100482,2023-07-02,Asia Pacific,Groceries,Wholesale,49.3,13,10,612.54,customer482@example.com,4.2
+ORD-101412,2023-07-02,Latin America,Home & Garden,Retail Store,244.0,4,15,881.05,customer1412@example.com,4.8
+ORD-100616,2023-07-02,Latin America,Electronics,Online,83.53,5,20,354.84,customer616@example.com,
+ORD-100695,2023-07-04,North America,Groceries,Retail Store,85.37,11,0,992.75,customer695@example.com,5.0
+ORD-100918,2023-07-05,Latin America,Groceries,Marketplace,109.37,5,15,490.32,customer918@example.com,4.0
+ORD-100918,2023-07-05,Latin America,Groceries,Marketplace,109.37,5,15,490.32,customer918@example.com,4.0
+ORD-101306,2023-07-05,Middle East,Electronics,Wholesale,73.23,1,0,77.24,customer1306@example.com,3.6
+ORD-100345,2023-07-06,North America,Electronics,Retail Store,73.12,4,10,277.04,customer345@example.com,4.2
+ORD-101424,2023-07-06,Middle East,Toys,Online,179.85,13,0,2460.53,customer1424@example.com,3.3
+ORD-100932,2023-07-07,Middle East,Electronics,Online,132.18,1,5,131.85,customer932@example.com,5.0
+ORD-101178,2023-07-09,Asia Pacific,Electronics,Wholesale,156.19,2,0,326.51,customer1178@example.com,4.7
+ORD-100210,2023-07-10,Latin America,Groceries,Marketplace,53.73,12,20,537.86,customer210@example.com,4.0
+ORD-101296,2023-07-11,Latin America,Apparel,Retail Store,81.26,3,0,253.64,customer1296@example.com,3.7
+ORD-100379,2023-07-11,Europe,Electronics,Online,70.5,8,10,528.12,customer379@example.com,4.7
+ORD-100208,2023-07-12,Latin America,Groceries,Marketplace,47.37,13,0,639.18,customer208@example.com,
+ORD-101458,2023-07-12,North America,Home & Garden,Online,13.38,10,0,138.93,customer1458@example.com,5.0
+ORD-100617,2023-07-14,Asia Pacific,Electronics,Marketplace,100.22,7,0,724.87,customer617@example.com,4.7
+ORD-100291,2023-07-14,Latin America,Sports,Online,55.28,14,10,719.73,customer291@example.com,4.7
+ORD-101428,2023-07-14,Europe,Toys,Wholesale,78.76,6,20,390.63,customer1428@example.com,4.3
+ORD-100205,2023-07-14,Middle East,Toys,Wholesale,73.61,3,0,228.17,customer205@example.com,3.8
+ORD-101260,2023-07-14,North America,Apparel,Retail Store,54.02,14,5,742.41,customer1260@example.com,3.9
+ORD-100508,2023-07-16,North America,Sports,Online,46.52,5,0,239.21,customer508@example.com,3.7
+ORD-101010,2023-07-16,Middle East,Electronics,Retail Store,63.56,7,20,366.11,customer1010@example.com,
+ORD-101122,2023-07-16,Europe,Groceries,Marketplace,279.02,13,0,3730.8,customer1122@example.com,4.7
+ORD-100889,2023-07-17,Middle East,Sports,Wholesale,85.12,14,20,978.27,customer889@example.com,
+ORD-100743,2023-07-17,North America,Groceries,Online,69.67,3,0,214.48,customer743@example.com,4.1
+ORD-100778,2023-07-17,Latin America,Toys,Wholesale,124.1,6,15,649.46,customer778@example.com,5.0
+ORD-100215,2023-07-18,Asia Pacific,Home & Garden,Marketplace,180.32,14,5,2455.5,customer215@example.com,4.5
+ORD-100504,2023-07-20,Latin America,Groceries,Wholesale,39.13,4,10,143.58,customer504@example.com,4.1
+ORD-101321,2023-07-20,North America,Home & Garden,Wholesale,35.04,2,15,60.71,customer1321@example.com,3.3
+ORD-101490,2023-07-20,North America,Groceries,Retail Store,187.45,3,0,573.15,customer1490@example.com,4.1
+ORD-100142,2023-07-21,Europe,Groceries,Marketplace,118.84,3,0,362.54,customer142@example.com,4.4
+ORD-100280,2023-07-21,North America,Home & Garden,Marketplace,70.47,1,20,57.33,customer280@example.com,4.4
+ORD-101191,2023-07-22,Middle East,Home & Garden,Marketplace,143.23,5,10,653.94,customer1191@example.com,4.0
+ORD-100038,2023-07-22,Latin America,Apparel,Online,137.44,1,15,118.53,customer38@example.com,
+ORD-100949,2023-07-22,Europe,Sports,Retail Store,13.84,12,0,168.54,customer949@example.com,
+ORD-100110,2023-07-22,North America,Toys,Wholesale,87.75,8,15,605.43,customer110@example.com,4.5
+ORD-100412,2023-07-23,Middle East,Toys,Marketplace,28.25,7,5,190.18,customer412@example.com,4.2
+ORD-101027,2023-07-24,Asia Pacific,Apparel,Online,13.61,5,0,68.72,customer1027@example.com,4.9
+ORD-100398,2023-07-24,Asia Pacific,Groceries,Retail Store,27.79,10,20,224.58,customer398@example.com,3.2
+ORD-100313,2023-07-25,North America,Toys,Wholesale,91.58,11,0,1015.29,customer313@example.com,4.3
+ORD-100151,2023-07-25,Europe,Toys,Wholesale,71.43,7,0,503.9,customer151@example.com,4.5
+ORD-101409,2023-07-26,Europe,Sports,Online,69.37,11,0,767.32,customer1409@example.com,3.2
+ORD-100572,2023-07-26,Europe,Sports,Marketplace,86.41,9,10,703.83,customer572@example.com,3.3
+ORD-101381,2023-07-27,Middle East,Sports,Retail Store,72.32,8,0,580.49,customer1381@example.com,3.9
+ORD-100813,2023-07-27,North America,Groceries,Wholesale,58.51,5,0,293.52,customer813@example.com,3.7
+ORD-101208,2023-07-27,Asia Pacific,Home & Garden,Wholesale,113.92,4,15,388.64,customer1208@example.com,4.1
+ORD-100533,2023-07-27,North America,Home & Garden,Marketplace,97.22,5,5,463.37,customer533@example.com,4.6
+ORD-100298,2023-07-27,Middle East,Apparel,Retail Store,19.15,12,0,230.54,customer298@example.com,5.0
+ORD-100449,2023-07-29,North America,Home & Garden,Retail Store,135.66,13,5,1673.68,customer449@example.com,4.2
+ORD-100659,2023-07-30,Asia Pacific,Toys,Wholesale,86.77,5,20,345.99,customer659@example.com,3.3
+ORD-100095,2023-07-30,Europe,Electronics,Retail Store,136.76,10,0,1363.26,customer95@example.com,4.2
+ORD-100480,2023-07-30,Latin America,Groceries,Marketplace,284.84,7,0,1987.55,customer480@example.com,3.1
+ORD-101229,2023-07-30,Latin America,Sports,Online,31.5,1,0,31.4,customer1229@example.com,4.7
+ORD-100840,2023-07-30,Middle East,Apparel,Marketplace,32.7,14,15,387.84,customer840@example.com,5.0
+ORD-100854,2023-07-30,North America,Apparel,Wholesale,41.56,7,0,290.02,customer854@example.com,4.2
+ORD-100494,2023-07-31,Latin America,Groceries,Wholesale,76.84,11,5,798.66,customer494@example.com,5.0
+ORD-101482,2023-07-31,Latin America,Groceries,Marketplace,114.48,8,0,911.0,customer1482@example.com,4.1
+ORD-100341,2023-08-01,North America,Home & Garden,Online,265.82,8,5,2005.23,customer341@example.com,3.3
+ORD-101113,2023-08-02,Middle East,Sports,Wholesale,67.14,12,10,718.2,customer1113@example.com,3.5
+ORD-100153,2023-08-03,Europe,Groceries,Marketplace,49.02,4,0,193.82,customer153@example.com,3.7
+ORD-101450,2023-08-03,Asia Pacific,Electronics,Retail Store,227.56,13,15,2485.4,customer1450@example.com,3.9
+ORD-100795,2023-08-04,Latin America,Sports,Retail Store,122.98,12,15,1237.31,customer795@example.com,3.5
+ORD-100270,2023-08-04,Latin America,Home & Garden,Online,112.03,14,15,1315.01,customer270@example.com,3.9
+ORD-100637,2023-08-05,Asia Pacific,Home & Garden,Wholesale,99.43,13,0,1272.35,customer637@example.com,4.5
+ORD-100418,2023-08-05,Latin America,Sports,Marketplace,25.42,7,0,175.13,customer418@example.com,4.7
+ORD-101337,2023-08-05,North America,Groceries,Online,223.17,13,0,2855.78,customer1337@example.com,2.5
+ORD-101238,2023-08-06,North America,Electronics,Wholesale,21.27,3,15,53.28,customer1238@example.com,4.1
+ORD-101315,2023-08-07,North America,Apparel,Wholesale,67.94,7,0,466.26,customer1315@example.com,3.9
+ORD-101402,2023-08-07,Asia Pacific,Apparel,Marketplace,116.02,8,20,727.95,customer1402@example.com,
+ORD-101399,2023-08-07,Middle East,Sports,Marketplace,131.9,7,10,814.62,customer1399@example.com,4.0
+ORD-100970,2023-08-07,Asia Pacific,Electronics,Wholesale,54.51,4,20,171.0,customer970@example.com,4.2
+ORD-100262,2023-08-07,North America,Sports,Marketplace,184.67,9,15,1384.99,customer262@example.com,4.4
+ORD-100352,2023-08-07,Latin America,Toys,Wholesale,17.86,13,0,227.55,customer352@example.com,4.3
+ORD-100441,2023-08-08,Middle East,Toys,Retail Store,74.1,2,0,145.0,customer441@example.com,4.7
+ORD-100927,2023-08-08,Middle East,Electronics,Marketplace,62.03,5,5,288.26,customer927@example.com,4.1
+ORD-101475,2023-08-09,North America,Sports,Marketplace,107.49,12,15,1070.58,customer1475@example.com,5.0
+ORD-100801,2023-08-09,Latin America,Groceries,Retail Store,79.72,11,10,770.67,customer801@example.com,5.0
+ORD-100306,2023-08-09,Europe,Sports,Wholesale,61.22,12,10,645.66,customer306@example.com,
+ORD-100189,2023-08-09,Middle East,Sports,Online,114.79,7,15,666.95,customer189@example.com,3.3
+ORD-101366,2023-08-09,Latin America,Electronics,Wholesale,76.4,14,20,835.51,customer1366@example.com,2.9
+ORD-100135,2023-08-10,Latin America,Sports,Wholesale,66.16,7,20,361.07,customer135@example.com,3.7
+ORD-101154,2023-08-11,Latin America,Apparel,Wholesale,80.87,10,15,668.59,customer1154@example.com,3.8
+ORD-100951,2023-08-11,Asia Pacific,Groceries,Retail Store,45.76,6,5,253.69,customer951@example.com,4.3
+ORD-101104,2023-08-12,Europe,Electronics,Retail Store,88.66,9,0,774.66,customer1104@example.com,3.9
+ORD-101390,2023-08-12,Middle East,Apparel,Online,132.75,2,5,244.87,customer1390@example.com,4.6
+ORD-100225,2023-08-12,North America,Home & Garden,Retail Store,79.64,14,0,1082.48,customer225@example.com,3.8
+ORD-101185,2023-08-13,Europe,Groceries,Online,104.74,12,0,1217.98,customer1185@example.com,4.0
+ORD-100238,2023-08-14,Latin America,Sports,Retail Store,66.52,14,5,855.73,customer238@example.com,2.4
+ORD-100399,2023-08-15,Asia Pacific,Groceries,Online,33.38,13,20,335.2,customer399@example.com,4.5
+ORD-100525,2023-08-15,North America,Apparel,Wholesale,155.96,10,5,1430.56,customer525@example.com,3.6
+ORD-100332,2023-08-15,Asia Pacific,Electronics,Wholesale,98.5,5,0,475.51,customer332@example.com,3.7
+ORD-101059,2023-08-16,North America,Home & Garden,Marketplace,42.44,3,5,116.59,customer1059@example.com,3.3
+ORD-100087,2023-08-17,North America,Apparel,Retail Store,99.58,12,10,1034.72,customer87@example.com,5.0
+ORD-100748,2023-08-17,North America,Sports,Marketplace,18.8,3,10,48.83,customer748@example.com,4.0
+ORD-101461,2023-08-17,Middle East,Sports,Online,75.87,12,0,875.91,customer1461@example.com,3.8
+ORD-101033,2023-08-18,Latin America,Toys,Retail Store,125.38,4,0,481.67,customer1033@example.com,5.0
+ORD-100747,2023-08-18,Middle East,Toys,Wholesale,100.46,1,0,96.49,customer747@example.com,3.4
+ORD-100446,2023-08-18,Middle East,Home & Garden,Wholesale,37.31,11,15,335.06,customer446@example.com,3.9
+ORD-101013,2023-08-18,Middle East,Electronics,Online,31.9,3,5,87.33,customer1013@example.com,3.9
+ORD-100987,2023-08-19,Asia Pacific,Groceries,Retail Store,63.29,1,0,60.68,customer987@example.com,3.9
+ORD-100308,2023-08-19,Europe,Home & Garden,Marketplace,48.0,11,0,506.25,customer308@example.com,5.0
+ORD-100798,2023-08-19,Europe,Sports,Wholesale,111.29,7,5,709.62,customer798@example.com,3.3
+ORD-100367,2023-08-19,North America,Sports,Retail Store,73.77,10,0,707.31,customer367@example.com,3.3
+ORD-100967,2023-08-20,Europe,Toys,Retail Store,60.04,11,0,632.16,customer967@example.com,4.9
+ORD-100337,2023-08-20,Asia Pacific,Electronics,Online,49.36,14,20,529.25,customer337@example.com,4.0
+ORD-101176,2023-08-20,Middle East,Home & Garden,Wholesale,78.71,12,10,813.7,customer1176@example.com,
+ORD-100553,2023-08-21,Asia Pacific,Groceries,Retail Store,28.99,14,5,368.45,customer553@example.com,3.0
+ORD-101438,2023-08-21,Middle East,Electronics,Online,65.31,13,0,811.41,customer1438@example.com,4.1
+ORD-100524,2023-08-21,North America,Home & Garden,Marketplace,32.69,14,5,415.47,customer524@example.com,4.9
+ORD-100402,2023-08-22,Asia Pacific,Electronics,Marketplace,66.39,8,0,506.8,customer402@example.com,4.6
+ORD-101434,2023-08-22,Middle East,Sports,Online,240.1,14,20,2565.86,customer1434@example.com,3.7
+ORD-100166,2023-08-23,Europe,Sports,Wholesale,77.97,11,0,817.07,customer166@example.com,4.2
+ORD-100594,2023-08-23,North America,Sports,Retail Store,163.26,1,20,124.43,customer594@example.com,5.0
+ORD-100320,2023-08-23,Europe,Apparel,Online,166.51,5,15,674.18,customer320@example.com,4.7
+ORD-101403,2023-08-24,Europe,Sports,Retail Store,25.57,4,10,87.55,customer1403@example.com,5.0
+ORD-100606,2023-08-24,Middle East,Home & Garden,Retail Store,26.85,2,20,40.87,customer606@example.com,3.5
+ORD-101248,2023-08-26,Europe,Sports,Marketplace,81.73,14,0,1085.27,customer1248@example.com,
+ORD-101387,2023-08-26,Europe,Toys,Marketplace,189.15,13,5,2215.63,customer1387@example.com,5.0
+ORD-100065,2023-08-26,Europe,Apparel,Online,54.67,1,15,44.08,customer65@example.com,3.7
+ORD-100645,2023-08-28,Europe,Home & Garden,Wholesale,117.41,1,15,94.4,customer645@example.com,4.6
+ORD-101094,2023-08-28,Middle East,Toys,Online,57.63,2,0,109.03,customer1094@example.com,3.6
+ORD-100631,2023-08-28,Latin America,Apparel,Online,29.18,3,0,82.8,customer631@example.com,5.0
+ORD-100253,2023-08-29,Latin America,Home & Garden,Marketplace,76.23,14,5,957.73,customer253@example.com,4.9
+ORD-101144,2023-08-30,Latin America,Toys,Retail Store,49.34,14,5,619.07,customer1144@example.com,4.0
+ORD-100076,2023-08-30,Middle East,Apparel,Retail Store,13.92,7,10,82.74,customer76@example.com,3.9
+ORD-100293,2023-08-31,Europe,Sports,Online,94.78,14,0,1250.17,customer293@example.com,4.0
+ORD-100486,2023-09-01,North America,Sports,Online,63.55,1,0,59.81,customer486@example.com,5.0
+ORD-101493,2023-09-01,North America,Toys,Retail Store,109.9,4,0,413.7,customer1493@example.com,3.0
+ORD-101068,2023-09-01,North America,Home & Garden,Retail Store,55.93,11,15,492.12,customer1068@example.com,4.4
+ORD-100737,2023-09-01,Middle East,Toys,Wholesale,29.48,7,5,184.47,customer737@example.com,4.1
+ORD-101029,2023-09-01,Asia Pacific,Electronics,Retail Store,54.56,7,5,341.45,customer1029@example.com,3.3
+ORD-100370,2023-09-02,Middle East,Home & Garden,Marketplace,148.27,10,15,1184.64,customer370@example.com,4.1
+ORD-100168,2023-09-02,Latin America,Groceries,Online,50.76,2,10,85.89,customer168@example.com,4.1
+ORD-100626,2023-09-04,Latin America,Electronics,Marketplace,67.05,1,5,59.74,customer626@example.com,4.9
+ORD-101141,2023-09-05,Europe,Apparel,Wholesale,66.84,4,10,225.43,customer1141@example.com,5.0
+ORD-100198,2023-09-05,North America,Sports,Retail Store,60.21,5,15,239.76,customer198@example.com,4.1
+ORD-101175,2023-09-05,Europe,Groceries,Wholesale,74.0,13,0,901.29,customer1175@example.com,3.2
+ORD-101159,2023-09-06,Europe,Home & Garden,Retail Store,119.91,4,0,448.93,customer1159@example.com,4.2
+ORD-101329,2023-09-07,Latin America,Home & Garden,Wholesale,10.42,11,0,107.18,customer1329@example.com,5.0
+ORD-101371,2023-09-08,North America,Toys,Online,60.41,8,15,383.8,customer1371@example.com,4.3
+ORD-100990,2023-09-08,North America,Apparel,Wholesale,50.53,9,15,361.12,customer990@example.com,3.3
+ORD-100196,2023-09-08,North America,Groceries,Wholesale,32.54,12,0,364.76,customer196@example.com,3.8
+ORD-101356,2023-09-09,Latin America,Groceries,Online,175.27,14,10,2061.37,customer1356@example.com,5.0
+ORD-101235,2023-09-10,North America,Groceries,Wholesale,45.53,6,0,254.79,customer1235@example.com,2.7
+ORD-101406,2023-09-11,Asia Pacific,Groceries,Retail Store,100.35,3,10,252.5,customer1406@example.com,5.0
+ORD-100138,2023-09-11,Asia Pacific,Apparel,Retail Store,68.65,4,0,255.92,customer138@example.com,4.4
+ORD-101382,2023-09-11,Europe,Electronics,Wholesale,40.72,2,15,64.51,customer1382@example.com,2.9
+ORD-100267,2023-09-11,Asia Pacific,Apparel,Online,76.82,2,0,143.19,customer267@example.com,3.2
+ORD-101311,2023-09-12,Middle East,Toys,Online,109.44,11,15,952.99,customer1311@example.com,4.2
+ORD-101362,2023-09-14,North America,Sports,Online,49.08,1,20,36.52,customer1362@example.com,3.8
+ORD-100978,2023-09-14,Europe,Apparel,Retail Store,65.98,13,0,797.79,customer978@example.com,4.3
+ORD-100043,2023-09-16,Middle East,Toys,Retail Store,65.07,5,0,302.26,customer43@example.com,
+ORD-100520,2023-09-19,Asia Pacific,Toys,Marketplace,88.2,5,20,327.37,customer520@example.com,2.6
+ORD-100997,2023-09-21,Europe,Home & Garden,Marketplace,50.23,8,0,372.61,customer997@example.com,4.8
+ORD-100764,2023-09-21,Latin America,Groceries,Wholesale,157.96,10,0,1464.78,customer764@example.com,3.9
+ORD-100193,2023-09-22,North America,Groceries,Wholesale,60.01,2,5,105.7,customer193@example.com,3.0
+ORD-100300,2023-09-23,Asia Pacific,Electronics,Marketplace,18.67,1,5,16.44,customer300@example.com,3.7
+ORD-100052,2023-09-23,Asia Pacific,Apparel,Wholesale,14.33,2,0,26.57,customer52@example.com,4.5
+ORD-100745,2023-09-23,Middle East,Apparel,Wholesale,157.44,10,0,1459.32,customer745@example.com,5.0
+ORD-101051,2023-09-24,North America,Apparel,Marketplace,190.6,7,5,1174.71,customer1051@example.com,4.5
+ORD-101359,2023-09-24,Middle East,Groceries,Online,24.34,12,20,216.57,customer1359@example.com,4.3
+ORD-100200,2023-09-25,Europe,Toys,Marketplace,66.71,12,5,704.8,customer200@example.com,5.0
+ORD-101137,2023-09-25,Asia Pacific,Electronics,Online,86.78,11,0,884.65,customer1137@example.com,3.6
+ORD-100062,2023-09-25,Asia Pacific,Apparel,Retail Store,78.67,9,10,590.52,customer62@example.com,
+ORD-100629,2023-09-25,North America,Sports,Online,85.54,7,10,499.41,customer629@example.com,3.1
+ORD-100392,2023-09-26,North America,Sports,Online,164.96,13,5,1888.03,customer392@example.com,4.6
+ORD-100627,2023-09-26,Latin America,Apparel,Marketplace,263.83,1,0,244.5,customer627@example.com,2.9
+ORD-101270,2023-09-27,North America,Electronics,Retail Store,104.56,6,0,581.41,customer1270@example.com,3.1
+ORD-100021,2023-09-28,Middle East,Home & Garden,Online,117.65,9,10,883.23,customer21@example.com,5.0
+ORD-100067,2023-09-28,Latin America,Electronics,Retail Store,87.11,14,0,1130.34,customer67@example.com,4.7
+ORD-100331,2023-09-28,Asia Pacific,Apparel,Wholesale,180.76,9,20,1206.27,customer331@example.com,4.6
+ORD-100908,2023-09-28,Asia Pacific,Electronics,Wholesale,98.96,14,20,1027.27,customer908@example.com,4.6
+ORD-101150,2023-09-28,Europe,Groceries,Online,28.47,10,20,211.08,customer1150@example.com,4.1
+ORD-101043,2023-09-29,Europe,Electronics,Online,75.64,2,20,112.18,customer1043@example.com,3.8
+ORD-101267,2023-09-30,Europe,Apparel,Retail Store,143.87,4,0,533.54,customer1267@example.com,4.0
+ORD-100373,2023-09-30,Europe,Toys,Online,204.25,8,0,1514.96,customer373@example.com,4.0
+ORD-100575,2023-09-30,North America,Groceries,Wholesale,38.85,9,10,291.76,customer575@example.com,
+ORD-100497,2023-10-01,Asia Pacific,Groceries,Marketplace,70.09,12,0,779.96,customer497@example.com,4.8
+ORD-100912,2023-10-02,Middle East,Apparel,Online,33.26,12,15,314.66,customer912@example.com,4.8
+ORD-100769,2023-10-02,Middle East,Apparel,Online,97.49,8,15,614.99,customer769@example.com,4.1
+ORD-100633,2023-10-05,Asia Pacific,Electronics,Wholesale,211.99,8,0,1575.09,customer633@example.com,4.3
+ORD-100378,2023-10-05,Middle East,Home & Garden,Retail Store,81.33,3,0,226.6,customer378@example.com,4.0
+ORD-100187,2023-10-06,Europe,Apparel,Wholesale,108.67,10,5,959.3,customer187@example.com,3.2
+ORD-101284,2023-10-06,Asia Pacific,Electronics,Retail Store,120.52,5,15,475.93,customer1284@example.com,4.1
+ORD-100757,2023-10-07,North America,Groceries,Wholesale,99.5,5,0,462.52,customer757@example.com,5.0
+ORD-101016,2023-10-08,North America,Groceries,Wholesale,76.67,10,10,641.88,customer1016@example.com,4.2
+ORD-101467,2023-10-08,Europe,Groceries,Online,67.34,2,20,100.24,customer1467@example.com,3.4
+ORD-101158,2023-10-08,Middle East,Home & Garden,Wholesale,82.98,4,20,247.03,customer1158@example.com,4.3
+ORD-100613,2023-10-09,Middle East,Electronics,Wholesale,57.05,4,5,201.81,customer613@example.com,3.0
+ORD-100093,2023-10-10,Asia Pacific,Apparel,Wholesale,39.89,2,0,74.33,customer93@example.com,2.5
+ORD-101384,2023-10-10,Asia Pacific,Electronics,Wholesale,34.54,1,0,32.17,customer1384@example.com,5.0
+ORD-101065,2023-10-11,Latin America,Sports,Online,149.63,11,5,1457.76,customer1065@example.com,5.0
+ORD-101172,2023-10-13,North America,Sports,Marketplace,107.1,14,5,1330.18,customer1172@example.com,2.8
+ORD-100808,2023-10-13,Asia Pacific,Apparel,Marketplace,29.45,14,20,308.03,customer808@example.com,3.3
+ORD-101093,2023-10-14,Middle East,Electronics,Retail Store,160.66,3,10,405.46,customer1093@example.com,4.4
+ORD-101351,2023-10-14,Middle East,Home & Garden,Online,60.58,4,5,215.18,customer1351@example.com,3.6
+ORD-100551,2023-10-15,North America,Toys,Wholesale,20.38,7,10,120.15,customer551@example.com,
+ORD-101282,2023-10-15,Latin America,Sports,Online,120.15,9,10,910.5,customer1282@example.com,3.4
+ORD-101477,2023-10-15,Asia Pacific,Apparel,Online,112.47,12,0,1262.66,customer1477@example.com,5.0
+ORD-101319,2023-10-17,North America,Groceries,Retail Store,38.44,7,15,214.43,customer1319@example.com,3.7
+ORD-100439,2023-10-18,North America,Electronics,Online,15.57,9,20,105.19,customer439@example.com,4.5
+ORD-101167,2023-10-18,Middle East,Groceries,Online,135.3,2,0,253.98,customer1167@example.com,4.5
+ORD-101301,2023-10-20,Asia Pacific,Electronics,Marketplace,160.18,4,5,572.65,customer1301@example.com,3.8
+ORD-100956,2023-10-20,Asia Pacific,Groceries,Retail Store,77.99,1,0,73.37,customer956@example.com,4.4
+ORD-100026,2023-10-21,Europe,Electronics,Online,85.73,3,20,193.82,customer26@example.com,3.4
+ORD-100941,2023-10-22,Asia Pacific,Home & Garden,Retail Store,155.48,1,20,117.32,customer941@example.com,3.1
+ORD-100584,2023-10-22,Asia Pacific,Sports,Wholesale,96.78,2,15,155.18,customer584@example.com,5.0
+ORD-101130,2023-10-24,Latin America,Apparel,Wholesale,77.98,11,0,811.34,customer1130@example.com,5.0
+ORD-100686,2023-10-24,Latin America,Groceries,Wholesale,83.4,13,20,820.38,customer686@example.com,3.2
+ORD-100163,2023-10-24,Latin America,Groceries,Online,77.49,8,0,586.33,customer163@example.com,4.7
+ORD-101339,2023-10-25,Latin America,Toys,Wholesale,25.02,2,20,37.92,customer1339@example.com,4.5
+ORD-100961,2023-10-26,Europe,Home & Garden,Wholesale,92.38,3,20,210.31,customer961@example.com,3.4
+ORD-100162,2023-10-26,North America,Apparel,Online,25.9,5,10,110.58,customer162@example.com,2.1
+ORD-100143,2023-10-26,Asia Pacific,Sports,Marketplace,26.07,5,0,123.65,customer143@example.com,4.7
+ORD-100372,2023-10-27,Latin America,Home & Garden,Marketplace,21.18,6,5,114.7,customer372@example.com,4.4
+ORD-100064,2023-10-27,Europe,Sports,Marketplace,41.41,3,0,118.02,customer64@example.com,3.7
+ORD-101494,2023-10-27,North America,Sports,Wholesale,54.47,13,10,605.44,customer1494@example.com,3.1
+ORD-100959,2023-10-28,North America,Sports,Marketplace,176.71,1,5,159.74,customer959@example.com,3.8
+ORD-100906,2023-10-28,Latin America,Electronics,Online,33.91,3,15,82.28,customer906@example.com,3.7
+ORD-101251,2023-10-28,Latin America,Home & Garden,Wholesale,90.93,4,0,346.11,customer1251@example.com,4.7
+ORD-100495,2023-10-29,Latin America,Groceries,Wholesale,47.9,11,0,502.2,customer495@example.com,3.8
+ORD-101308,2023-10-30,North America,Toys,Wholesale,59.34,4,5,215.28,customer1308@example.com,3.7
+ORD-101484,2023-10-30,Asia Pacific,Apparel,Online,172.0,1,0,164.21,customer1484@example.com,3.2
+ORD-100571,2023-10-31,Europe,Home & Garden,Retail Store,77.04,13,0,957.85,customer571@example.com,4.6
+ORD-101190,2023-10-31,Middle East,Home & Garden,Retail Store,28.81,5,0,137.78,customer1190@example.com,4.3
+ORD-101042,2023-10-31,Asia Pacific,Toys,Online,84.3,9,0,725.6,customer1042@example.com,5.0
+ORD-100247,2023-10-31,North America,Toys,Online,162.99,3,10,420.85,customer247@example.com,3.8
+ORD-101479,2023-11-01,North America,Groceries,Marketplace,36.37,14,0,487.76,customer1479@example.com,3.8
+ORD-101224,2023-11-01,Middle East,Home & Garden,Wholesale,146.51,10,20,1122.92,customer1224@example.com,3.6
+ORD-100424,2023-11-01,Middle East,Electronics,Retail Store,133.16,3,0,382.72,customer424@example.com,4.4
+ORD-101078,2023-11-01,Latin America,Sports,Online,103.88,4,0,398.08,customer1078@example.com,4.1
+ORD-100623,2023-11-01,Europe,Toys,Wholesale,103.98,1,10,89.65,customer623@example.com,4.4
+ORD-100928,2023-11-02,Europe,Sports,Marketplace,23.85,11,20,201.45,customer928@example.com,5.0
+ORD-100164,2023-11-02,Middle East,Sports,Retail Store,22.84,4,0,87.67,customer164@example.com,3.8
+ORD-100274,2023-11-02,North America,Groceries,Online,72.88,9,0,629.52,customer274@example.com,4.1
+ORD-100463,2023-11-02,North America,Apparel,Retail Store,154.06,6,0,887.14,customer463@example.com,4.0
+ORD-100731,2023-11-02,Latin America,Toys,Wholesale,163.09,3,15,399.14,customer731@example.com,5.0
+ORD-100971,2023-11-02,Latin America,Groceries,Retail Store,134.09,13,15,1422.07,customer971@example.com,5.0
+ORD-101373,2023-11-03,Europe,Home & Garden,Online,110.19,11,20,932.34,customer1373@example.com,4.6
+ORD-101184,2023-11-03,North America,Electronics,Marketplace,104.03,12,0,1200.34,customer1184@example.com,4.3
+ORD-101058,2023-11-06,Asia Pacific,Electronics,Online,105.8,2,0,204.63,customer1058@example.com,3.6
+ORD-100776,2023-11-06,North America,Groceries,Marketplace,229.87,7,10,1400.52,customer776@example.com,4.1
+ORD-101332,2023-11-07,Europe,Groceries,Online,77.79,11,20,663.35,customer1332@example.com,4.5
+ORD-100499,2023-11-07,North America,Home & Garden,Marketplace,130.93,3,5,361.59,customer499@example.com,3.1
+ORD-101436,2023-11-08,Europe,Electronics,Online,109.83,1,20,85.32,customer1436@example.com,5.0
+ORD-100953,2023-11-09,Latin America,Toys,Online,97.7,12,0,1140.74,customer953@example.com,4.0
+ORD-100546,2023-11-10,North America,Apparel,Retail Store,95.45,5,0,465.36,customer546@example.com,3.9
+ORD-100993,2023-11-11,Europe,Apparel,Wholesale,172.49,2,0,3845.2101746995304,customer993@example.com,5.0
+ORD-101495,2023-11-11,North America,Groceries,Marketplace,129.78,7,0,887.72,customer1495@example.com,4.7
+ORD-101152,2023-11-11,Asia Pacific,Electronics,Online,56.65,5,10,249.12,customer1152@example.com,5.0
+ORD-100794,2023-11-11,North America,Sports,Online,11.9,14,0,162.77,customer794@example.com,4.6
+ORD-100237,2023-11-12,North America,Home & Garden,Wholesale,49.58,10,10,436.98,customer237@example.com,5.0
+ORD-100472,2023-11-12,Asia Pacific,Home & Garden,Marketplace,47.57,3,0,139.76,customer472@example.com,3.7
+ORD-101099,2023-11-13,Middle East,Home & Garden,Wholesale,56.12,10,20,440.63,customer1099@example.com,3.0
+ORD-100632,2023-11-13,Latin America,Home & Garden,Marketplace,109.48,10,15,913.33,customer632@example.com,3.8
+ORD-100004,2023-11-13,Latin America,Home & Garden,Wholesale,28.42,6,20,133.9,customer4@example.com,3.8
+ORD-100406,2023-11-13,Latin America,Groceries,Retail Store,40.82,5,5,190.31,customer406@example.com,3.7
+ORD-101443,2023-11-13,Middle East,Apparel,Marketplace,43.51,10,0,427.06,customer1443@example.com,4.6
+ORD-100620,2023-11-13,Europe,Electronics,Marketplace,57.79,11,0,623.92,customer620@example.com,4.4
+ORD-100434,2023-11-13,Europe,Apparel,Marketplace,82.27,11,0,888.18,customer434@example.com,4.0
+ORD-100353,2023-11-14,Asia Pacific,Home & Garden,Marketplace,67.45,4,10,238.86,customer353@example.com,3.4
+ORD-100090,2023-11-14,Europe,Electronics,Retail Store,44.42,6,20,209.75,customer90@example.com,3.8
+ORD-100154,2023-11-14,Middle East,Home & Garden,Online,47.95,13,5,582.56,customer154@example.com,3.6
+ORD-100139,2023-11-15,North America,Sports,Wholesale,52.47,6,0,310.41,customer139@example.com,4.0
+ORD-101038,2023-11-15,Latin America,Electronics,Retail Store,301.18,13,0,3860.34,customer1038@example.com,5.0
+ORD-100755,2023-11-16,North America,Sports,Online,8.84,1,0,8.74,customer755@example.com,4.8
+ORD-100081,2023-11-16,Europe,Apparel,Marketplace,29.65,14,10,369.14,customer81@example.com,4.1
+ORD-100003,2023-11-17,North America,Home & Garden,Online,87.35,8,20,553.76,customer3@example.com,3.5
+ORD-100120,2023-11-17,North America,Groceries,Online,69.84,2,10,124.53,customer120@example.com,4.7
+ORD-101417,2023-11-17,Middle East,Home & Garden,Retail Store,168.25,1,15,141.66,customer1417@example.com,3.3
+ORD-100297,2023-11-17,Europe,Electronics,Marketplace,46.7,2,15,78.64,customer297@example.com,3.9
+ORD-101219,2023-11-18,North America,Electronics,Wholesale,27.4,10,5,258.43,customer1219@example.com,3.3
+ORD-100799,2023-11-19,Middle East,Electronics,Marketplace,69.76,8,0,555.47,customer799@example.com,4.3
+ORD-100284,2023-11-19,Latin America,Sports,Online,125.55,7,15,743.53,customer284@example.com,3.3
+ORD-101292,2023-11-20,Latin America,Apparel,Online,17.98,14,0,251.2,customer1292@example.com,3.1
+ORD-100934,2023-11-20,Latin America,Home & Garden,Wholesale,42.25,13,15,465.78,customer934@example.com,3.2
+ORD-100029,2023-11-20,Europe,Home & Garden,Online,74.83,10,0,746.64,customer29@example.com,4.3
+ORD-100688,2023-11-21,Middle East,Groceries,Retail Store,38.0,3,20,91.23,customer688@example.com,4.0
+ORD-101262,2023-11-21,Latin America,Electronics,Retail Store,11.29,2,15,19.19,customer1262@example.com,
+ORD-100922,2023-11-22,Europe,Electronics,Marketplace,87.61,3,5,250.35,customer922@example.com,3.2
+ORD-100046,2023-11-22,Europe,Toys,Wholesale,85.6,1,5,81.54,customer46@example.com,3.9
+ORD-100185,2023-11-22,Middle East,Toys,Marketplace,100.61,5,0,504.38,customer185@example.com,3.9
+ORD-100868,2023-11-22,Europe,Electronics,Wholesale,123.25,13,15,1365.63,customer868@example.com,3.4
+ORD-100218,2023-11-23,Middle East,Home & Garden,Marketplace,20.19,11,20,178.62,customer218@example.com,4.4
+ORD-100266,2023-11-23,North America,Electronics,Marketplace,49.74,10,0,499.96,customer266@example.com,4.2
+ORD-101091,2023-11-24,North America,Home & Garden,Online,175.32,9,15,1351.66,customer1091@example.com,4.8
+ORD-101472,2023-11-24,North America,Toys,Online,35.41,10,10,321.19,customer1472@example.com,
+ORD-100882,2023-11-24,North America,Sports,Online,104.65,14,0,1476.44,customer882@example.com,4.0
+ORD-101318,2023-11-24,Asia Pacific,Sports,Retail Store,30.17,12,0,364.88,customer1318@example.com,5.0
+ORD-101183,2023-11-24,Asia Pacific,Home & Garden,Retail Store,81.71,8,20,527.03,customer1183@example.com,3.5
+ORD-101330,2023-11-25,North America,Groceries,Online,78.58,2,5,150.84,customer1330@example.com,3.8
+ORD-101056,2023-11-25,Asia Pacific,Apparel,Marketplace,25.53,6,0,154.8,customer1056@example.com,4.8
+ORD-100213,2023-11-25,North America,Sports,Wholesale,46.67,6,20,226.35,customer213@example.com,4.0
+ORD-100019,2023-11-25,Latin America,Groceries,Retail Store,110.45,6,10,602.63,customer19@example.com,3.9
+ORD-101372,2023-11-25,Asia Pacific,Apparel,Wholesale,59.87,10,15,514.13,customer1372@example.com,4.1
+ORD-100030,2023-11-25,Europe,Groceries,Online,69.06,7,0,488.42,customer30@example.com,3.6
+ORD-100832,2023-11-27,Latin America,Toys,Marketplace,108.82,9,0,994.71,customer832@example.com,3.3
+ORD-101367,2023-11-27,North America,Sports,Marketplace,26.61,10,15,229.75,customer1367@example.com,2.8
+ORD-100791,2023-11-28,Europe,Groceries,Marketplace,341.01,10,0,3472.64,customer791@example.com,4.2
+ORD-100505,2023-11-28,Middle East,Groceries,Retail Store,89.22,9,0,817.7,customer505@example.com,
+ORD-100221,2023-11-29,Middle East,Electronics,Wholesale,54.6,1,0,55.75,customer221@example.com,4.0
+ORD-101457,2023-11-29,North America,Home & Garden,Online,102.73,3,20,251.74,customer1457@example.com,4.2
+ORD-100536,2023-11-29,Latin America,Groceries,Wholesale,12.86,13,0,170.7,customer536@example.com,4.1
+ORD-100870,2023-11-30,Middle East,Apparel,Retail Store,145.34,9,5,1272.18,customer870@example.com,4.8
+ORD-100204,2023-11-30,Europe,Home & Garden,Marketplace,162.79,5,0,833.3,customer204@example.com,5.0
+ORD-100797,2023-12-01,Latin America,Groceries,Wholesale,183.2,7,10,1184.8,customer797@example.com,3.9
+ORD-100915,2023-12-01,Latin America,Apparel,Wholesale,90.8,10,0,932.09,customer915@example.com,4.7
+ORD-100334,2023-12-02,Latin America,Home & Garden,Marketplace,62.68,14,20,722.6,customer334@example.com,2.6
+ORD-100904,2023-12-02,Latin America,Groceries,Wholesale,74.07,3,10,205.86,customer904@example.com,4.9
+ORD-100113,2023-12-02,Latin America,Toys,Retail Store,16.4,3,15,43.04,customer113@example.com,4.5
+ORD-101212,2023-12-03,Middle East,Groceries,Wholesale,93.28,2,20,154.05,customer1212@example.com,5.0
+ORD-100646,2023-12-03,Asia Pacific,Apparel,Wholesale,137.51,14,0,1986.97,customer646@example.com,
+ORD-100072,2023-12-04,Europe,Electronics,Marketplace,23.6,5,0,122.14,customer72@example.com,5.0
+ORD-100484,2023-12-04,Europe,Apparel,Online,226.12,5,20,936.13,customer484@example.com,3.9
+ORD-100938,2023-12-04,Asia Pacific,Sports,Wholesale,69.5,11,5,751.68,customer938@example.com,2.9
+ORD-100611,2023-12-04,North America,Toys,Wholesale,67.19,6,15,354.68,customer611@example.com,3.6
+ORD-100175,2023-12-04,Asia Pacific,Sports,Wholesale,165.61,9,0,1542.65,customer175@example.com,2.8
+ORD-100230,2023-12-05,North America,Electronics,Online,92.37,1,0,95.87,customer230@example.com,3.9
+ORD-101247,2023-12-06,Europe,Groceries,Online,23.43,10,0,243.87,customer1247@example.com,4.3
+ORD-100276,2023-12-07,Europe,Groceries,Wholesale,61.03,1,0,63.69,customer276@example.com,3.6
+ORD-100709,2023-12-07,Middle East,Toys,Wholesale,108.04,3,10,304.45,customer709@example.com,3.3
+ORD-101074,2023-12-07,Europe,Sports,Wholesale,22.22,11,20,204.06,customer1074@example.com,4.4
+ORD-100053,2023-12-07,North America,Electronics,Wholesale,73.28,6,0,458.85,customer53@example.com,4.1
+ORD-100473,2023-12-08,Latin America,Home & Garden,Marketplace,43.8,6,10,247.52,customer473@example.com,4.9
+ORD-101498,2023-12-08,North America,Electronics,Online,118.95,1,10,112.05,customer1498@example.com,5.0
+ORD-101101,2023-12-09,North America,Sports,Marketplace,103.03,6,0,648.84,customer1101@example.com,3.9
+ORD-100366,2023-12-09,North America,Sports,Online,98.33,10,5,980.48,customer366@example.com,4.1
+ORD-100069,2023-12-09,Europe,Sports,Wholesale,32.73,1,0,34.35,customer69@example.com,4.3
+ORD-100123,2023-12-10,Latin America,Electronics,Marketplace,58.1,10,20,489.25,customer123@example.com,3.7
+ORD-101430,2023-12-10,North America,Groceries,Retail Store,41.61,6,20,210.23,customer1430@example.com,3.0
+ORD-100108,2023-12-11,Europe,Toys,Marketplace,83.2,13,15,970.44,customer108@example.com,4.8
+ORD-100289,2023-12-12,Asia Pacific,Groceries,Online,8.1,14,0,120.0,customer289@example.com,5.0
+ORD-100973,2023-12-13,Latin America,Toys,Online,36.33,2,0,77.13,customer973@example.com,4.1
+ORD-100943,2023-12-13,Latin America,Toys,Online,45.78,9,5,415.56,customer943@example.com,3.9
+ORD-100708,2023-12-14,Latin America,Electronics,Retail Store,163.96,10,15,1483.74,customer708@example.com,4.6
+ORD-100518,2023-12-14,Asia Pacific,Home & Garden,Marketplace,75.46,7,0,562.33,customer518@example.com,4.2
+ORD-101419,2023-12-14,Europe,Home & Garden,Online,301.02,10,0,3204.73,customer1419@example.com,4.8
+ORD-100075,2023-12-14,Latin America,Sports,Wholesale,116.5,13,5,1531.76,customer75@example.com,1.8
+ORD-100621,2023-12-15,Europe,Apparel,Marketplace,39.38,9,10,340.56,customer621@example.com,4.3
+ORD-101201,2023-12-15,North America,Home & Garden,Online,58.97,2,20,100.73,customer1201@example.com,3.4
+ORD-100972,2023-12-15,Europe,Home & Garden,Wholesale,79.47,14,15,1009.77,customer972@example.com,2.6
+ORD-100767,2023-12-16,Europe,Home & Garden,Retail Store,114.56,3,0,368.01,customer767@example.com,3.2
+ORD-100784,2023-12-16,Middle East,Groceries,Marketplace,149.59,7,10,1009.11,customer784@example.com,4.6
+ORD-101100,2023-12-17,Asia Pacific,Toys,Marketplace,11.1,1,0,11.92,customer1100@example.com,4.2
+ORD-100643,2023-12-18,Latin America,Electronics,Retail Store,49.29,4,15,180.5,customer643@example.com,4.9
+ORD-101145,2023-12-19,Latin America,Toys,Online,54.18,8,0,468.17,customer1145@example.com,5.0
+ORD-100275,2023-12-19,North America,Home & Garden,Marketplace,195.2,7,20,1180.73,customer275@example.com,2.7
+ORD-101030,2023-12-22,Middle East,Apparel,Retail Store,47.73,9,10,421.22,customer1030@example.com,5.0
+ORD-100281,2023-12-22,Middle East,Home & Garden,Retail Store,123.93,6,20,648.15,customer281@example.com,3.6
+ORD-100443,2023-12-23,Europe,Sports,Marketplace,148.88,12,0,1952.28,customer443@example.com,5.0
+ORD-100728,2023-12-23,Latin America,Toys,Marketplace,50.78,8,0,443.9,customer728@example.com,3.4
+ORD-101491,2023-12-24,Latin America,Groceries,Retail Store,50.06,13,0,713.22,customer1491@example.com,3.5
+ORD-100650,2023-12-24,Latin America,Sports,Retail Store,32.37,9,0,319.32,customer650@example.com,5.0
+ORD-101243,2023-12-24,Europe,Groceries,Online,28.13,3,5,87.86,customer1243@example.com,5.0
+ORD-101115,2023-12-24,North America,Groceries,Retail Store,24.06,11,0,290.11,customer1115@example.com,3.8
+ORD-101476,2023-12-25,North America,Electronics,Wholesale,58.31,14,0,897.21,customer1476@example.com,4.6
+ORD-100283,2023-12-25,Middle East,Electronics,Wholesale,11.08,2,15,20.71,customer283@example.com,3.8
+ORD-100717,2023-12-26,North America,Home & Garden,Online,16.13,2,0,405.62347615637884,customer717@example.com,3.0
+ORD-100234,2023-12-26,Latin America,Home & Garden,Retail Store,232.8,8,5,1950.36,customer234@example.com,3.1
+ORD-100562,2023-12-26,Middle East,Sports,Marketplace,80.12,9,0,794.89,customer562@example.com,4.3
+ORD-100251,2023-12-27,North America,Home & Garden,Wholesale,105.39,3,0,349.53,customer251@example.com,4.4
+ORD-101119,2023-12-27,Latin America,Sports,Wholesale,195.96,4,0,866.6,customer1119@example.com,5.0
+ORD-101017,2023-12-27,North America,Apparel,Marketplace,68.79,10,0,760.56,customer1017@example.com,4.6
+ORD-100202,2023-12-28,Asia Pacific,Electronics,Marketplace,58.98,3,0,196.2,customer202@example.com,4.1
+ORD-100184,2023-12-28,Asia Pacific,Electronics,Online,68.26,7,0,529.81,customer184@example.com,4.3
+ORD-101352,2023-12-28,Asia Pacific,Electronics,Marketplace,77.06,11,5,892.92,customer1352@example.com,5.0
+ORD-101355,2023-12-29,Middle East,Sports,Retail Store,169.68,6,20,905.66,customer1355@example.com,3.7
+ORD-100054,2023-12-30,Asia Pacific,Sports,Retail Store,156.08,12,10,1879.85,customer54@example.com,5.0
+ORD-100182,2023-12-30,Europe,Electronics,Online,45.38,1,0,50.61,customer182@example.com,3.4
+ORD-100054,2023-12-30,Asia Pacific,Sports,Retail Store,156.08,12,10,1879.85,customer54@example.com,5.0
+ORD-100452,2023-12-31,North America,Groceries,Online,50.59,11,0,622.37,customer452@example.com,3.3
+ORD-101161,2023-12-31,Asia Pacific,Toys,Wholesale,16.37,9,0,164.75,customer1161@example.com,3.6
+ORD-100404,2023-12-31,North America,Apparel,Online,38.2,10,20,341.75,customer404@example.com,3.4
+ORD-100179,2024-01-01,Asia Pacific,Sports,Wholesale,77.53,1,15,73.92,customer179@example.com,3.4
+ORD-100020,2024-01-01,Latin America,Toys,Retail Store,159.26,7,0,1250.46,customer20@example.com,4.1
+ORD-100405,2024-01-01,Middle East,Toys,Retail Store,94.25,4,0,422.86,customer405@example.com,
+ORD-101052,2024-01-02,Latin America,Sports,Retail Store,78.4,1,10,79.37,customer1052@example.com,3.8
+ORD-101007,2024-01-03,Europe,Apparel,Retail Store,209.31,13,10,2762.68,customer1007@example.com,
+ORD-101378,2024-01-03,Europe,Apparel,Wholesale,44.3,13,0,649.65,customer1378@example.com,5.0
+ORD-101090,2024-01-03,Middle East,Electronics,Retail Store,142.45,3,0,482.11,customer1090@example.com,5.0
+ORD-100666,2024-01-03,Middle East,Apparel,Marketplace,69.9,8,10,567.78,customer666@example.com,5.0
+ORD-101151,2024-01-04,Europe,Groceries,Online,50.04,8,0,452.93,customer1151@example.com,3.8
+ORD-100875,2024-01-04,Middle East,Groceries,Online,156.39,5,15,751.98,customer875@example.com,4.1
+ORD-100158,2024-01-04,North America,Toys,Retail Store,114.64,4,15,440.97,customer158@example.com,3.7
+ORD-100555,2024-01-04,Europe,Electronics,Online,84.34,12,0,1144.99,customer555@example.com,3.3
+ORD-100628,2024-01-04,North America,Home & Garden,Retail Store,42.85,10,0,484.83,customer628@example.com,4.1
+ORD-100114,2024-01-05,Europe,Apparel,Marketplace,99.49,11,5,1179.62,customer114@example.com,4.5
+ORD-100419,2024-01-05,North America,Electronics,Retail Store,140.15,7,5,1057.47,customer419@example.com,4.0
+ORD-101489,2024-01-06,Europe,Groceries,Wholesale,51.18,10,15,494.96,customer1489@example.com,5.0
+ORD-101216,2024-01-06,Asia Pacific,Home & Garden,Retail Store,40.86,9,15,355.65,customer1216@example.com,3.3
+ORD-101240,2024-01-06,Middle East,Electronics,Wholesale,127.42,10,0,1449.84,customer1240@example.com,3.8
+ORD-100939,2024-01-07,Latin America,Groceries,Wholesale,32.61,12,0,446.45,customer939@example.com,4.4
+ORD-100444,2024-01-07,Latin America,Electronics,Marketplace,192.14,10,0,2192.42,customer444@example.com,5.0
+ORD-100896,2024-01-07,Europe,Electronics,Online,49.54,3,0,169.59,customer896@example.com,3.1
+ORD-101050,2024-01-07,Europe,Electronics,Marketplace,85.04,11,0,1067.41,customer1050@example.com,3.3
+ORD-100999,2024-01-10,Asia Pacific,Toys,Online,53.34,4,0,245.49,customer999@example.com,2.9
+ORD-100016,2024-01-10,Asia Pacific,Sports,Wholesale,31.79,14,10,460.87,customer16@example.com,4.4
+ORD-101441,2024-01-10,Europe,Sports,Retail Store,23.52,3,0,81.18,customer1441@example.com,5.0
+ORD-101295,2024-01-11,Latin America,Home & Garden,Marketplace,60.37,12,0,835.97,customer1295@example.com,5.0
+ORD-100607,2024-01-11,North America,Electronics,Marketplace,45.75,10,5,501.53,customer607@example.com,5.0
+ORD-100343,2024-01-11,Middle East,Groceries,Marketplace,36.63,8,0,338.17,customer343@example.com,4.3
+ORD-100802,2024-01-12,Asia Pacific,Electronics,Wholesale,155.64,6,0,1080.55,customer802@example.com,4.2
+ORD-100548,2024-01-12,Middle East,Home & Garden,Marketplace,59.18,14,0,958.68,customer548@example.com,4.1
+ORD-101459,2024-01-12,North America,Electronics,Retail Store,234.33,6,0,1626.87,customer1459@example.com,4.9
+ORD-101206,2024-01-12,Asia Pacific,Home & Garden,Retail Store,44.51,7,0,360.56,customer1206@example.com,4.3
+ORD-100716,2024-01-13,Middle East,Groceries,Marketplace,252.14,12,10,3159.67,customer716@example.com,5.0
+ORD-101164,2024-01-13,Asia Pacific,Home & Garden,Wholesale,48.16,8,0,447.08,customer1164@example.com,2.6
+ORD-100365,2024-01-14,Europe,Apparel,Wholesale,40.81,10,5,451.1,customer365@example.com,5.0
+ORD-100700,2024-01-15,North America,Groceries,Retail Store,33.87,13,20,4688.167848714052,customer700@example.com,2.3
+ORD-101014,2024-01-15,Middle East,Groceries,Wholesale,43.02,14,15,597.32,customer1014@example.com,4.4
+ORD-101009,2024-01-15,North America,Electronics,Retail Store,106.1,8,15,841.74,customer1009@example.com,4.1
+ORD-100295,2024-01-16,Latin America,Apparel,Retail Store,93.03,6,0,652.98,customer295@example.com,4.0
+ORD-100448,2024-01-16,Latin America,Groceries,Retail Store,144.82,12,20,1626.33,customer448@example.com,4.3
+ORD-100711,2024-01-17,North America,Toys,Wholesale,36.68,2,10,77.44,customer711@example.com,4.8
+ORD-100678,2024-01-17,Latin America,Sports,Retail Store,41.18,5,0,241.53,customer678@example.com,5.0
+ORD-100892,2024-01-17,Latin America,Apparel,Online,18.09,3,0,63.66,customer892@example.com,5.0
+ORD-100678,2024-01-17,Latin America,Sports,Retail Store,41.18,5,0,241.53,customer678@example.com,5.0
+ORD-100577,2024-01-18,Asia Pacific,Sports,Online,45.92,6,10,291.62,customer577@example.com,4.3
+ORD-101310,2024-01-18,Europe,Electronics,Retail Store,71.24,2,10,150.82,customer1310@example.com,5.0
+ORD-101073,2024-01-19,Europe,Toys,Retail Store,122.74,8,0,1157.95,customer1073@example.com,4.3
+ORD-101194,2024-01-19,Latin America,Toys,Wholesale,85.73,4,0,404.4,customer1194@example.com,3.8
+ORD-100010,2024-01-20,Latin America,Home & Garden,Retail Store,137.93,2,0,326.17,customer10@example.com,4.0
+ORD-100996,2024-01-20,Latin America,Home & Garden,Wholesale,151.31,10,15,1520.67,customer996@example.com,4.3
+ORD-100994,2024-01-22,Middle East,Toys,Retail Store,111.01,1,0,131.94,customer994@example.com,3.9
+ORD-101391,2024-01-22,Asia Pacific,Groceries,Retail Store,126.91,6,10,814.51,customer1391@example.com,3.9
+ORD-100487,2024-01-23,Europe,Home & Garden,Retail Store,9.68,9,0,103.77,customer487@example.com,3.6
+ORD-101298,2024-01-23,Asia Pacific,Toys,Online,95.81,11,20,1004.71,customer1298@example.com,4.0
+ORD-101163,2024-01-23,North America,Electronics,Online,29.24,6,0,209.03,customer1163@example.com,4.6
+ORD-101146,2024-01-23,Middle East,Groceries,Online,102.48,14,0,1709.55,customer1146@example.com,5.0
+ORD-100506,2024-01-23,North America,Home & Garden,Retail Store,129.22,3,0,461.94,customer506@example.com,3.3
+ORD-100655,2024-01-24,Middle East,Sports,Wholesale,74.48,10,0,889.82,customer655@example.com,4.6
+ORD-100746,2024-01-24,Europe,Groceries,Marketplace,22.49,5,0,134.33,customer746@example.com,4.5
+ORD-100350,2024-01-25,Latin America,Apparel,Online,118.05,5,5,671.59,customer350@example.com,3.8
+ORD-101334,2024-01-25,Middle East,Apparel,Wholesale,72.08,11,0,949.64,customer1334@example.com,3.0
+ORD-101340,2024-01-25,Asia Pacific,Sports,Retail Store,43.37,9,15,397.37,customer1340@example.com,4.2
+ORD-100647,2024-01-26,Middle East,Apparel,Online,88.07,6,10,571.01,customer647@example.com,4.3
+ORD-100560,2024-01-27,Middle East,Groceries,Online,29.88,6,10,194.21,customer560@example.com,3.5
+ORD-100605,2024-01-27,Asia Pacific,Toys,Retail Store,31.52,1,0,37.94,customer605@example.com,
+ORD-100930,2024-01-28,Europe,Sports,Online,53.39,1,5,61.21,customer930@example.com,3.0
+ORD-101139,2024-01-29,Europe,Groceries,Wholesale,91.86,3,0,333.36,customer1139@example.com,
+ORD-101379,2024-01-30,North America,Electronics,Online,91.84,7,0,779.53,customer1379@example.com,5.0
+ORD-101258,2024-01-30,Asia Pacific,Electronics,Marketplace,37.7,2,5,86.86,customer1258@example.com,4.0
+ORD-100538,2024-01-30,Middle East,Home & Garden,Online,50.54,9,20,441.21,customer538@example.com,4.7
+ORD-100876,2024-01-30,North America,Apparel,Wholesale,185.16,2,0,449.05,customer876@example.com,4.8
+ORD-100288,2024-01-31,Latin America,Electronics,Online,118.66,1,0,144.23,customer288@example.com,3.7
+ORD-100926,2024-01-31,Latin America,Toys,Marketplace,35.23,3,10,115.62,customer926@example.com,5.0
+ORD-100304,2024-02-01,Middle East,Apparel,Marketplace,221.17,10,5,2559.96,customer304@example.com,5.0
+ORD-100916,2024-02-01,Latin America,Electronics,Online,137.33,3,5,476.85,customer916@example.com,3.7
+ORD-100788,2024-02-02,North America,Home & Garden,Marketplace,35.09,7,0,299.97,customer788@example.com,4.3
+ORD-100294,2024-02-02,Middle East,Electronics,Online,218.55,8,0,2135.21,customer294@example.com,2.3
+ORD-100806,2024-02-02,Middle East,Apparel,Online,147.79,5,20,721.94,customer806@example.com,3.2
+ORD-100028,2024-02-03,Latin America,Electronics,Wholesale,29.64,10,15,308.41,customer28@example.com,5.0
+ORD-100056,2024-02-03,Middle East,Electronics,Retail Store,28.74,3,15,89.71,customer56@example.com,4.3
+ORD-100982,2024-02-04,Europe,Toys,Marketplace,80.38,10,0,986.2,customer982@example.com,3.9
+ORD-100330,2024-02-04,North America,Toys,Wholesale,34.68,4,20,136.14,customer330@example.com,4.2
+ORD-100228,2024-02-04,Asia Pacific,Groceries,Online,109.98,10,5,1281.84,customer228@example.com,5.0
+ORD-100991,2024-02-05,North America,Sports,Marketplace,52.96,12,0,781.41,customer991@example.com,4.8
+ORD-100878,2024-02-05,North America,Toys,Marketplace,45.18,11,15,519.47,customer878@example.com,3.4
+ORD-101322,2024-02-06,North America,Groceries,Wholesale,94.47,7,10,733.46,customer1322@example.com,4.7
+ORD-101496,2024-02-07,North America,Electronics,Marketplace,163.79,14,10,2549.11,customer1496@example.com,5.0
+ORD-100761,2024-02-08,Middle East,Electronics,Wholesale,78.43,4,10,349.53,customer761@example.com,3.9
+ORD-100654,2024-02-08,Asia Pacific,Sports,Retail Store,354.86,3,10,1186.04,customer654@example.com,5.0
+ORD-101221,2024-02-08,Asia Pacific,Home & Garden,Marketplace,61.56,8,0,609.66,customer1221@example.com,5.0
+ORD-100033,2024-02-09,Latin America,Electronics,Online,73.98,7,20,513.91,customer33@example.com,3.9
+ORD-100307,2024-02-09,Europe,Groceries,Retail Store,96.29,7,10,752.53,customer307@example.com,3.3
+ORD-100131,2024-02-09,Middle East,Groceries,Retail Store,22.27,12,0,331.46,customer131@example.com,4.0
+ORD-101083,2024-02-10,North America,Apparel,Marketplace,130.73,13,5,2007.21,customer1083@example.com,5.0
+ORD-101257,2024-02-10,Asia Pacific,Home & Garden,Retail Store,69.68,10,0,866.21,customer1257@example.com,2.1
+ORD-101364,2024-02-10,Latin America,Toys,Wholesale,127.78,1,20,127.08,customer1364@example.com,4.0
+ORD-100754,2024-02-10,Europe,Electronics,Retail Store,144.82,5,15,765.18,customer754@example.com,3.3
+ORD-100329,2024-02-10,Latin America,Home & Garden,Online,29.83,3,0,111.24,customer329@example.com,3.9
+ORD-100112,2024-02-10,Asia Pacific,Toys,Retail Store,93.46,7,0,813.3,customer112@example.com,2.1
+ORD-100455,2024-02-10,North America,Home & Garden,Online,62.86,10,0,781.46,customer455@example.com,3.9
+ORD-100157,2024-02-11,Latin America,Home & Garden,Retail Store,33.52,5,0,208.78,customer157@example.com,3.0
+ORD-101128,2024-02-11,Asia Pacific,Sports,Marketplace,117.62,6,0,879.18,customer1128@example.com,4.5
+ORD-101002,2024-02-12,North America,Toys,Wholesale,90.29,5,0,563.61,customer1002@example.com,4.8
+ORD-100133,2024-02-13,Europe,Toys,Wholesale,127.48,8,10,1148.2,customer133@example.com,3.9
+ORD-101411,2024-02-14,Asia Pacific,Electronics,Online,23.7,4,0,118.85,customer1411@example.com,3.0
+ORD-101386,2024-02-14,North America,Sports,Retail Store,19.56,6,10,132.43,customer1386@example.com,4.3
+ORD-101433,2024-02-15,Latin America,Apparel,Marketplace,142.09,14,0,2498.36,customer1433@example.com,3.4
+ORD-100078,2024-02-17,Middle East,Apparel,Online,66.47,13,5,1034.95,customer78@example.com,4.6
+ORD-100125,2024-02-17,Europe,Home & Garden,Wholesale,32.22,12,20,389.99,customer125@example.com,5.0
+ORD-100705,2024-02-17,North America,Toys,Online,90.36,2,10,205.05,customer705@example.com,3.5
+ORD-100130,2024-02-17,Asia Pacific,Apparel,Wholesale,92.93,10,5,1113.05,customer130@example.com,3.2
+ORD-101028,2024-02-17,Asia Pacific,Sports,Online,22.86,10,10,259.45,customer1028@example.com,4.8
+ORD-101188,2024-02-18,Latin America,Home & Garden,Online,42.72,5,5,256.32,customer1188@example.com,4.2
+ORD-100979,2024-02-18,Latin America,Apparel,Wholesale,115.21,7,0,1018.73,customer979@example.com,5.0
+ORD-100436,2024-02-19,Latin America,Electronics,Online,59.46,11,20,662.23,customer436@example.com,4.9
+ORD-100115,2024-02-20,Europe,Toys,Wholesale,41.24,12,15,533.31,customer115@example.com,4.6
+ORD-100569,2024-02-21,North America,Apparel,Marketplace,18.02,12,0,274.6,customer569@example.com,3.7
+ORD-100707,2024-02-22,Middle East,Home & Garden,Marketplace,48.2,13,15,677.62,customer707@example.com,3.8
+ORD-100287,2024-02-22,North America,Toys,Online,11.57,7,0,103.01,customer287@example.com,5.0
+ORD-101454,2024-02-22,North America,Groceries,Online,18.8,2,15,40.66,customer1454@example.com,3.9
+ORD-100977,2024-02-22,Europe,Toys,Retail Store,6.19,1,0,7.87,customer977@example.com,4.5
+ORD-100921,2024-02-22,Asia Pacific,Electronics,Wholesale,37.57,1,15,40.63,customer921@example.com,4.9
+ORD-101343,2024-02-24,North America,Sports,Wholesale,75.03,5,0,478.91,customer1343@example.com,4.2
+ORD-100128,2024-02-24,Latin America,Apparel,Marketplace,98.57,8,20,805.39,customer128@example.com,5.0
+ORD-100929,2024-02-26,North America,Groceries,Online,123.89,14,10,1999.45,customer929@example.com,4.1
+ORD-100534,2024-02-26,Asia Pacific,Electronics,Wholesale,52.67,9,0,607.17,customer534@example.com,4.8
+ORD-100227,2024-02-27,Latin America,Apparel,Wholesale,126.26,14,0,2267.65,customer227@example.com,4.2
+ORD-100596,2024-02-27,Latin America,Groceries,Online,27.87,12,5,407.53,customer596@example.com,4.4
+ORD-100676,2024-02-28,Middle East,Apparel,Retail Store,127.5,13,10,1916.78,customer676@example.com,
+ORD-100265,2024-02-29,Europe,Home & Garden,Marketplace,69.7,1,15,76.23,customer265@example.com,3.7
+ORD-100423,2024-02-29,Middle East,Electronics,Retail Store,18.11,12,15,237.67,customer423@example.com,5.0
+ORD-101160,2024-03-01,Europe,Sports,Online,36.48,5,15,199.78,customer1160@example.com,3.4
+ORD-100241,2024-03-02,North America,Apparel,Online,88.24,5,5,540.94,customer241@example.com,2.7
+ORD-101414,2024-03-03,North America,Apparel,Wholesale,241.32,7,0,2183.21,customer1414@example.com,4.0
+ORD-100984,2024-03-04,Middle East,Sports,Online,162.93,4,5,801.27,customer984@example.com,4.0
+ORD-101117,2024-03-04,North America,Toys,Retail Store,191.68,1,5,235.67,customer1117@example.com,3.9
+ORD-101155,2024-03-04,North America,Apparel,Online,71.88,3,10,251.17,customer1155@example.com,4.4
+ORD-100259,2024-03-04,Europe,Electronics,Marketplace,75.24,3,10,262.91,customer259@example.com,3.6
+ORD-100785,2024-03-05,Latin America,Apparel,Retail Store,8.79,6,10,61.53,customer785@example.com,3.8
+ORD-101422,2024-03-05,Europe,Apparel,Marketplace,178.87,3,0,695.43,customer1422@example.com,2.9
+ORD-100965,2024-03-05,Latin America,Home & Garden,Marketplace,42.0,1,5,51.71,customer965@example.com,5.0
+ORD-100980,2024-03-06,Latin America,Home & Garden,Wholesale,28.42,1,20,29.5,customer980@example.com,4.6
+ORD-100697,2024-03-06,Asia Pacific,Groceries,Wholesale,66.88,8,10,624.87,customer697@example.com,2.8
+ORD-101317,2024-03-06,Asia Pacific,Toys,Online,19.4,9,0,226.55,customer1317@example.com,4.8
+ORD-100547,2024-03-07,Middle East,Apparel,Wholesale,76.31,13,0,1288.96,customer547@example.com,2.9
+ORD-100269,2024-03-07,Asia Pacific,Home & Garden,Marketplace,65.88,7,10,539.24,customer269@example.com,3.7
+ORD-101395,2024-03-07,North America,Apparel,Retail Store,193.69,1,5,239.07,customer1395@example.com,
+ORD-100914,2024-03-08,Latin America,Home & Garden,Marketplace,135.19,4,20,562.76,customer914@example.com,2.7
+ORD-100519,2024-03-09,Middle East,Home & Garden,Online,204.28,5,0,1330.27,customer519@example.com,3.6
+ORD-100687,2024-03-09,North America,Apparel,Retail Store,104.64,2,15,231.68,customer687@example.com,
+ORD-101349,2024-03-10,Latin America,Toys,Retail Store,179.23,11,20,2056.58,customer1349@example.com,5.0
+ORD-100454,2024-03-11,Middle East,Apparel,Marketplace,65.7,6,5,488.86,customer454@example.com,3.4
+ORD-100467,2024-03-11,Latin America,Sports,Marketplace,78.89,9,0,926.85,customer467@example.com,
+ORD-101187,2024-03-12,Europe,Groceries,Retail Store,92.64,4,5,460.03,customer1187@example.com,4.1
+ORD-100664,2024-03-12,Asia Pacific,Apparel,Retail Store,12.81,5,15,71.16,customer664@example.com,3.1
+ORD-100530,2024-03-12,Europe,Groceries,Retail Store,56.22,7,5,488.59,customer530@example.com,4.7
+ORD-100393,2024-03-13,Middle East,Toys,Wholesale,62.4,7,5,542.87,customer393@example.com,5.0
+ORD-100719,2024-03-13,Latin America,Apparel,Marketplace,238.76,9,20,2248.83,customer719@example.com,5.0
+ORD-101047,2024-03-14,Latin America,Groceries,Marketplace,44.47,9,15,445.5,customer1047@example.com,4.5
+ORD-100966,2024-03-15,Latin America,Groceries,Retail Store,79.23,1,5,98.65,customer966@example.com,4.1
+ORD-100136,2024-03-16,Latin America,Groceries,Wholesale,119.62,12,0,1883.32,customer136@example.com,3.1
+ORD-100493,2024-03-16,Asia Pacific,Groceries,Retail Store,228.43,2,20,479.51,customer493@example.com,4.9
+ORD-100624,2024-03-17,Latin America,Sports,Retail Store,134.96,6,0,1063.34,customer624@example.com,4.6
+ORD-100849,2024-03-18,Europe,Apparel,Marketplace,52.63,12,10,747.11,customer849@example.com,3.6
+ORD-100489,2024-03-18,Asia Pacific,Electronics,Online,78.42,2,0,206.13,customer489@example.com,4.8
+ORD-100192,2024-03-19,North America,Electronics,Retail Store,58.6,6,0,462.47,customer192@example.com,4.4
+ORD-101180,2024-03-19,North America,Sports,Marketplace,118.29,11,0,1711.58,customer1180@example.com,4.8
+ORD-101304,2024-03-21,Latin America,Home & Garden,Marketplace,83.43,14,0,1538.64,customer1304@example.com,5.0
+ORD-100955,2024-03-22,Middle East,Sports,Online,21.76,8,0,229.44,customer955@example.com,3.8
+ORD-100895,2024-03-22,Latin America,Apparel,Retail Store,121.16,1,0,159.73,customer895@example.com,4.5
+ORD-100268,2024-03-23,Asia Pacific,Apparel,Marketplace,51.14,10,0,674.61,customer268@example.com,4.0
+ORD-100766,2024-03-23,Middle East,Apparel,Online,98.26,13,5,1600.84,customer766@example.com,4.6
+ORD-100322,2024-03-24,Asia Pacific,Sports,Wholesale,124.3,8,0,1312.63,customer322@example.com,4.0
+ORD-101134,2024-03-24,Asia Pacific,Toys,Retail Store,39.54,10,5,495.89,customer1134@example.com,4.0
+ORD-100671,2024-03-24,Europe,Electronics,Retail Store,66.87,13,0,1147.42,customer671@example.com,5.0
+ORD-100952,2024-03-24,Asia Pacific,Apparel,Online,33.64,9,0,399.67,customer952@example.com,3.5
+ORD-100600,2024-03-25,Europe,Home & Garden,Marketplace,15.18,8,10,144.36,customer600@example.com,4.1
+ORD-100899,2024-03-25,North America,Sports,Online,66.23,9,0,787.3,customer899@example.com,4.7
+ORD-100600,2024-03-25,Europe,Home & Garden,Marketplace,15.18,8,10,144.36,customer600@example.com,4.1
+ORD-100701,2024-03-25,Latin America,Apparel,Marketplace,54.57,4,5,273.86,customer701@example.com,3.5
+ORD-100986,2024-03-26,Middle East,Electronics,Marketplace,54.3,14,20,803.64,customer986@example.com,4.6
+ORD-101396,2024-03-28,Latin America,Electronics,Online,39.59,6,5,298.5,customer1396@example.com,5.0
+ORD-101199,2024-03-28,Middle East,Toys,Online,64.98,13,10,1005.72,customer1199@example.com,3.1
+ORD-100342,2024-03-29,Europe,Home & Garden,Marketplace,160.28,4,10,763.61,customer342@example.com,3.6
+ORD-101289,2024-03-29,Middle East,Toys,Online,53.18,5,5,334.26,customer1289@example.com,3.9
+ORD-100674,2024-03-29,Asia Pacific,Sports,Marketplace,78.71,11,20,916.65,customer674@example.com,5.0
+ORD-100824,2024-03-31,Europe,Groceries,Retail Store,87.27,12,10,1248.19,customer824@example.com,4.4
+ORD-101210,2024-03-31,Latin America,Sports,Retail Store,15.81,11,0,230.26,customer1210@example.com,4.2
+ORD-100995,2024-04-01,Europe,Toys,Retail Store,15.58,2,15,35.08,customer995@example.com,4.7
+ORD-100239,2024-04-02,Latin America,Sports,Retail Store,42.56,4,20,180.48,customer239@example.com,5.0
+ORD-100244,2024-04-03,North America,Sports,Online,22.82,6,15,154.28,customer244@example.com,4.2
+ORD-100598,2024-04-03,North America,Apparel,Retail Store,76.68,1,5,96.56,customer598@example.com,4.3
+ORD-100879,2024-04-04,Middle East,Electronics,Online,83.47,2,5,210.25,customer879@example.com,
+ORD-101170,2024-04-04,Europe,Electronics,Marketplace,28.59,5,20,151.59,customer1170@example.com,5.0
+ORD-100084,2024-04-04,Latin America,Apparel,Marketplace,52.72,9,15,534.72,customer84@example.com,3.2
+ORD-100191,2024-04-05,North America,Sports,Retail Store,125.15,2,15,282.11,customer191@example.com,4.9
+ORD-101171,2024-04-05,North America,Home & Garden,Marketplace,43.19,1,5,54.4,customer1171@example.com,5.0
+ORD-101110,2024-04-06,Middle East,Apparel,Online,78.01,12,15,1055.2,customer1110@example.com,4.3
+ORD-100039,2024-04-06,Middle East,Groceries,Retail Store,139.91,5,5,881.32,customer39@example.com,5.0
+ORD-100657,2024-04-07,Europe,Toys,Wholesale,45.13,14,0,838.04,customer657@example.com,3.7
+ORD-101195,2024-04-07,Asia Pacific,Electronics,Marketplace,92.8,5,10,553.85,customer1195@example.com,4.2
+ORD-100457,2024-04-07,Asia Pacific,Groceries,Retail Store,103.37,6,10,740.33,customer457@example.com,4.2
+ORD-101416,2024-04-08,North America,Apparel,Wholesale,47.22,4,15,212.94,customer1416@example.com,4.8
+ORD-101369,2024-04-08,Middle East,Home & Garden,Retail Store,177.18,4,0,939.99,customer1369@example.com,3.3
+ORD-100340,2024-04-08,Europe,Toys,Wholesale,101.83,6,0,810.39,customer340@example.com,3.2
+ORD-100474,2024-04-08,Asia Pacific,Electronics,Retail Store,47.55,5,0,315.35,customer474@example.com,4.2
+ORD-101466,2024-04-08,Latin America,Sports,Wholesale,168.52,13,0,2905.64,customer1466@example.com,4.1
+ORD-100742,2024-04-08,Asia Pacific,Home & Garden,Marketplace,34.45,2,0,91.37,customer742@example.com,4.5
+ORD-100129,2024-04-08,Europe,Electronics,Marketplace,84.23,8,10,804.38,customer129@example.com,4.5
+ORD-100957,2024-04-08,Latin America,Sports,Retail Store,58.61,9,5,664.66,customer957@example.com,4.2
+ORD-100098,2024-04-09,North America,Home & Garden,Marketplace,56.56,10,5,712.67,customer98@example.com,2.7
+ORD-100672,2024-04-09,Middle East,Groceries,Retail Store,44.16,3,5,166.94,customer672@example.com,3.6
+ORD-100919,2024-04-09,Asia Pacific,Electronics,Retail Store,256.81,5,0,1703.09,customer919@example.com,4.4
+ORD-101336,2024-04-10,Middle East,Sports,Retail Store,93.33,13,0,1609.17,customer1336@example.com,3.6
+ORD-101127,2024-04-10,Latin America,Groceries,Wholesale,142.78,6,10,1022.59,customer1127@example.com,3.7
+ORD-100781,2024-04-10,North America,Groceries,Wholesale,57.86,1,0,76.74,customer781@example.com,4.4
+ORD-101234,2024-04-10,North America,Sports,Online,14.58,10,20,154.74,customer1234@example.com,3.7
+ORD-100615,2024-04-11,Asia Pacific,Apparel,Wholesale,119.85,8,0,1271.54,customer615@example.com,3.8
+ORD-101067,2024-04-12,North America,Sports,Marketplace,79.25,3,0,315.28,customer1067@example.com,2.9
+ORD-100599,2024-04-14,Europe,Electronics,Online,10.56,6,0,84.03,customer599@example.com,3.6
+ORD-100568,2024-04-14,North America,Apparel,Marketplace,215.5,8,0,2285.37,customer568@example.com,5.0
+ORD-100025,2024-04-15,Asia Pacific,Groceries,Online,206.74,12,20,2630.41,customer25@example.com,4.8
+ORD-100933,2024-04-18,Asia Pacific,Home & Garden,Retail Store,199.1,8,0,2109.13,customer933@example.com,4.2
+ORD-100933,2024-04-18,Asia Pacific,Home & Garden,Retail Store,199.1,8,0,2109.13,customer933@example.com,4.2
+ORD-101129,2024-04-18,Europe,Toys,Wholesale,55.04,13,5,900.06,customer1129@example.com,5.0
+ORD-100983,2024-04-18,North America,Apparel,Marketplace,29.84,1,0,39.51,customer983@example.com,3.6
+ORD-101254,2024-04-19,Europe,Electronics,Marketplace,29.68,13,0,510.66,customer1254@example.com,4.4
+ORD-101220,2024-04-19,Asia Pacific,Home & Garden,Wholesale,142.63,5,0,943.98,customer1220@example.com,4.1
+ORD-100823,2024-04-19,Latin America,Electronics,Online,51.18,1,5,64.36,customer823@example.com,4.1
+ORD-100243,2024-04-19,Middle East,Electronics,Wholesale,41.19,2,0,109.04,customer243@example.com,3.0
+ORD-101088,2024-04-20,Latin America,Apparel,Retail Store,56.83,12,15,767.01,customer1088@example.com,5.0
+ORD-100501,2024-04-20,Asia Pacific,Apparel,Wholesale,77.58,4,0,410.61,customer501@example.com,2.2
+ORD-100770,2024-04-20,Europe,Home & Garden,Marketplace,155.06,6,0,1230.94,customer770@example.com,4.0
+ORD-101204,2024-04-20,North America,Toys,Marketplace,113.07,10,10,1346.4,customer1204@example.com,3.8
+ORD-100501,2024-04-20,Asia Pacific,Apparel,Wholesale,77.58,4,0,410.61,customer501@example.com,2.2
+ORD-101437,2024-04-21,North America,Home & Garden,Online,153.99,4,0,814.6,customer1437@example.com,5.0
+ORD-100651,2024-04-21,Middle East,Toys,Online,100.83,7,0,933.42,customer651@example.com,5.0
+ORD-100985,2024-04-21,Middle East,Electronics,Wholesale,81.38,1,15,91.48,customer985@example.com,3.3
+ORD-100122,2024-04-22,Europe,Apparel,Wholesale,131.7,8,15,1183.81,customer122@example.com,3.9
+ORD-100002,2024-04-22,Europe,Toys,Marketplace,34.46,13,0,592.23,customer2@example.com,4.8
+ORD-101397,2024-04-22,Latin America,Toys,Wholesale,40.2,14,20,595.15,customer1397@example.com,5.0
+ORD-101223,2024-04-22,Latin America,Home & Garden,Wholesale,151.61,5,0,1002.03,customer1223@example.com,5.0
+ORD-101276,2024-04-24,Europe,Toys,Online,115.03,13,0,1974.6,customer1276@example.com,5.0
+ORD-100841,2024-04-24,Asia Pacific,Electronics,Wholesale,137.42,10,0,1814.6,customer841@example.com,4.3
+ORD-100729,2024-04-25,North America,Sports,Online,108.45,7,0,1001.79,customer729@example.com,4.7
+ORD-100315,2024-04-26,Asia Pacific,Apparel,Marketplace,48.76,5,5,305.45,customer315@example.com,2.5
+ORD-100254,2024-04-27,Latin America,Groceries,Marketplace,38.54,9,0,457.19,customer254@example.com,3.7
+ORD-100371,2024-04-28,Middle East,Electronics,Marketplace,63.61,13,10,980.14,customer371@example.com,4.5
+ORD-100445,2024-04-28,Latin America,Sports,Wholesale,144.25,4,0,759.93,customer445@example.com,2.8
+ORD-100155,2024-04-28,Asia Pacific,Home & Garden,Marketplace,136.66,13,0,2339.73,customer155@example.com,3.9
+ORD-100478,2024-04-29,Middle East,Home & Garden,Marketplace,47.8,2,10,113.23,customer478@example.com,3.7
+ORD-100161,2024-04-29,Middle East,Home & Garden,Retail Store,33.49,3,10,119.01,customer161@example.com,
+ORD-100236,2024-04-29,North America,Home & Garden,Marketplace,30.59,2,0,80.51,customer236@example.com,4.6
+ORD-100818,2024-04-30,Europe,Sports,Retail Store,13.02,7,10,107.89,customer818@example.com,4.7
+ORD-100107,2024-04-30,Europe,Apparel,Online,132.97,6,0,1049.11,customer107@example.com,4.1
+ORD-100821,2024-04-30,North America,Toys,Wholesale,51.35,12,0,810.33,customer821@example.com,4.3
+ORD-100310,2024-05-01,Asia Pacific,Apparel,Wholesale,40.55,2,20,85.25,customer310@example.com,4.1
+ORD-101048,2024-05-02,North America,Groceries,Retail Store,135.83,7,20,998.62,customer1048@example.com,4.8
+ORD-100121,2024-05-02,Asia Pacific,Home & Garden,Retail Store,59.31,6,0,467.17,customer121@example.com,5.0
+ORD-100079,2024-05-03,North America,Apparel,Marketplace,84.01,7,0,771.31,customer79@example.com,5.0
+ORD-100858,2024-05-03,Middle East,Groceries,Marketplace,90.06,10,5,1122.27,customer858@example.com,5.0
+ORD-100282,2024-05-04,Europe,Electronics,Marketplace,51.47,4,0,269.78,customer282@example.com,4.4
+ORD-101131,2024-05-04,North America,Home & Garden,Online,46.48,3,0,182.71,customer1131@example.com,4.4
+ORD-100735,2024-05-04,Asia Pacific,Toys,Marketplace,76.57,5,0,501.69,customer735@example.com,5.0
+ORD-100640,2024-05-04,North America,Sports,Online,20.89,3,20,65.69,customer640@example.com,5.0
+ORD-101426,2024-05-05,Latin America,Electronics,Wholesale,39.44,8,10,371.72,customer1426@example.com,3.3
+ORD-100311,2024-05-05,Europe,Home & Garden,Wholesale,66.19,3,0,259.96,customer311@example.com,3.1
+ORD-101305,2024-05-05,Asia Pacific,Sports,Retail Store,100.02,7,5,870.83,customer1305@example.com,4.3
+ORD-101423,2024-05-07,North America,Toys,Marketplace,122.56,11,10,1585.3,customer1423@example.com,4.1
+ORD-101328,2024-05-07,Europe,Apparel,Wholesale,19.47,6,15,129.71,customer1328@example.com,4.8
+ORD-101070,2024-05-07,Middle East,Home & Garden,Retail Store,42.95,4,5,213.24,customer1070@example.com,3.2
+ORD-101273,2024-05-07,Asia Pacific,Toys,Wholesale,79.8,7,15,620.39,customer1273@example.com,4.8
+ORD-101297,2024-05-09,Middle East,Electronics,Marketplace,34.64,14,0,632.24,customer1297@example.com,3.8
+ORD-100048,2024-05-09,North America,Sports,Retail Store,52.99,3,5,196.89,customer48@example.com,5.0
+ORD-100256,2024-05-09,Latin America,Apparel,Wholesale,188.21,14,15,2919.96,customer256@example.com,3.8
+ORD-100415,2024-05-09,North America,Home & Garden,Online,18.71,10,0,243.89,customer415@example.com,5.0
+ORD-100710,2024-05-10,Asia Pacific,Home & Garden,Marketplace,40.34,13,10,614.72,customer710@example.com,3.1
+ORD-101326,2024-05-10,Middle East,Apparel,Wholesale,54.47,13,0,922.12,customer1326@example.com,4.0
+ORD-100826,2024-05-11,Latin America,Apparel,Retail Store,87.84,8,10,822.63,customer826@example.com,4.1
+ORD-100549,2024-05-11,Latin America,Sports,Online,35.13,5,5,217.08,customer549@example.com,4.5
+ORD-100097,2024-05-13,Middle East,Electronics,Online,169.77,8,5,1674.27,customer97@example.com,3.6
+ORD-100059,2024-05-13,Asia Pacific,Home & Garden,Retail Store,218.68,2,20,454.03,customer59@example.com,4.9
+ORD-100190,2024-05-14,Latin America,Toys,Marketplace,38.48,12,15,508.63,customer190@example.com,3.9
+ORD-100812,2024-05-14,Europe,Toys,Wholesale,73.89,4,0,383.06,customer812@example.com,
+ORD-100614,2024-05-15,North America,Apparel,Online,203.26,7,10,1657.46,customer614@example.com,4.8
+ORD-100635,2024-05-15,North America,Toys,Retail Store,80.24,4,5,394.64,customer635@example.com,2.5
+ORD-100787,2024-05-15,Latin America,Sports,Wholesale,80.81,13,0,1359.69,customer787@example.com,3.7
+ORD-100074,2024-05-16,Middle East,Apparel,Marketplace,87.13,8,0,901.0,customer74@example.com,
+ORD-101061,2024-05-16,North America,Electronics,Wholesale,9.97,9,5,110.2,customer1061@example.com,4.6
+ORD-100586,2024-05-18,North America,Electronics,Retail Store,139.87,2,0,360.61,customer586@example.com,3.7
+ORD-101148,2024-05-18,Latin America,Electronics,Wholesale,34.12,5,0,219.95,customer1148@example.com,3.9
+ORD-100940,2024-05-19,Asia Pacific,Sports,Retail Store,71.94,4,0,370.44,customer940@example.com,3.5
+ORD-101182,2024-05-19,Europe,Apparel,Retail Store,25.74,1,0,33.13,customer1182@example.com,3.6
+ORD-100421,2024-05-21,Latin America,Toys,Online,64.07,12,15,838.83,customer421@example.com,3.9
+ORD-100665,2024-05-22,North America,Electronics,Online,74.63,9,0,860.77,customer665@example.com,4.4
+ORD-100183,2024-05-23,North America,Toys,Wholesale,121.72,4,0,623.01,customer183@example.com,5.0
+ORD-100174,2024-05-23,North America,Groceries,Retail Store,34.76,12,20,427.05,customer174@example.com,4.7
+ORD-101471,2024-05-24,Middle East,Toys,Retail Store,26.26,2,0,67.11,customer1471@example.com,3.6
+ORD-100865,2024-05-24,Latin America,Apparel,Retail Store,77.35,6,5,563.31,customer865@example.com,4.7
+ORD-100007,2024-05-24,Latin America,Sports,Retail Store,87.09,10,0,1112.63,customer7@example.com,3.1
+ORD-100874,2024-05-24,Middle East,Home & Garden,Online,138.5,14,15,2105.66,customer874@example.com,3.9
+ORD-101302,2024-05-25,North America,Home & Garden,Wholesale,31.66,1,20,32.31,customer1302@example.com,3.1
+ORD-100931,2024-05-25,Latin America,Apparel,Retail Store,42.39,9,0,486.67,customer931@example.com,5.0
+ORD-100203,2024-05-25,Europe,Home & Garden,Marketplace,171.5,13,10,2559.52,customer203@example.com,3.9
+ORD-101347,2024-05-26,Middle East,Home & Garden,Wholesale,18.81,5,20,95.83,customer1347@example.com,3.8
+ORD-100042,2024-05-26,Asia Pacific,Electronics,Retail Store,162.69,8,5,1574.62,customer42@example.com,2.3
+ORD-100085,2024-05-26,North America,Groceries,Retail Store,56.83,14,0,1013.22,customer85@example.com,
+ORD-100981,2024-05-27,Asia Pacific,Home & Garden,Retail Store,75.22,12,20,918.06,customer981@example.com,5.0
+ORD-101193,2024-05-28,Latin America,Home & Garden,Marketplace,382.76,1,10,437.25,customer1193@example.com,4.9
+ORD-100222,2024-05-28,Latin America,Groceries,Online,13.7,1,15,14.79,customer222@example.com,5.0
+ORD-100109,2024-05-29,Latin America,Groceries,Wholesale,100.36,2,0,254.33,customer109@example.com,4.1
+ORD-101063,2024-05-29,Asia Pacific,Groceries,Online,94.3,3,0,358.49,customer1063@example.com,3.8
+ORD-101040,2024-05-30,Middle East,Apparel,Retail Store,32.34,14,0,572.63,customer1040@example.com,3.1
+ORD-100540,2024-06-01,Asia Pacific,Groceries,Marketplace,59.08,5,20,297.9,customer540@example.com,3.9
+ORD-100905,2024-06-01,Asia Pacific,Electronics,Wholesale,201.75,7,0,1780.09,customer905@example.com,3.6
+ORD-101044,2024-06-01,Europe,Apparel,Marketplace,145.8,6,0,1102.64,customer1044@example.com,
+ORD-101316,2024-06-02,Asia Pacific,Electronics,Wholesale,70.46,11,0,975.24,customer1316@example.com,5.0
+ORD-100891,2024-06-02,Asia Pacific,Toys,Online,36.08,9,15,347.26,customer891@example.com,3.8
+ORD-101076,2024-06-03,Asia Pacific,Sports,Wholesale,73.82,5,10,417.17,customer1076@example.com,
+ORD-101196,2024-06-04,Latin America,Apparel,Marketplace,65.96,3,15,210.83,customer1196@example.com,
+ORD-101275,2024-06-04,Asia Pacific,Sports,Marketplace,102.02,9,20,920.78,customer1275@example.com,4.2
+ORD-100429,2024-06-06,Latin America,Home & Garden,Wholesale,84.76,6,5,603.37,customer429@example.com,5.0
+ORD-101331,2024-06-07,Middle East,Apparel,Wholesale,29.31,5,0,182.7,customer1331@example.com,4.6
+ORD-100773,2024-06-07,Europe,Toys,Retail Store,48.75,14,20,680.52,customer773@example.com,2.9
+ORD-100014,2024-06-07,Asia Pacific,Toys,Marketplace,54.25,8,0,541.0,customer14@example.com,4.6
+ORD-100176,2024-06-07,Middle East,Home & Garden,Marketplace,45.73,4,0,228.01,customer176@example.com,5.0
+ORD-100211,2024-06-07,Asia Pacific,Groceries,Marketplace,140.27,5,15,743.07,customer211@example.com,5.0
+ORD-100235,2024-06-09,North America,Toys,Online,34.35,2,0,85.31,customer235@example.com,3.5
+ORD-100394,2024-06-09,Latin America,Groceries,Online,144.34,8,15,1218.62,customer394@example.com,4.1
+ORD-100224,2024-06-10,North America,Home & Garden,Retail Store,18.47,3,15,58.37,customer224@example.com,3.9
+ORD-101207,2024-06-10,Latin America,Electronics,Retail Store,27.2,7,0,235.95,customer1207@example.com,3.9
+ORD-100696,2024-06-10,Europe,Sports,Wholesale,89.54,14,0,1553.28,customer696@example.com,4.2
+ORD-100726,2024-06-10,Asia Pacific,Electronics,Online,76.47,10,5,900.12,customer726@example.com,4.7
+ORD-101118,2024-06-11,Latin America,Sports,Wholesale,171.69,9,10,1719.76,customer1118@example.com,4.2
+ORD-100792,2024-06-11,Europe,Home & Garden,Marketplace,141.88,9,5,1500.05,customer792@example.com,4.5
+ORD-100173,2024-06-11,Europe,Electronics,Online,60.51,8,20,478.92,customer173@example.com,5.0
+ORD-100680,2024-06-12,Middle East,Sports,Online,173.33,7,5,1422.48,customer680@example.com,4.6
+ORD-100460,2024-06-12,Middle East,Sports,Online,118.51,2,20,234.01,customer460@example.com,4.9
+ORD-100675,2024-06-13,Europe,Home & Garden,Retail Store,76.67,2,10,169.97,customer675@example.com,3.2
+ORD-101136,2024-06-13,Asia Pacific,Apparel,Wholesale,23.25,10,5,272.01,customer1136@example.com,5.0
+ORD-100317,2024-06-14,North America,Home & Garden,Wholesale,131.06,12,0,1932.97,customer317@example.com,5.0
+ORD-100712,2024-06-15,Europe,Electronics,Online,57.36,10,10,633.14,customer712@example.com,4.4
+ORD-100730,2024-06-16,Latin America,Electronics,Retail Store,121.38,11,10,1470.69,customer730@example.com,4.6
+ORD-100759,2024-06-16,Middle East,Sports,Online,95.56,3,20,280.7,customer759@example.com,3.3
+ORD-101032,2024-06-17,Asia Pacific,Home & Garden,Wholesale,120.59,10,0,1472.8,customer1032@example.com,3.4
+ORD-100316,2024-06-17,Latin America,Home & Garden,Wholesale,59.39,14,0,1015.52,customer316@example.com,3.9
+ORD-100736,2024-06-17,Europe,Apparel,Marketplace,76.21,1,0,93.07,customer736@example.com,3.2
+ORD-101217,2024-06-18,Asia Pacific,Groceries,Retail Store,23.17,10,0,282.33,customer1217@example.com,4.8
+ORD-101231,2024-06-19,Europe,Electronics,Wholesale,155.55,12,0,2269.93,customer1231@example.com,3.6
+ORD-101008,2024-06-19,Latin America,Home & Garden,Wholesale,119.85,11,10,1442.9,customer1008@example.com,4.9
+ORD-100661,2024-06-20,Asia Pacific,Electronics,Retail Store,134.91,12,5,1866.24,customer661@example.com,5.0
+ORD-101348,2024-06-20,Asia Pacific,Home & Garden,Marketplace,230.51,9,0,2517.37,customer1348@example.com,4.2
+ORD-100885,2024-06-20,Middle East,Electronics,Marketplace,224.99,13,20,2839.32,customer885@example.com,4.3
+ORD-100630,2024-06-21,Latin America,Electronics,Online,148.07,4,5,681.27,customer630@example.com,4.4
+ORD-100556,2024-06-21,Asia Pacific,Apparel,Retail Store,112.75,9,5,1167.18,customer556@example.com,5.0
+ORD-101001,2024-06-21,Asia Pacific,Groceries,Retail Store,26.98,11,20,287.42,customer1001@example.com,4.1
+ORD-100376,2024-06-21,Middle East,Toys,Retail Store,37.99,11,20,404.82,customer376@example.com,3.3
+ORD-100012,2024-06-21,Asia Pacific,Sports,Retail Store,76.91,8,5,707.75,customer12@example.com,4.4
+ORD-100214,2024-06-21,North America,Home & Garden,Wholesale,77.54,5,20,375.56,customer214@example.com,4.1
+ORD-100804,2024-06-22,North America,Sports,Online,55.08,7,20,372.65,customer804@example.com,4.7
+ORD-100470,2024-06-22,Latin America,Electronics,Retail Store,40.76,14,15,586.06,customer470@example.com,3.5
+ORD-100756,2024-06-22,Europe,Toys,Online,79.06,11,0,1050.68,customer756@example.com,5.0
+ORD-100738,2024-06-22,Middle East,Toys,Marketplace,79.77,4,5,366.21,customer738@example.com,4.2
+ORD-100431,2024-06-23,North America,Toys,Retail Store,148.93,12,10,1938.96,customer431@example.com,4.0
+ORD-101448,2024-06-23,North America,Electronics,Online,116.12,9,0,1259.83,customer1448@example.com,3.3
+ORD-101281,2024-06-23,Latin America,Electronics,Retail Store,42.71,13,10,602.36,customer1281@example.com,4.7
+ORD-100602,2024-06-23,Middle East,Electronics,Wholesale,237.57,6,0,1718.33,customer602@example.com,4.5
+ORD-101280,2024-06-24,Latin America,Home & Garden,Retail Store,126.91,6,15,778.5,customer1280@example.com,3.9
+ORD-101393,2024-06-25,Asia Pacific,Home & Garden,Marketplace,64.02,1,0,76.84,customer1393@example.com,
+ORD-100058,2024-06-26,Asia Pacific,Apparel,Online,56.2,12,20,646.0,customer58@example.com,3.9
+ORD-101035,2024-06-26,North America,Apparel,Marketplace,31.34,8,10,270.16,customer1035@example.com,4.4
+ORD-101138,2024-06-26,Asia Pacific,Toys,Online,105.77,4,20,405.29,customer1138@example.com,3.8
+ORD-100061,2024-06-27,Latin America,Electronics,Online,209.42,14,0,3502.77,customer61@example.com,4.8
+ORD-100877,2024-06-27,Asia Pacific,Toys,Online,130.19,9,0,1399.87,customer877@example.com,4.9
+ORD-100511,2024-06-28,Asia Pacific,Toys,Online,75.37,13,15,992.74,customer511@example.com,5.0
+ORD-100377,2024-06-29,Asia Pacific,Home & Garden,Online,22.93,9,20,196.35,customer377@example.com,5.0
+ORD-100390,2024-06-29,Latin America,Home & Garden,Online,12.57,1,0,14.95,customer390@example.com,5.0
+ORD-100359,2024-06-30,Latin America,Electronics,Retail Store,45.49,13,5,666.55,customer359@example.com,3.0
+ORD-100462,2024-06-30,North America,Home & Garden,Retail Store,66.5,12,0,946.95,customer462@example.com,5.0
+ORD-100894,2024-07-01,North America,Apparel,Online,95.02,4,0,449.94,customer894@example.com,4.7
+ORD-101233,2024-07-01,North America,Electronics,Retail Store,76.17,6,5,514.02,customer1233@example.com,5.0
+ORD-101377,2024-07-02,North America,Sports,Retail Store,101.67,10,20,960.69,customer1377@example.com,4.5
+ORD-100492,2024-07-03,Asia Pacific,Sports,Retail Store,22.4,7,0,184.81,customer492@example.com,3.8
+ORD-101064,2024-07-03,Asia Pacific,Groceries,Online,129.29,6,10,822.75,customer1064@example.com,4.4
+ORD-101097,2024-07-05,Asia Pacific,Apparel,Online,152.11,8,0,1427.38,customer1097@example.com,4.2
+ORD-100246,2024-07-06,Asia Pacific,Home & Garden,Marketplace,166.16,10,0,1944.53,customer246@example.com,4.7
+ORD-101072,2024-07-06,Europe,Sports,Wholesale,75.81,14,0,1242.03,customer1072@example.com,
+ORD-100041,2024-07-07,Middle East,Home & Garden,Wholesale,91.09,14,0,1488.95,customer41@example.com,4.2
+ORD-100233,2024-07-07,Latin America,Electronics,Retail Store,118.39,5,15,587.45,customer233@example.com,4.9
+ORD-100050,2024-07-08,North America,Home & Garden,Wholesale,49.78,10,10,521.82,customer50@example.com,
+ORD-101300,2024-07-08,Middle East,Groceries,Online,6.83,1,20,6.37,customer1300@example.com,3.8
+ORD-101203,2024-07-09,Europe,Apparel,Wholesale,104.07,7,20,677.26,customer1203@example.com,3.8
+ORD-100013,2024-07-09,Middle East,Sports,Marketplace,214.24,6,10,1344.47,customer13@example.com,4.1
+ORD-100741,2024-07-10,North America,Sports,Marketplace,24.85,8,0,230.46,customer741@example.com,4.7
+ORD-101274,2024-07-10,North America,Sports,Retail Store,135.83,13,0,2047.34,customer1274@example.com,5.0
+ORD-101133,2024-07-10,Middle East,Apparel,Marketplace,183.12,6,20,1019.11,customer1133@example.com,3.5
+ORD-100206,2024-07-11,Asia Pacific,Sports,Marketplace,71.86,11,0,914.37,customer206@example.com,3.0
+ORD-100713,2024-07-11,Middle East,Apparel,Retail Store,90.51,3,0,314.08,customer713@example.com,4.9
+ORD-100127,2024-07-12,North America,Electronics,Marketplace,22.0,13,0,330.1,customer127@example.com,4.6
+ORD-100488,2024-07-12,Asia Pacific,Home & Garden,Online,65.99,3,15,194.2,customer488@example.com,3.1
+ORD-100422,2024-07-13,Europe,Groceries,Online,41.55,5,20,191.36,customer422@example.com,5.0
+ORD-100656,2024-07-13,Latin America,Toys,Online,49.32,5,15,241.32,customer656@example.com,4.5
+ORD-100088,2024-07-14,Asia Pacific,Groceries,Marketplace,93.88,12,0,1294.08,customer88@example.com,4.0
+ORD-100319,2024-07-15,Latin America,Home & Garden,Wholesale,93.09,4,5,405.38,customer319@example.com,5.0
+ORD-101147,2024-07-15,Latin America,Home & Garden,Marketplace,175.51,1,15,170.96,customer1147@example.com,3.4
+ORD-100644,2024-07-16,Middle East,Electronics,Retail Store,53.2,10,0,608.24,customer644@example.com,4.4
+ORD-100910,2024-07-16,Asia Pacific,Groceries,Retail Store,81.57,5,10,419.66,customer910@example.com,5.0
+ORD-101060,2024-07-16,North America,Sports,Retail Store,13.88,14,15,188.85,customer1060@example.com,4.2
+ORD-101057,2024-07-17,North America,Electronics,Wholesale,185.93,8,5,1611.87,customer1057@example.com,4.7
+ORD-100172,2024-07-17,North America,Electronics,Wholesale,62.01,10,15,601.22,customer172@example.com,5.0
+ORD-100863,2024-07-17,North America,Groceries,Marketplace,83.54,1,10,85.76,customer863@example.com,
+ORD-100369,2024-07-17,Middle East,Toys,Wholesale,15.71,7,0,125.43,customer369@example.com,3.3
+ORD-100001,2024-07-18,Europe,Groceries,Wholesale,9.63,14,0,153.47,customer1@example.com,4.4
+ORD-101277,2024-07-18,Middle East,Groceries,Wholesale,51.27,12,0,700.19,customer1277@example.com,4.4
+ORD-101338,2024-07-19,North America,Groceries,Wholesale,55.57,14,20,706.64,customer1338@example.com,5.0
+ORD-100733,2024-07-19,Latin America,Apparel,Wholesale,72.25,10,0,820.37,customer733@example.com,5.0
+ORD-101241,2024-07-21,Latin America,Sports,Marketplace,104.01,3,0,352.67,customer1241@example.com,4.0
+ORD-100401,2024-07-21,Asia Pacific,Electronics,Marketplace,125.13,7,0,989.97,customer401@example.com,4.5
+ORD-100835,2024-07-21,Middle East,Electronics,Marketplace,77.02,13,5,1075.04,customer835@example.com,5.0
+ORD-101468,2024-07-21,Middle East,Toys,Wholesale,24.04,12,15,277.19,customer1468@example.com,4.4
+ORD-100814,2024-07-21,Latin America,Electronics,Wholesale,19.71,4,5,84.63,customer814@example.com,3.5
+ORD-100049,2024-07-22,Middle East,Groceries,Wholesale,86.79,9,5,836.83,customer49@example.com,3.7
+ORD-100601,2024-07-22,Latin America,Sports,Marketplace,34.88,7,10,247.79,customer601@example.com,2.9
+ORD-100209,2024-07-22,Asia Pacific,Home & Garden,Wholesale,114.03,13,5,1588.08,customer209@example.com,4.9
+ORD-100106,2024-07-23,Europe,Toys,Wholesale,28.15,1,0,31.67,customer106@example.com,5.0
+ORD-100111,2024-07-23,North America,Toys,Marketplace,90.56,3,5,290.38,customer111@example.com,3.0
+ORD-101312,2024-07-23,Asia Pacific,Apparel,Online,33.22,7,0,261.63,customer1312@example.com,3.0
+ORD-101440,2024-07-23,Middle East,Toys,Online,167.23,2,10,338.67,customer1440@example.com,4.5
+ORD-100597,2024-07-23,Latin America,Apparel,Marketplace,38.25,1,5,40.88,customer597@example.com,2.7
+ORD-101497,2024-07-23,Latin America,Toys,Marketplace,44.07,11,20,436.37,customer1497@example.com,4.4
+ORD-100765,2024-07-23,Latin America,Toys,Online,146.55,9,5,1409.8,customer765@example.com,4.1
+ORD-100024,2024-07-24,Latin America,Apparel,Marketplace,25.01,6,20,134.76,customer24@example.com,5.0
+ORD-101211,2024-07-24,Latin America,Sports,Retail Store,81.24,1,5,86.64,customer1211@example.com,4.2
+ORD-100805,2024-07-24,North America,Home & Garden,Marketplace,306.51,12,0,4129.03,customer805@example.com,3.4
+ORD-100277,2024-07-25,Europe,Toys,Retail Store,10.66,9,0,107.47,customer277@example.com,3.0
+ORD-100689,2024-07-25,Latin America,Groceries,Online,70.23,1,10,70.8,customer689@example.com,3.8
+ORD-100917,2024-07-26,Latin America,Groceries,Marketplace,174.22,14,5,2589.5,customer917@example.com,4.6
+ORD-100612,2024-07-26,Middle East,Groceries,Online,121.84,14,10,1715.65,customer612@example.com,5.0
+ORD-100159,2024-07-26,North America,Home & Garden,Wholesale,39.54,13,0,574.45,customer159@example.com,4.4
+ORD-100475,2024-07-26,Europe,Groceries,Marketplace,64.63,4,0,288.9,customer475@example.com,5.0
+ORD-101415,2024-07-26,Asia Pacific,Sports,Wholesale,82.72,10,10,832.0,customer1415@example.com,4.1
+ORD-100015,2024-07-27,Latin America,Apparel,Retail Store,72.26,4,20,257.84,customer15@example.com,4.4
+ORD-100724,2024-07-27,Middle East,Toys,Wholesale,61.16,4,5,259.16,customer724@example.com,3.2
+ORD-100954,2024-07-27,Europe,Electronics,Wholesale,41.66,13,0,603.84,customer954@example.com,4.9
+ORD-100105,2024-07-28,Europe,Toys,Marketplace,88.97,5,20,395.95,customer105@example.com,4.3
+ORD-100989,2024-07-28,Asia Pacific,Groceries,Online,24.5,8,20,174.48,customer989@example.com,4.6
+ORD-100248,2024-07-28,Middle East,Home & Garden,Wholesale,120.79,3,0,403.19,customer248@example.com,3.3
+ORD-101429,2024-07-28,Middle East,Home & Garden,Marketplace,126.8,1,0,141.08,customer1429@example.com,3.9
+ORD-100212,2024-07-29,North America,Electronics,Marketplace,134.76,2,5,284.25,customer212@example.com,4.8
+ORD-101460,2024-07-30,North America,Toys,Online,108.45,7,0,840.93,customer1460@example.com,3.8
+ORD-100558,2024-08-01,North America,Apparel,Wholesale,141.4,6,0,935.75,customer558@example.com,4.1
+ORD-100638,2024-08-01,North America,Home & Garden,Retail Store,38.63,5,20,170.42,customer638@example.com,1.9
+ORD-100638,2024-08-01,North America,Home & Garden,Retail Store,38.63,5,20,170.42,customer638@example.com,1.9
+ORD-101413,2024-08-01,Asia Pacific,Home & Garden,Marketplace,68.53,1,5,71.81,customer1413@example.com,4.5
+ORD-101253,2024-08-02,Europe,Home & Garden,Online,55.72,13,0,797.21,customer1253@example.com,4.4
+ORD-100260,2024-08-02,Middle East,Sports,Retail Store,15.11,9,15,127.22,customer260@example.com,4.9
+ORD-101132,2024-08-02,Latin America,Home & Garden,Marketplace,142.52,7,20,878.43,customer1132@example.com,4.9
+ORD-100070,2024-08-03,Asia Pacific,Electronics,Marketplace,68.7,12,0,905.41,customer70@example.com,2.3
+ORD-100691,2024-08-03,Middle East,Sports,Wholesale,95.94,7,0,737.6,customer691@example.com,
+ORD-100134,2024-08-03,North America,Electronics,Online,213.89,1,15,199.68,customer134@example.com,3.9
+ORD-100744,2024-08-03,Asia Pacific,Home & Garden,Marketplace,35.08,2,0,77.05,customer744@example.com,3.6
+ORD-100104,2024-08-04,Europe,Home & Garden,Marketplace,151.76,11,10,1646.77,customer104@example.com,4.4
+ORD-100483,2024-08-04,Middle East,Home & Garden,Marketplace,9.25,13,15,112.07,customer483@example.com,3.8
+ORD-101011,2024-08-06,Latin America,Home & Garden,Online,321.27,12,20,3366.53,customer1011@example.com,4.5
+ORD-100715,2024-08-06,North America,Apparel,Retail Store,107.91,12,15,1201.39,customer715@example.com,3.6
+ORD-100590,2024-08-07,North America,Home & Garden,Marketplace,27.1,3,10,79.72,customer590@example.com,4.5
+ORD-100685,2024-08-07,North America,Sports,Retail Store,74.96,2,0,163.31,customer685@example.com,4.3
+ORD-101283,2024-08-07,Europe,Groceries,Marketplace,56.77,4,10,222.62,customer1283@example.com,4.0
+ORD-100859,2024-08-07,Asia Pacific,Apparel,Online,34.92,13,10,445.1,customer859@example.com,3.3
+ORD-100595,2024-08-08,Latin America,Sports,Wholesale,193.56,8,0,1683.45,customer595@example.com,3.8
+ORD-100851,2024-08-08,Latin America,Apparel,Retail Store,14.61,11,5,165.96,customer851@example.com,4.4
+ORD-101086,2024-08-08,Asia Pacific,Groceries,Marketplace,129.67,8,0,1127.74,customer1086@example.com,3.9
+ORD-101259,2024-08-08,Middle East,Electronics,Retail Store,56.2,1,0,61.1,customer1259@example.com,4.6
+ORD-101198,2024-08-09,Europe,Groceries,Wholesale,34.88,10,0,378.47,customer1198@example.com,5.0
+ORD-100550,2024-08-09,Middle East,Electronics,Retail Store,72.24,8,20,501.61,customer550@example.com,4.7
+ORD-100102,2024-08-10,Latin America,Toys,Online,60.38,14,5,869.59,customer102@example.com,5.0
+ORD-100653,2024-08-10,Latin America,Home & Garden,Wholesale,26.31,14,0,398.93,customer653@example.com,3.4
+ORD-100427,2024-08-10,Europe,Groceries,Online,40.64,14,10,554.55,customer427@example.com,3.3
+ORD-100471,2024-08-10,Latin America,Apparel,Marketplace,20.32,7,20,123.23,customer471@example.com,4.8
+ORD-100091,2024-08-10,Middle East,Home & Garden,Wholesale,60.69,4,0,262.88,customer91@example.com,2.8
+ORD-101333,2024-08-12,Latin America,Electronics,Wholesale,78.97,9,10,690.06,customer1333@example.com,4.2
+ORD-100290,2024-08-12,Latin America,Home & Garden,Wholesale,157.75,7,0,1191.24,customer290@example.com,3.8
+ORD-100335,2024-08-13,Asia Pacific,Electronics,Marketplace,22.15,3,5,67.97,customer335@example.com,4.6
+ORD-100226,2024-08-13,North America,Electronics,Marketplace,95.63,2,5,195.65,customer226@example.com,5.0
+ORD-100836,2024-08-13,Europe,Toys,Marketplace,70.8,7,0,533.64,customer836@example.com,4.3
+ORD-101000,2024-08-13,North America,Groceries,Retail Store,77.72,8,0,669.49,customer1000@example.com,5.0
+ORD-101218,2024-08-13,Middle East,Electronics,Online,37.6,13,0,526.26,customer1218@example.com,3.7
+ORD-100884,2024-08-16,Middle East,Home & Garden,Retail Store,61.22,13,0,852.36,customer884@example.com,3.9
+ORD-101425,2024-08-17,North America,Sports,Retail Store,69.68,11,20,655.49,customer1425@example.com,
+ORD-100165,2024-08-17,Middle East,Toys,Retail Store,79.71,8,0,681.68,customer165@example.com,4.6
+ORD-100513,2024-08-19,Asia Pacific,Toys,Retail Store,30.62,5,0,163.12,customer513@example.com,5.0
+ORD-100740,2024-08-19,Latin America,Electronics,Wholesale,99.98,8,0,852.18,customer740@example.com,4.6
+ORD-100866,2024-08-21,Latin America,Apparel,Retail Store,171.12,14,5,2416.83,customer866@example.com,
+ORD-100848,2024-08-21,Latin America,Toys,Retail Store,103.7,8,5,836.89,customer848@example.com,4.7
+ORD-101024,2024-08-22,Middle East,Sports,Marketplace,135.33,13,20,1492.24,customer1024@example.com,3.6
+ORD-100148,2024-08-22,Asia Pacific,Groceries,Online,90.8,6,0,577.63,customer148@example.com,4.0
+ORD-101230,2024-08-22,Europe,Home & Garden,Retail Store,98.76,10,15,890.05,customer1230@example.com,4.4
+ORD-101263,2024-08-23,Europe,Home & Garden,Wholesale,53.08,10,5,533.82,customer1263@example.com,4.3
+ORD-100027,2024-08-23,Asia Pacific,Electronics,Retail Store,72.29,7,0,535.68,customer27@example.com,2.5
+ORD-100432,2024-08-25,Europe,Groceries,Retail Store,21.9,7,0,161.8,customer432@example.com,4.2
+ORD-100523,2024-08-25,Asia Pacific,Home & Garden,Online,76.72,2,20,129.55,customer523@example.com,2.9
+ORD-100793,2024-08-25,Latin America,Apparel,Wholesale,180.97,11,0,2100.95,customer793@example.com,2.8
+ORD-101039,2024-08-26,Latin America,Electronics,Marketplace,136.21,14,20,1607.82,customer1039@example.com,4.8
+ORD-100604,2024-08-26,Latin America,Home & Garden,Online,43.28,1,0,45.61,customer604@example.com,4.3
+ORD-100301,2024-08-26,Middle East,Apparel,Marketplace,117.8,4,0,496.58,customer301@example.com,3.5
+ORD-100037,2024-08-27,North America,Apparel,Online,15.42,10,10,146.06,customer37@example.com,5.0
+ORD-100552,2024-08-27,Latin America,Home & Garden,Marketplace,12.09,10,0,127.28,customer552@example.com,2.4
+ORD-100481,2024-08-28,Latin America,Toys,Wholesale,82.74,8,0,695.71,customer481@example.com,4.7
+ORD-100333,2024-08-28,North America,Groceries,Online,221.49,4,5,884.58,customer333@example.com,4.7
+ORD-100387,2024-08-29,Latin America,Groceries,Wholesale,69.46,12,15,743.68,customer387@example.com,3.2
+ORD-100544,2024-08-29,North America,Sports,Wholesale,60.64,13,10,744.72,customer544@example.com,4.2
+ORD-100100,2024-08-30,North America,Apparel,Online,63.45,12,0,798.13,customer100@example.com,3.6
+ORD-100089,2024-08-30,Asia Pacific,Apparel,Wholesale,64.34,14,0,944.21,customer89@example.com,4.4
+ORD-100083,2024-08-30,Latin America,Apparel,Marketplace,37.24,1,0,39.04,customer83@example.com,4.0
+ORD-100610,2024-08-31,Europe,Sports,Retail Store,99.99,2,10,188.42,customer610@example.com,5.0
+ORD-100581,2024-08-31,North America,Apparel,Retail Store,65.18,8,20,436.71,customer581@example.com,3.9
+ORD-101096,2024-09-01,Europe,Sports,Online,95.95,4,5,381.27,customer1096@example.com,3.3
+ORD-100815,2024-09-02,Europe,Apparel,Wholesale,113.6,3,10,320.36,customer815@example.com,5.0
+ORD-101079,2024-09-02,Middle East,Sports,Online,224.4,7,5,1558.68,customer1079@example.com,3.9
+ORD-100867,2024-09-03,Asia Pacific,Electronics,Wholesale,84.25,12,0,1054.82,customer867@example.com,4.0
+ORD-101015,2024-09-03,Middle East,Electronics,Online,143.25,1,0,149.46,customer1015@example.com,5.0
+ORD-100588,2024-09-03,Asia Pacific,Groceries,Retail Store,140.0,11,15,1365.71,customer588@example.com,5.0
+ORD-101085,2024-09-04,Europe,Electronics,Wholesale,43.62,5,0,227.29,customer1085@example.com,4.7
+ORD-100018,2024-09-05,Latin America,Apparel,Retail Store,34.52,12,0,431.34,customer18@example.com,4.6
+ORD-100962,2024-09-05,Asia Pacific,Apparel,Wholesale,101.53,13,10,1236.83,customer962@example.com,4.6
+ORD-100512,2024-09-05,Middle East,Groceries,Marketplace,39.03,7,0,284.48,customer512@example.com,4.2
+ORD-100458,2024-09-05,Europe,Apparel,Retail Store,60.19,14,0,877.28,customer458@example.com,4.1
+ORD-101124,2024-09-05,Asia Pacific,Electronics,Online,113.86,8,0,948.34,customer1124@example.com,4.4
+ORD-101023,2024-09-06,Middle East,Electronics,Retail Store,43.65,10,5,431.31,customer1023@example.com,4.4
+ORD-101499,2024-09-06,Latin America,Home & Garden,Marketplace,49.17,3,10,138.07,customer1499@example.com,2.6
+ORD-100092,2024-09-06,Europe,Toys,Retail Store,75.34,8,5,595.58,customer92@example.com,4.9
+ORD-100589,2024-09-07,North America,Groceries,Wholesale,148.61,10,0,1544.32,customer589@example.com,3.1
+ORD-101092,2024-09-07,North America,Sports,Marketplace,39.93,8,10,298.74,customer1092@example.com,4.2
+ORD-101125,2024-09-07,Latin America,Sports,Marketplace,19.43,13,0,262.41,customer1125@example.com,4.4
+ORD-101143,2024-09-08,Asia Pacific,Toys,Marketplace,65.71,11,15,637.84,customer1143@example.com,4.4
+ORD-100722,2024-09-08,North America,Groceries,Marketplace,81.01,13,20,874.66,customer722@example.com,3.5
+ORD-100864,2024-09-09,Latin America,Apparel,Online,66.62,8,15,469.94,customer864@example.com,5.0
+ORD-100774,2024-09-09,Asia Pacific,Electronics,Online,49.42,10,15,435.76,customer774@example.com,4.5
+ORD-100360,2024-09-09,North America,Electronics,Wholesale,101.62,11,20,927.62,customer360@example.com,4.4
+ORD-100476,2024-09-10,Asia Pacific,Apparel,Retail Store,47.69,5,0,247.14,customer476@example.com,3.3
+ORD-100649,2024-09-11,Latin America,Groceries,Wholesale,39.5,8,20,261.86,customer649@example.com,5.0
+ORD-101162,2024-09-11,Asia Pacific,Electronics,Retail Store,141.75,4,20,469.82,customer1162@example.com,3.3
+ORD-100296,2024-09-12,Middle East,Home & Garden,Marketplace,153.97,11,5,1665.32,customer296@example.com,4.3
+ORD-100855,2024-09-12,Middle East,Home & Garden,Marketplace,51.41,7,15,316.59,customer855@example.com,4.3
+ORD-100779,2024-09-12,Middle East,Toys,Retail Store,170.27,11,0,1938.6,customer779@example.com,3.3
+ORD-101157,2024-09-12,Latin America,Sports,Retail Store,36.85,9,15,291.76,customer1157@example.com,3.5
+ORD-101006,2024-09-12,Middle East,Groceries,Wholesale,41.87,7,20,242.65,customer1006@example.com,4.7
+ORD-100559,2024-09-13,Latin America,Toys,Marketplace,22.42,6,10,125.22,customer559@example.com,4.7
+ORD-101464,2024-09-13,Latin America,Toys,Wholesale,86.47,5,20,357.77,customer1464@example.com,2.7
+ORD-100881,2024-09-13,Europe,Home & Garden,Marketplace,72.24,13,10,874.17,customer881@example.com,4.6
+ORD-101149,2024-09-13,Middle East,Apparel,Retail Store,67.83,1,0,70.16,customer1149@example.com,4.9
+ORD-100145,2024-09-14,North America,Sports,Retail Store,30.95,8,15,217.57,customer145@example.com,4.7
+ORD-101313,2024-09-14,Asia Pacific,Electronics,Wholesale,84.02,1,5,82.51,customer1313@example.com,5.0
+ORD-101309,2024-09-14,Middle East,Home & Garden,Wholesale,20.78,12,0,257.77,customer1309@example.com,5.0
+ORD-100834,2024-09-15,Europe,Electronics,Retail Store,188.0,11,10,1922.91,customer834@example.com,4.5
+ORD-100642,2024-09-15,Middle East,Groceries,Online,49.9,1,0,51.55,customer642@example.com,4.5
+ORD-101126,2024-09-15,North America,Toys,Wholesale,50.52,7,5,347.1,customer1126@example.com,4.3
+ORD-101400,2024-09-15,Latin America,Electronics,Retail Store,61.33,3,20,152.06,customer1400@example.com,4.5
+ORD-101346,2024-09-16,Asia Pacific,Home & Garden,Retail Store,47.55,13,20,510.68,customer1346@example.com,4.9
+ORD-100124,2024-09-16,Asia Pacific,Sports,Retail Store,83.87,2,0,173.2,customer124@example.com,3.0
+ORD-100150,2024-09-16,North America,Electronics,Wholesale,10.57,11,10,108.02,customer150@example.com,3.8
+ORD-101041,2024-09-17,Latin America,Groceries,Online,66.27,11,0,752.36,customer1041@example.com,5.0
+ORD-100231,2024-09-17,North America,Groceries,Marketplace,64.65,6,0,400.35,customer231@example.com,4.4
+ORD-100609,2024-09-18,Asia Pacific,Sports,Wholesale,60.2,7,20,347.82,customer609@example.com,5.0
+ORD-101291,2024-09-18,Asia Pacific,Apparel,Online,100.17,8,5,785.48,customer1291@example.com,3.1
+ORD-100005,2024-09-18,Latin America,Electronics,Online,97.57,11,5,1051.93,customer5@example.com,4.9
+ORD-100036,2024-09-18,Middle East,Home & Garden,Retail Store,101.7,13,0,1364.09,customer36@example.com,4.1
+ORD-101246,2024-09-19,North America,Home & Garden,Online,90.62,6,10,504.71,customer1246@example.com,3.2
+ORD-101418,2024-09-20,Latin America,Groceries,Wholesale,97.59,7,5,669.11,customer1418@example.com,4.4
+ORD-100667,2024-09-20,Asia Pacific,Home & Garden,Marketplace,10.81,14,5,148.21,customer667@example.com,3.5
+ORD-101485,2024-09-21,Asia Pacific,Electronics,Online,109.94,8,10,815.96,customer1485@example.com,4.8
+ORD-100828,2024-09-22,Asia Pacific,Toys,Marketplace,35.12,8,15,246.13,customer828@example.com,3.9
+ORD-100426,2024-09-22,Asia Pacific,Home & Garden,Marketplace,22.15,5,15,97.0,customer426@example.com,5.0
+ORD-101279,2024-09-23,Europe,Toys,Marketplace,79.06,4,0,325.86,customer1279@example.com,3.8
+ORD-101324,2024-09-24,Latin America,Home & Garden,Retail Store,20.03,12,20,198.13,customer1324@example.com,4.4
+ORD-101213,2024-09-24,Europe,Apparel,Online,20.37,12,0,251.87,customer1213@example.com,5.0
+ORD-100491,2024-09-25,Latin America,Toys,Retail Store,23.69,3,0,73.2,customer491@example.com,5.0
+ORD-100503,2024-09-25,Latin America,Sports,Retail Store,24.28,5,0,125.07,customer503@example.com,4.0
+ORD-101022,2024-09-26,Latin America,Electronics,Marketplace,59.23,4,0,244.1,customer1022@example.com,4.3
+ORD-100920,2024-09-29,Latin America,Toys,Retail Store,115.68,11,5,1245.8,customer920@example.com,3.6
+ORD-100395,2024-09-30,Asia Pacific,Groceries,Online,63.25,11,0,717.16,customer395@example.com,3.1
+ORD-101407,2024-09-30,North America,Apparel,Online,116.6,4,0,480.77,customer1407@example.com,3.8
+ORD-100557,2024-09-30,Latin America,Groceries,Marketplace,41.94,13,10,505.79,customer557@example.com,3.5
+ORD-101244,2024-09-30,North America,Sports,Wholesale,36.62,9,0,339.7,customer1244@example.com,4.2
+ORD-100780,2024-10-02,Latin America,Electronics,Marketplace,100.71,10,0,1038.68,customer780@example.com,4.7
+ORD-101200,2024-10-03,Middle East,Home & Garden,Wholesale,39.07,8,0,322.5,customer1200@example.com,3.9
+ORD-100811,2024-10-03,Middle East,Sports,Wholesale,101.26,12,10,1128.29,customer811@example.com,4.6
+ORD-101370,2024-10-04,Europe,Sports,Marketplace,138.07,14,5,1895.46,customer1370@example.com,4.4
+ORD-100516,2024-10-05,Europe,Electronics,Marketplace,347.45,7,0,2511.62,customer516@example.com,
+ORD-101140,2024-10-05,Latin America,Groceries,Wholesale,100.1,9,10,837.28,customer1140@example.com,4.3
+ORD-100903,2024-10-07,Latin America,Groceries,Marketplace,182.02,6,20,903.23,customer903@example.com,4.3
+ORD-100374,2024-10-08,Asia Pacific,Toys,Wholesale,105.19,3,10,293.8,customer374@example.com,
+ORD-101003,2024-10-09,Middle East,Home & Garden,Wholesale,127.59,14,5,1756.65,customer1003@example.com,4.8
+ORD-101374,2024-10-09,North America,Electronics,Marketplace,80.36,9,0,748.67,customer1374@example.com,4.3
+ORD-101323,2024-10-09,Asia Pacific,Electronics,Wholesale,41.21,6,20,204.75,customer1323@example.com,4.2
+ORD-100034,2024-10-10,North America,Sports,Marketplace,29.94,12,5,353.54,customer34@example.com,4.6
+ORD-100564,2024-10-11,Europe,Home & Garden,Marketplace,84.59,1,15,74.54,customer564@example.com,4.0
+ORD-101388,2024-10-12,Latin America,Toys,Online,164.5,10,15,1450.78,customer1388@example.com,
+ORD-100361,2024-10-12,Europe,Electronics,Online,53.27,12,0,663.24,customer361@example.com,4.2
+ORD-100357,2024-10-12,Asia Pacific,Sports,Retail Store,87.79,5,0,455.47,customer357@example.com,4.2
+ORD-100047,2024-10-13,Latin America,Electronics,Online,44.21,4,5,174.46,customer47@example.com,
+ORD-100388,2024-10-13,Asia Pacific,Apparel,Retail Store,78.74,8,0,654.14,customer388@example.com,3.7
+ORD-100363,2024-10-14,Middle East,Toys,Wholesale,76.46,14,0,1112.73,customer363@example.com,3.8
+ORD-100578,2024-10-14,North America,Home & Garden,Marketplace,97.9,2,0,2321.612657539589,customer578@example.com,4.1
+ORD-101303,2024-10-15,Europe,Electronics,Wholesale,68.82,6,10,386.67,customer1303@example.com,3.7
+ORD-100303,2024-10-16,Europe,Electronics,Marketplace,86.61,1,0,90.21,customer303@example.com,5.0
+ORD-100827,2024-10-16,Asia Pacific,Electronics,Marketplace,8.88,7,10,58.26,customer827@example.com,4.0
+ORD-101383,2024-10-16,Middle East,Sports,Marketplace,56.81,2,0,118.33,customer1383@example.com,5.0
+ORD-100094,2024-10-17,Asia Pacific,Toys,Retail Store,104.67,12,0,1309.65,customer94@example.com,3.8
+ORD-100739,2024-10-17,Latin America,Apparel,Wholesale,260.24,2,0,542.69,customer739@example.com,4.0
+ORD-101470,2024-10-17,North America,Electronics,Marketplace,63.47,9,0,595.64,customer1470@example.com,3.8
+ORD-100178,2024-10-19,Europe,Sports,Retail Store,96.59,10,0,1009.5,customer178@example.com,
+ORD-100219,2024-10-20,North America,Apparel,Wholesale,36.36,11,0,418.53,customer219@example.com,2.9
+ORD-100591,2024-10-20,Asia Pacific,Apparel,Online,31.73,12,20,318.7,customer591@example.com,4.4
+ORD-101427,2024-10-20,Asia Pacific,Groceries,Retail Store,50.48,11,0,581.08,customer1427@example.com,2.9
+ORD-101314,2024-10-20,North America,Home & Garden,Wholesale,223.32,10,10,2103.06,customer1314@example.com,4.5
+ORD-101036,2024-10-21,Europe,Home & Garden,Wholesale,65.84,14,15,820.9,customer1036@example.com,4.8
+ORD-101205,2024-10-21,North America,Home & Garden,Wholesale,90.84,6,5,542.48,customer1205@example.com,3.9
+ORD-100344,2024-10-23,Latin America,Apparel,Wholesale,137.42,10,5,1371.47,customer344@example.com,2.6
+ORD-100066,2024-10-23,Latin America,Groceries,Marketplace,130.45,3,20,328.92,customer66@example.com,5.0
+ORD-101286,2024-10-24,Asia Pacific,Groceries,Marketplace,75.03,3,0,236.82,customer1286@example.com,4.8
+ORD-101107,2024-10-24,Middle East,Electronics,Retail Store,241.21,11,5,2651.79,customer1107@example.com,2.7
+ORD-101153,2024-10-25,Asia Pacific,Home & Garden,Online,82.49,5,15,369.38,customer1153@example.com,5.0
+ORD-100201,2024-10-25,Middle East,Electronics,Retail Store,11.42,3,0,36.11,customer201@example.com,4.2
+ORD-101389,2024-10-25,Europe,Toys,Online,99.08,2,0,208.78,customer1389@example.com,5.0
+ORD-100842,2024-10-25,Latin America,Electronics,Online,75.35,10,0,793.9,customer842@example.com,3.7
+ORD-101153,2024-10-25,Asia Pacific,Home & Garden,Online,82.49,5,15,369.38,customer1153@example.com,5.0
+ORD-100839,2024-10-26,Middle East,Toys,Online,59.91,12,15,644.75,customer839@example.com,3.3
+ORD-100942,2024-10-29,Latin America,Groceries,Wholesale,61.22,7,0,454.33,customer942@example.com,4.4
+ORD-101353,2024-10-30,Middle East,Home & Garden,Online,24.21,2,20,41.13,customer1353@example.com,4.2
+ORD-100641,2024-10-30,Europe,Sports,Marketplace,7.36,9,0,70.32,customer641@example.com,5.0
+ORD-100323,2024-10-30,Europe,Groceries,Retail Store,18.38,3,5,55.64,customer323@example.com,4.1
+ORD-100528,2024-10-30,Asia Pacific,Electronics,Online,71.26,9,10,613.0,customer528@example.com,3.8
+ORD-100152,2024-10-31,Middle East,Sports,Wholesale,153.72,7,10,1030.32,customer152@example.com,4.5
+ORD-101169,2024-10-31,Middle East,Electronics,Wholesale,38.82,4,5,156.93,customer1169@example.com,4.2
+ORD-101102,2024-11-01,Latin America,Electronics,Marketplace,81.65,8,0,696.13,customer1102@example.com,3.3
+ORD-100803,2024-11-01,North America,Electronics,Marketplace,190.05,4,0,810.17,customer803@example.com,4.1
+ORD-100668,2024-11-01,Europe,Electronics,Marketplace,94.99,14,0,1417.25,customer668@example.com,4.2
+ORD-100714,2024-11-02,North America,Electronics,Retail Store,99.72,1,0,106.47,customer714@example.com,3.8
+ORD-101080,2024-11-02,Europe,Apparel,Wholesale,10.04,2,0,21.45,customer1080@example.com,3.7
+ORD-100968,2024-11-02,Europe,Home & Garden,Online,13.68,6,0,87.66,customer968@example.com,2.8
+ORD-100529,2024-11-03,Asia Pacific,Sports,Retail Store,57.31,13,0,796.93,customer529@example.com,4.5
+ORD-100732,2024-11-03,Asia Pacific,Groceries,Wholesale,36.19,11,0,425.8,customer732@example.com,
+ORD-101005,2024-11-03,Middle East,Apparel,Retail Store,128.93,11,10,1365.31,customer1005@example.com,3.5
+ORD-100060,2024-11-04,North America,Groceries,Online,226.37,9,5,2074.19,customer60@example.com,4.3
+ORD-100526,2024-11-05,Asia Pacific,Home & Garden,Marketplace,18.62,1,10,17.99,customer526@example.com,5.0
+ORD-100451,2024-11-06,Middle East,Sports,Wholesale,101.16,3,5,310.2,customer451@example.com,5.0
+ORD-101261,2024-11-06,Middle East,Home & Garden,Retail Store,28.63,7,5,204.85,customer1261@example.com,4.2
+ORD-100263,2024-11-06,North America,Electronics,Online,88.51,3,0,285.67,customer263@example.com,5.0
+ORD-100576,2024-11-06,Middle East,Home & Garden,Marketplace,10.81,1,15,9.88,customer576@example.com,4.5
+ORD-100585,2024-11-06,Europe,Apparel,Online,101.61,8,0,874.57,customer585@example.com,3.1
+ORD-101066,2024-11-06,Asia Pacific,Sports,Marketplace,88.6,11,0,1048.52,customer1066@example.com,4.4
+ORD-100498,2024-11-07,Asia Pacific,Home & Garden,Retail Store,21.49,7,10,145.93,customer498@example.com,4.7
+ORD-100023,2024-11-07,Middle East,Groceries,Retail Store,76.08,4,0,328.06,customer23@example.com,5.0
+ORD-100437,2024-11-08,North America,Groceries,Retail Store,75.81,3,5,233.39,customer437@example.com,5.0
+ORD-100861,2024-11-08,Europe,Home & Garden,Wholesale,119.28,3,10,347.89,customer861@example.com,4.7
+ORD-101181,2024-11-08,Europe,Apparel,Online,64.06,9,0,622.84,customer1181@example.com,2.4
+ORD-100420,2024-11-08,Europe,Home & Garden,Online,91.16,10,5,935.53,customer420@example.com,5.0
+ORD-101142,2024-11-10,Asia Pacific,Toys,Retail Store,68.02,14,0,1032.99,customer1142@example.com,4.4
+ORD-100721,2024-11-10,Asia Pacific,Toys,Wholesale,32.24,11,0,384.68,customer721@example.com,3.6
+ORD-100692,2024-11-10,Europe,Toys,Retail Store,76.86,4,0,333.5,customer692@example.com,5.0
+ORD-101272,2024-11-11,Middle East,Sports,Wholesale,68.57,7,20,417.45,customer1272@example.com,4.3
+ORD-100490,2024-11-12,Middle East,Sports,Marketplace,47.93,10,15,443.9,customer490@example.com,4.0
+ORD-100469,2024-11-12,Middle East,Home & Garden,Online,136.85,3,15,380.21,customer469@example.com,4.6
+ORD-100408,2024-11-13,Latin America,Toys,Retail Store,44.2,5,10,217.18,customer408@example.com,4.7
+ORD-101442,2024-11-13,Middle East,Home & Garden,Marketplace,199.88,8,0,1746.09,customer1442@example.com,5.0
+ORD-100347,2024-11-14,North America,Toys,Online,173.36,7,5,1261.67,customer347@example.com,4.0
+ORD-100763,2024-11-14,Middle East,Electronics,Online,47.24,13,0,672.08,customer763@example.com,3.6
+ORD-100381,2024-11-14,Middle East,Groceries,Online,29.36,2,20,51.42,customer381@example.com,3.9
+ORD-100753,2024-11-14,Latin America,Home & Garden,Online,90.32,3,10,266.89,customer753@example.com,5.0
+ORD-100679,2024-11-14,Asia Pacific,Groceries,Retail Store,58.24,7,0,446.18,customer679@example.com,4.7
+ORD-101446,2024-11-15,Latin America,Sports,Wholesale,74.37,3,0,244.73,customer1446@example.com,5.0
+ORD-100285,2024-11-15,Middle East,Home & Garden,Wholesale,43.01,4,10,169.85,customer285@example.com,4.8
+ORD-100180,2024-11-15,Europe,Toys,Wholesale,22.4,9,15,187.93,customer180@example.com,3.3
+ORD-100318,2024-11-16,Asia Pacific,Apparel,Online,126.82,6,0,836.62,customer318@example.com,4.0
+ORD-101108,2024-11-17,Asia Pacific,Groceries,Wholesale,140.09,5,10,694.75,customer1108@example.com,2.6
+ORD-100935,2024-11-17,North America,Home & Garden,Retail Store,83.19,12,0,1100.19,customer935@example.com,3.7
+ORD-101108,2024-11-17,Asia Pacific,Groceries,Wholesale,140.09,5,10,694.75,customer1108@example.com,2.6
+ORD-100080,2024-11-17,Europe,Apparel,Wholesale,29.18,4,10,115.75,customer80@example.com,4.0
+ORD-100925,2024-11-21,Latin America,Groceries,Online,82.81,8,5,7988.022050549789,customer925@example.com,5.0
+ORD-100693,2024-11-21,Asia Pacific,Home & Garden,Wholesale,53.99,2,20,96.12,customer693@example.com,4.1
+ORD-100382,2024-11-22,Europe,Apparel,Wholesale,28.17,1,20,25.14,customer382@example.com,3.8
+ORD-100948,2024-11-22,Europe,Sports,Online,287.27,1,0,320.47,customer948@example.com,2.5
+ORD-100639,2024-11-23,North America,Groceries,Marketplace,68.13,6,20,365.71,customer639@example.com,3.4
+ORD-100570,2024-11-23,Latin America,Toys,Retail Store,175.37,8,20,1255.19,customer570@example.com,4.8
+ORD-100964,2024-11-23,Asia Pacific,Apparel,Online,60.87,5,0,340.34,customer964@example.com,4.3
+ORD-100762,2024-11-23,Latin America,Electronics,Wholesale,25.05,8,0,224.12,customer762@example.com,3.7
+ORD-101420,2024-11-24,Europe,Electronics,Wholesale,46.31,5,0,259.6,customer1420@example.com,2.8
+ORD-101294,2024-11-25,Asia Pacific,Electronics,Retail Store,120.76,13,20,1411.72,customer1294@example.com,4.2
+ORD-100775,2024-11-25,Middle East,Home & Garden,Online,92.62,1,0,104.11,customer775@example.com,4.6
+ORD-100339,2024-11-26,Europe,Toys,Wholesale,111.3,1,5,119.16,customer339@example.com,4.7
+ORD-101268,2024-11-26,Middle East,Electronics,Retail Store,31.41,10,0,353.99,customer1268@example.com,1.9
+ORD-100670,2024-11-26,Europe,Groceries,Wholesale,139.63,10,0,1573.56,customer670@example.com,4.7
+ORD-100292,2024-11-27,Asia Pacific,Groceries,Marketplace,122.44,13,10,1618.69,customer292@example.com,3.8
+ORD-101439,2024-11-28,Asia Pacific,Electronics,Retail Store,24.76,12,10,302.93,customer1439@example.com,2.3
+ORD-100447,2024-11-28,North America,Toys,Marketplace,70.79,10,5,761.88,customer447@example.com,3.6
+ORD-100273,2024-11-30,North America,Groceries,Marketplace,92.85,2,0,211.49,customer273@example.com,4.6
+ORD-100683,2024-11-30,North America,Home & Garden,Retail Store,130.66,12,0,1785.77,customer683@example.com,5.0
+ORD-101082,2024-11-30,Europe,Home & Garden,Online,217.96,8,20,1588.72,customer1082@example.com,4.4
+ORD-101053,2024-11-30,Latin America,Toys,Retail Store,35.47,4,10,145.41,customer1053@example.com,4.3
+ORD-101375,2024-12-01,Asia Pacific,Home & Garden,Online,62.74,5,0,358.24,customer1375@example.com,2.0
+ORD-100682,2024-12-01,Middle East,Sports,Online,93.93,14,10,1351.57,customer682@example.com,5.0
+ORD-100514,2024-12-01,Asia Pacific,Sports,Marketplace,64.49,9,0,662.82,customer514@example.com,3.5
+ORD-100194,2024-12-01,Europe,Apparel,Marketplace,75.83,13,15,956.89,customer194@example.com,4.9
+ORD-101447,2024-12-01,Europe,Apparel,Wholesale,85.82,1,20,78.4,customer1447@example.com,3.1
+ORD-100450,2024-12-02,Asia Pacific,Sports,Online,61.69,13,20,734.62,customer450@example.com,4.0
+ORD-101222,2024-12-02,Europe,Groceries,Retail Store,52.32,4,10,215.66,customer1222@example.com,4.3
+ORD-100750,2024-12-02,Middle East,Toys,Online,31.19,4,10,128.56,customer750@example.com,4.2
+ORD-100648,2024-12-02,Europe,Electronics,Retail Store,111.89,6,10,691.86,customer648@example.com,3.7
+ORD-101376,2024-12-03,Europe,Sports,Online,104.02,9,20,859.9,customer1376@example.com,3.9
+ORD-100502,2024-12-03,Europe,Groceries,Online,180.76,3,0,622.65,customer502@example.com,4.7
+ORD-100199,2024-12-03,Latin America,Home & Garden,Wholesale,58.67,9,15,515.31,customer199@example.com,3.3
+ORD-100998,2024-12-03,Latin America,Apparel,Online,118.36,2,5,258.22,customer998@example.com,4.3
+ORD-101209,2024-12-04,Europe,Toys,Retail Store,73.72,8,15,577.14,customer1209@example.com,1.4
+ORD-100336,2024-12-04,North America,Sports,Wholesale,56.3,3,5,184.73,customer336@example.com,2.2
+ORD-101242,2024-12-04,Europe,Home & Garden,Retail Store,117.74,13,10,1586.05,customer1242@example.com,4.1
+ORD-100852,2024-12-04,Middle East,Electronics,Retail Store,25.49,8,10,211.28,customer852@example.com,3.0
+ORD-101368,2024-12-04,Asia Pacific,Apparel,Wholesale,58.14,12,15,682.76,customer1368@example.com,4.7
+ORD-100608,2024-12-06,Middle East,Electronics,Retail Store,43.76,12,10,547.15,customer608@example.com,4.7
+ORD-100465,2024-12-06,Middle East,Groceries,Online,87.31,10,0,1010.83,customer465@example.com,3.7
+ORD-100796,2024-12-07,Middle East,Apparel,Retail Store,62.97,2,0,146.2,customer796@example.com,5.0
+ORD-100063,2024-12-07,Latin America,Apparel,Wholesale,407.42,6,10,2554.14,customer63@example.com,4.5
+ORD-100860,2024-12-07,Europe,Electronics,Marketplace,12.16,2,0,28.24,customer860@example.com,3.9
+ORD-100207,2024-12-08,Europe,Electronics,Wholesale,9.3,2,5,20.57,customer207@example.com,3.7
+ORD-100354,2024-12-08,Europe,Electronics,Wholesale,147.91,14,0,2410.77,customer354@example.com,3.7
+ORD-101225,2024-12-08,Asia Pacific,Apparel,Wholesale,55.48,3,0,193.78,customer1225@example.com,5.0
+ORD-100416,2024-12-08,Europe,Groceries,Wholesale,60.94,3,5,202.2,customer416@example.com,3.4
+ORD-101232,2024-12-09,Middle East,Electronics,Wholesale,137.94,11,20,1417.11,customer1232@example.com,4.9
+ORD-100045,2024-12-09,Asia Pacific,Home & Garden,Wholesale,61.77,8,0,576.87,customer45@example.com,3.0
+ORD-100958,2024-12-10,North America,Apparel,Marketplace,43.21,10,20,404.74,customer958@example.com,3.7
+ORD-100403,2024-12-10,Europe,Toys,Marketplace,60.18,4,0,281.81,customer403@example.com,3.5
+ORD-100440,2024-12-11,Middle East,Electronics,Retail Store,39.61,3,10,125.57,customer440@example.com,3.0
+ORD-100946,2024-12-11,Asia Pacific,Toys,Online,63.91,12,0,900.42,customer946@example.com,3.6
+ORD-100324,2024-12-12,North America,Groceries,Marketplace,92.32,1,5,103.26,customer324@example.com,3.4
+ORD-100011,2024-12-13,Europe,Electronics,Marketplace,31.63,4,0,149.39,customer11@example.com,3.2
+ORD-101474,2024-12-14,North America,Sports,Wholesale,60.38,10,0,715.01,customer1474@example.com,3.4
+ORD-101249,2024-12-14,Latin America,Sports,Marketplace,69.38,14,0,1150.2,customer1249@example.com,3.0
+ORD-100893,2024-12-16,Middle East,Groceries,Retail Store,109.87,2,0,261.68,customer893@example.com,3.7
+ORD-100913,2024-12-16,Asia Pacific,Groceries,Retail Store,170.61,7,0,1422.27,customer913@example.com,4.1
+ORD-101380,2024-12-16,Middle East,Sports,Retail Store,97.48,8,20,742.98,customer1380@example.com,3.1
+ORD-100850,2024-12-16,Middle East,Home & Garden,Wholesale,137.46,1,20,130.96,customer850@example.com,4.4
+ORD-100593,2024-12-16,Europe,Electronics,Retail Store,52.92,6,0,378.15,customer593@example.com,5.0
+ORD-101197,2024-12-17,North America,Groceries,Wholesale,84.79,13,0,1316.54,customer1197@example.com,3.3
+ORD-100140,2024-12-18,Latin America,Apparel,Online,71.82,8,5,653.79,customer140@example.com,4.8
+ORD-100554,2024-12-19,Europe,Apparel,Wholesale,111.98,8,5,1022.32,customer554@example.com,5.0
+ORD-101202,2024-12-19,Asia Pacific,Electronics,Wholesale,41.72,13,0,651.49,customer1202@example.com,5.0
+ORD-101227,2024-12-19,North America,Sports,Marketplace,47.17,9,20,407.96,customer1227@example.com,
+ORD-101392,2024-12-19,Asia Pacific,Home & Garden,Retail Store,81.23,13,15,1078.24,customer1392@example.com,4.8
+ORD-101456,2024-12-19,Asia Pacific,Apparel,Wholesale,78.99,12,15,967.78,customer1456@example.com,5.0
+ORD-101245,2024-12-20,Latin America,Toys,Online,85.91,3,0,310.48,customer1245@example.com,3.2
+ORD-100771,2024-12-21,Europe,Home & Garden,Marketplace,151.73,4,20,586.61,customer771@example.com,5.0
+ORD-101087,2024-12-23,North America,Toys,Online,87.01,3,0,317.17,customer1087@example.com,4.0
+ORD-100264,2024-12-23,Middle East,Groceries,Wholesale,44.19,13,10,628.3,customer264@example.com,5.0
+ORD-101081,2024-12-23,Asia Pacific,Toys,Online,230.94,12,20,2693.99,customer1081@example.com,2.7
+ORD-100346,2024-12-24,Asia Pacific,Electronics,Wholesale,61.43,12,0,898.28,customer346@example.com,4.4
+ORD-100355,2024-12-25,Europe,Apparel,Marketplace,92.08,3,0,337.58,customer355@example.com,4.6
+ORD-100144,2024-12-25,Europe,Sports,Marketplace,49.01,6,10,323.43,customer144@example.com,4.3
+ORD-101116,2024-12-27,Latin America,Sports,Online,175.39,8,20,1379.73,customer1116@example.com,5.0
+ORD-101421,2024-12-27,North America,Groceries,Wholesale,172.87,4,0,849.96,customer1421@example.com,4.7
+ORD-100510,2024-12-27,Asia Pacific,Toys,Marketplace,270.71,8,15,2262.72,customer510@example.com,4.7
+ORD-101055,2024-12-27,Europe,Apparel,Marketplace,387.34,2,0,952.21,customer1055@example.com,4.0
+ORD-100809,2024-12-28,Middle East,Home & Garden,Marketplace,65.91,3,0,243.76,customer809@example.com,3.3
+ORD-100690,2024-12-28,North America,Apparel,Wholesale,262.86,14,5,4309.55,customer690@example.com,4.2
+ORD-100160,2024-12-28,Middle East,Toys,Wholesale,47.58,1,0,58.65,customer160@example.com,5.0
+ORD-100400,2024-12-29,North America,Sports,Online,184.63,11,5,2385.22,customer400@example.com,4.3
+ORD-101168,2024-12-29,Latin America,Sports,Retail Store,42.88,2,0,106.03,customer1168@example.com,2.8
+ORD-101345,2024-12-29,North America,Toys,Marketplace,52.19,7,0,451.64,customer1345@example.com,3.6
+ORD-101335,2024-12-30,Latin America,Sports,Wholesale,143.11,8,10,1277.51,customer1335@example.com,3.2
+ORD-100819,2024-12-30,Latin America,Groceries,Wholesale,17.44,8,0,172.96,customer819@example.com,3.1

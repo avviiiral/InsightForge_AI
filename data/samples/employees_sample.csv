@@ -1,0 +1,601 @@
+employee_id,full_name_hash,department,job_level,location,hire_date,annual_salary,performance_score,is_remote,work_email,phone_number
+EMP-5529,employee_529,Customer Support,Senior,Singapore,2015-01-05 00:31:42.702702702,92800.0,3.86,False,employee529@insightforge-demo.com,+1-555-609-8580
+EMP-5059,employee_59,HR,Lead,New York,2015-01-09 01:03:25.405405405,130900.0,3.58,False,employee59@insightforge-demo.com,+1-555-522-4634
+EMP-5036,employee_36,Finance,Lead,Bangalore,2015-01-13 01:35:08.108108108,132900.0,4.33,True,employee36@insightforge-demo.com,+1-555-414-5773
+EMP-5569,employee_569,Engineering,Mid,Toronto,2015-01-13 01:35:08.108108108,82500.0,3.54,True,employee569@insightforge-demo.com,+1-555-257-5784
+EMP-5575,employee_575,Sales,Mid,London,2015-01-25 03:10:16.216216216,73400.0,3.46,False,employee575@insightforge-demo.com,+1-555-745-2325
+EMP-5413,employee_413,Engineering,Director,Toronto,2015-02-02 04:13:41.621621621,182600.0,2.93,True,employee413@insightforge-demo.com,+1-555-500-2979
+EMP-5473,employee_473,Sales,Manager,Remote,2015-02-02 04:13:41.621621621,137100.0,4.25,False,employee473@insightforge-demo.com,+1-555-732-9268
+EMP-5585,employee_585,Marketing,Junior,London,2015-02-14 05:48:49.729729729,65200.0,2.5,False,employee585@insightforge-demo.com,+1-555-158-5547
+EMP-5119,employee_119,Sales,Junior,New York,2015-02-18 06:20:32.432432432,59600.0,3.26,False,employee119@insightforge-demo.com,+1-555-391-1445
+EMP-5100,employee_100,Sales,Mid,London,2015-03-06 08:27:23.243243243,61400.0,3.29,False,employee100@insightforge-demo.com,+1-555-353-2274
+EMP-5012,employee_12,Engineering,Mid,New York,2015-03-10 08:59:05.945945946,63000.0,3.08,False,employee12@insightforge-demo.com,+1-555-390-2540
+EMP-5192,employee_192,Sales,Lead,Bangalore,2015-03-10 08:59:05.945945946,133800.0,3.32,False,employee192@insightforge-demo.com,+1-555-365-2949
+EMP-5220,employee_220,Sales,Senior,Toronto,2015-03-18 10:02:31.351351351,105900.0,3.19,False,employee220@insightforge-demo.com,+1-555-465-2446
+EMP-5510,employee_510,Customer Support,Junior,Toronto,2015-05-01 15:51:21.081081080,53200.0,3.46,False,employee510@insightforge-demo.com,+1-555-186-6806
+EMP-5282,employee_282,Operations,Lead,Toronto,2015-05-05 16:23:03.783783784,129500.0,3.47,True,employee282@insightforge-demo.com,+1-555-744-1705
+EMP-5559,employee_559,HR,Senior,Remote,2015-05-17 17:58:11.891891892,104200.0,3.42,False,employee559@insightforge-demo.com,+1-555-217-7875
+EMP-5066,employee_66,Finance,Junior,Toronto,2015-05-21 18:29:54.594594594,50900.0,3.3,False,employee66@insightforge-demo.com,+1-555-668-7759
+EMP-5195,employee_195,HR,Senior,New York,2015-06-02 20:05:02.702702702,97700.0,2.86,False,employee195@insightforge-demo.com,+1-555-974-1999
+EMP-5443,employee_443,Customer Support,Senior,Singapore,2015-06-18 22:11:53.513513512,93500.0,4.21,True,employee443@insightforge-demo.com,+1-555-455-1787
+EMP-5405,employee_405,Engineering,Mid,Remote,2015-06-30 23:47:01.621621620,74000.0,4.45,True,employee405@insightforge-demo.com,+1-555-767-2379
+EMP-5072,employee_72,Marketing,Lead,Bangalore,2015-07-05 00:18:44.324324324,129000.0,,False,employee72@insightforge-demo.com,+1-555-763-9586
+EMP-5019,employee_19,HR,Junior,Toronto,2015-07-21 02:25:35.135135134,49700.0,3.36,False,employee19@insightforge-demo.com,+1-555-279-4633
+EMP-5138,employee_138,HR,Senior,Toronto,2015-07-25 02:57:17.837837838,97300.0,1.78,False,employee138@insightforge-demo.com,+1-555-160-6342
+EMP-5178,employee_178,Sales,Director,New York,2015-07-29 03:29:00.540540540,178600.0,3.1,True,employee178@insightforge-demo.com,+1-555-312-4839
+EMP-5055,employee_55,HR,Junior,Bangalore,2015-08-06 04:32:25.945945944,33200.0,3.53,True,employee55@insightforge-demo.com,+1-555-775-4605
+EMP-5331,employee_331,Sales,Mid,London,2015-08-10 05:04:08.648648648,83600.0,3.87,False,employee331@insightforge-demo.com,+1-555-610-2846
+EMP-5269,employee_269,Marketing,Director,Toronto,2015-08-30 07:42:42.162162160,173100.0,2.85,False,employee269@insightforge-demo.com,+1-555-144-5303
+EMP-5208,employee_208,Operations,Mid,New York,2015-09-03 08:14:24.864864864,60400.0,3.3,False,employee208@insightforge-demo.com,+1-555-382-2307
+EMP-5356,employee_356,Marketing,Junior,Bangalore,2015-09-11 09:17:50.270270268,65200.0,4.23,True,employee356@insightforge-demo.com,+1-555-926-1554
+EMP-5430,employee_430,Customer Support,Senior,Toronto,2015-09-11 09:17:50.270270268,107200.0,3.82,False,employee430@insightforge-demo.com,+1-555-970-7724
+EMP-5238,employee_238,Engineering,Mid,London,2015-09-19 10:21:15.675675676,61800.0,4.74,False,employee238@insightforge-demo.com,+1-555-196-6696
+EMP-5126,employee_126,Marketing,Mid,London,2015-09-23 10:52:58.378378376,82700.0,4.45,False,employee126@insightforge-demo.com,+1-555-340-1018
+EMP-5365,employee_365,Operations,Senior,New York,2015-09-23 10:52:58.378378376,99600.0,3.1,False,employee365@insightforge-demo.com,+1-555-207-2788
+EMP-5560,employee_560,Finance,Mid,New York,2015-10-05 12:28:06.486486484,74300.0,4.71,True,employee560@insightforge-demo.com,+1-555-875-3619
+EMP-5150,employee_150,Engineering,Senior,Singapore,2015-10-05 12:28:06.486486484,93400.0,2.99,False,employee150@insightforge-demo.com,+1-555-309-5703
+EMP-5372,employee_372,Engineering,Lead,New York,2015-10-09 12:59:49.189189188,116800.0,3.76,False,employee372@insightforge-demo.com,+1-555-317-1120
+EMP-5251,employee_251,Customer Support,Mid,Bangalore,2015-10-09 12:59:49.189189188,68200.0,2.01,True,employee251@insightforge-demo.com,+1-555-789-5703
+EMP-5446,employee_446,Engineering,Junior,Singapore,2015-10-17 14:03:14.594594592,62200.0,4.55,True,employee446@insightforge-demo.com,+1-555-130-8787
+EMP-5290,employee_290,HR,Junior,Remote,2015-10-21 14:34:57.297297296,39900.0,2.78,False,employee290@insightforge-demo.com,+1-555-363-9282
+EMP-5521,employee_521,Customer Support,Junior,New York,2015-10-25 15:06:40.000000000,56700.0,5.0,True,employee521@insightforge-demo.com,+1-555-165-1555
+EMP-5371,employee_371,Finance,Junior,Bangalore,2015-10-25 15:06:40.000000000,44400.0,2.79,True,employee371@insightforge-demo.com,+1-555-414-1239
+EMP-5563,employee_563,Marketing,Junior,Remote,2015-11-26 19:20:21.621621620,40200.0,,False,employee563@insightforge-demo.com,+1-555-720-9181
+EMP-5010,employee_10,Operations,Lead,Bangalore,2015-11-30 19:52:04.324324324,116400.0,5.0,False,employee10@insightforge-demo.com,+1-555-868-3618
+EMP-5070,employee_70,Operations,Senior,Bangalore,2015-11-30 19:52:04.324324324,97100.0,3.42,False,employee70@insightforge-demo.com,+1-555-682-8708
+EMP-5449,employee_449,HR,Lead,New York,2015-11-30 19:52:04.324324324,123000.0,3.89,False,employee449@insightforge-demo.com,+1-555-549-2441
+EMP-5190,employee_190,Marketing,Mid,Bangalore,2015-12-04 20:23:47.027027024,50300.0,3.64,True,employee190@insightforge-demo.com,+1-555-458-6362
+EMP-5334,employee_334,Operations,Junior,Singapore,2015-12-12 21:27:12.432432432,43400.0,4.3,True,employee334@insightforge-demo.com,+1-555-316-2716
+EMP-5281,employee_281,Sales,Mid,Toronto,2016-01-06 00:37:28.648648648,70500.0,3.62,False,employee281@insightforge-demo.com,+1-555-363-6037
+EMP-5201,employee_201,Engineering,Senior,Toronto,2016-01-14 01:40:54.054054052,96200.0,4.28,False,employee201@insightforge-demo.com,+1-555-683-3874
+EMP-5107,employee_107,Finance,Junior,London,2016-01-18 02:12:36.756756756,44100.0,,False,employee107@insightforge-demo.com,+1-555-699-7217
+EMP-5532,employee_532,Finance,Junior,Bangalore,2016-01-26 03:16:02.162162160,41200.0,4.08,False,employee532@insightforge-demo.com,+1-555-373-9299
+EMP-5514,employee_514,Marketing,Senior,London,2016-02-15 05:54:35.675675676,85900.0,3.71,True,employee514@insightforge-demo.com,+1-555-196-8886
+EMP-5083,employee_83,Operations,Mid,Bangalore,2016-03-02 08:01:26.486486488,93000.0,4.6,False,employee83@insightforge-demo.com,+1-555-275-9678
+EMP-5232,employee_232,HR,Mid,New York,2016-03-14 09:36:34.594594592,60000.0,3.49,False,employee232@insightforge-demo.com,+1-555-834-5986
+EMP-5231,employee_231,Customer Support,Junior,London,2016-03-18 10:08:17.297297296,58100.0,3.01,True,employee231@insightforge-demo.com,+1-555-464-4994
+EMP-5028,employee_28,Operations,Senior,New York,2016-03-22 10:40:00.000000000,86300.0,3.88,True,employee28@insightforge-demo.com,+1-555-174-3877
+EMP-5566,employee_566,Operations,Junior,Remote,2016-03-22 10:40:00.000000000,54500.0,3.34,False,employee566@insightforge-demo.com,+1-555-450-5137
+EMP-5401,employee_401,Customer Support,Junior,Bangalore,2016-04-03 12:15:08.108108104,53700.0,3.0,True,employee401@insightforge-demo.com,+1-555-636-5624
+EMP-5573,employee_573,Sales,Senior,London,2016-04-07 12:46:50.810810808,100900.0,2.97,True,employee573@insightforge-demo.com,+1-555-250-9150
+EMP-5511,employee_511,Operations,Lead,London,2016-04-07 12:46:50.810810808,139300.0,2.89,False,employee511@insightforge-demo.com,+1-555-989-4394
+EMP-5386,employee_386,Engineering,Junior,New York,2016-04-19 14:21:58.918918920,74700.0,4.07,False,employee386@insightforge-demo.com,+1-555-237-2850
+EMP-5527,employee_527,HR,Mid,Toronto,2016-04-23 14:53:41.621621616,99400.0,3.6,True,employee527@insightforge-demo.com,+1-555-318-8199
+EMP-5148,employee_148,Operations,Junior,Toronto,2016-05-29 19:39:05.945945944,55400.0,3.35,False,employee148@insightforge-demo.com,+1-555-184-1314
+EMP-5349,employee_349,Operations,Senior,Bangalore,2016-06-02 20:10:48.648648648,115100.0,4.25,False,employee349@insightforge-demo.com,+1-555-261-5864
+EMP-5496,employee_496,Sales,Junior,Singapore,2016-06-14 21:45:56.756756752,47100.0,3.16,True,employee496@insightforge-demo.com,+1-555-197-7154
+EMP-5235,employee_235,Engineering,Mid,Remote,2016-06-18 22:17:39.459459456,71900.0,3.93,True,employee235@insightforge-demo.com,+1-555-746-8952
+EMP-5147,employee_147,Operations,Lead,London,2016-06-18 22:17:39.459459456,128700.0,3.66,False,employee147@insightforge-demo.com,+1-555-263-4712
+EMP-5489,employee_489,HR,Junior,Remote,2016-06-26 23:21:04.864864864,57700.0,4.21,False,employee489@insightforge-demo.com,+1-555-503-6734
+EMP-5099,employee_99,Marketing,Junior,New York,2016-07-05 00:24:30.270270272,46000.0,4.24,True,employee99@insightforge-demo.com,+1-555-346-8455
+EMP-5352,employee_352,Marketing,Senior,London,2016-07-09 00:56:12.972972968,104600.0,3.88,False,employee352@insightforge-demo.com,+1-555-193-5101
+EMP-5402,employee_402,HR,Mid,New York,2016-07-21 02:31:21.081081080,57900.0,4.33,False,employee402@insightforge-demo.com,+1-555-595-4580
+EMP-5580,employee_580,Customer Support,Junior,Remote,2016-07-25 03:03:03.783783784,63200.0,2.74,False,employee580@insightforge-demo.com,+1-555-819-6983
+EMP-5347,employee_347,Engineering,Mid,London,2016-07-25 03:03:03.783783784,71000.0,3.71,False,employee347@insightforge-demo.com,+1-555-456-8555
+EMP-5482,employee_482,Operations,Senior,London,2016-07-29 03:34:46.486486488,99900.0,3.06,False,employee482@insightforge-demo.com,+1-555-507-9578
+EMP-5293,employee_293,Engineering,Manager,London,2016-07-29 03:34:46.486486488,145100.0,3.79,False,employee293@insightforge-demo.com,+1-555-349-6873
+EMP-5271,employee_271,Operations,Junior,London,2016-08-26 07:16:45.405405400,41200.0,4.66,False,employee271@insightforge-demo.com,+1-555-672-3386
+EMP-5244,employee_244,Marketing,Junior,Toronto,2016-09-23 10:58:44.324324320,58500.0,3.45,False,employee244@insightforge-demo.com,+1-555-725-3241
+EMP-5283,employee_283,Finance,Mid,Toronto,2016-10-05 12:33:52.432432432,79000.0,2.61,False,employee283@insightforge-demo.com,+1-555-696-5136
+EMP-5260,employee_260,Sales,Junior,Toronto,2016-10-05 12:33:52.432432432,61800.0,3.22,True,employee260@insightforge-demo.com,+1-555-799-1296
+EMP-5493,employee_493,Marketing,Junior,New York,2016-10-05 12:33:52.432432432,47800.0,3.8,False,employee493@insightforge-demo.com,+1-555-498-8484
+EMP-5200,employee_200,Marketing,Senior,New York,2016-10-13 13:37:17.837837832,109500.0,3.92,False,employee200@insightforge-demo.com,+1-555-492-9378
+EMP-5436,employee_436,Sales,Director,New York,2016-10-21 14:40:43.243243240,162400.0,4.2,False,employee436@insightforge-demo.com,+1-555-539-6906
+EMP-5219,employee_219,Sales,Lead,London,2016-11-06 16:47:34.054054048,128500.0,4.14,True,employee219@insightforge-demo.com,+1-555-408-7989
+EMP-5247,employee_247,Customer Support,Senior,Toronto,2016-11-10 17:19:16.756756752,97800.0,4.28,False,employee247@insightforge-demo.com,+1-555-146-8930
+EMP-5206,employee_206,Engineering,Senior,Bangalore,2016-11-18 18:22:42.162162160,105000.0,3.47,False,employee206@insightforge-demo.com,+1-555-801-9245
+EMP-5180,employee_180,HR,Junior,Toronto,2016-11-18 18:22:42.162162160,67200.0,2.24,True,employee180@insightforge-demo.com,+1-555-410-3181
+EMP-5016,employee_16,Sales,Mid,Bangalore,2016-11-18 18:22:42.162162160,74500.0,4.86,False,employee16@insightforge-demo.com,+1-555-487-4747
+EMP-5425,employee_425,HR,Junior,Bangalore,2016-11-26 19:26:07.567567568,54500.0,3.77,True,employee425@insightforge-demo.com,+1-555-580-2996
+EMP-5343,employee_343,Marketing,Senior,Singapore,2016-11-26 19:26:07.567567568,103500.0,3.66,True,employee343@insightforge-demo.com,+1-555-206-7637
+EMP-5308,employee_308,Engineering,Junior,New York,2016-11-30 19:57:50.270270264,67100.0,3.23,True,employee308@insightforge-demo.com,+1-555-939-6790
+EMP-5090,employee_90,Finance,Junior,London,2016-11-30 19:57:50.270270264,56100.0,3.86,True,employee90@insightforge-demo.com,+1-555-347-5642
+EMP-5512,employee_512,HR,Manager,New York,2016-12-20 22:36:23.783783784,141100.0,3.39,False,employee512@insightforge-demo.com,+1-555-977-5559
+EMP-5135,employee_135,Operations,Senior,London,2016-12-20 22:36:23.783783784,102800.0,3.26,True,employee135@insightforge-demo.com,+1-555-730-2072
+EMP-5409,employee_409,HR,Junior,Remote,2016-12-24 23:08:06.486486480,44800.0,4.29,False,employee409@insightforge-demo.com,+1-555-390-4923
+EMP-5175,employee_175,Engineering,Manager,Toronto,2016-12-28 23:39:49.189189184,126900.0,3.48,False,employee175@insightforge-demo.com,+1-555-702-4777
+EMP-5584,employee_584,Operations,Lead,Toronto,2016-12-28 23:39:49.189189184,133300.0,3.52,False,employee584@insightforge-demo.com,+1-555-147-9968
+EMP-5399,employee_399,Marketing,Mid,Toronto,2017-01-14 01:46:40.000000000,85100.0,3.08,True,employee399@insightforge-demo.com,+1-555-154-9734
+EMP-5041,employee_41,Customer Support,Mid,Remote,2017-01-18 02:18:22.702702696,81200.0,2.66,False,employee41@insightforge-demo.com,+1-555-517-1397
+EMP-5357,employee_357,Engineering,Senior,Singapore,2017-01-22 02:50:05.405405400,100000.0,3.65,False,employee357@insightforge-demo.com,+1-555-863-1393
+EMP-5018,employee_18,Sales,Junior,Remote,2017-01-22 02:50:05.405405400,59100.0,3.81,False,employee18@insightforge-demo.com,+1-555-862-2953
+EMP-5525,employee_525,Finance,Senior,Remote,2017-01-26 03:21:48.108108104,108500.0,3.35,False,employee525@insightforge-demo.com,+1-555-444-6430
+EMP-5465,employee_465,Marketing,Mid,New York,2017-01-26 03:21:48.108108104,66600.0,3.95,True,employee465@insightforge-demo.com,+1-555-271-2508
+EMP-5302,employee_302,Sales,Junior,Remote,2017-02-11 05:28:38.918918912,51100.0,2.91,False,employee302@insightforge-demo.com,+1-555-435-7648
+EMP-5398,employee_398,HR,Senior,Toronto,2017-02-19 06:32:04.324324320,108300.0,4.85,True,employee398@insightforge-demo.com,+1-555-670-6136
+EMP-5516,employee_516,Finance,Mid,London,2017-02-23 07:03:47.027027024,74400.0,3.73,True,employee516@insightforge-demo.com,+1-555-964-2654
+EMP-5595,employee_595,HR,Junior,Remote,2017-02-23 07:03:47.027027024,51200.0,2.87,False,employee595@insightforge-demo.com,+1-555-937-8409
+EMP-5132,employee_132,Operations,Junior,London,2017-02-27 07:35:29.729729728,54700.0,3.44,False,employee132@insightforge-demo.com,+1-555-956-6306
+EMP-5277,employee_277,Sales,Junior,Bangalore,2017-02-27 07:35:29.729729728,46800.0,3.21,False,employee277@insightforge-demo.com,+1-555-293-3661
+EMP-5082,employee_82,Sales,Junior,Bangalore,2017-03-03 08:07:12.432432432,60700.0,3.39,True,employee82@insightforge-demo.com,+1-555-714-9273
+EMP-5110,employee_110,Finance,Mid,Bangalore,2017-03-11 09:10:37.837837832,74300.0,3.05,False,employee110@insightforge-demo.com,+1-555-572-1136
+EMP-5287,employee_287,Sales,Director,Remote,2017-03-31 11:49:11.351351352,168900.0,3.77,False,employee287@insightforge-demo.com,+1-555-433-9036
+EMP-5396,employee_396,HR,Junior,Singapore,2017-03-31 11:49:11.351351352,52900.0,2.4,True,employee396@insightforge-demo.com,+1-555-953-4971
+EMP-5547,employee_547,Marketing,Senior,Bangalore,2017-03-31 11:49:11.351351352,118000.0,3.57,False,employee547@insightforge-demo.com,+1-555-879-1169
+EMP-5278,employee_278,Marketing,Junior,New York,2017-05-10 17:06:18.378378368,54900.0,4.03,True,employee278@insightforge-demo.com,+1-555-934-2990
+EMP-5279,employee_279,Engineering,Mid,Bangalore,2017-05-14 17:38:01.081081072,77800.0,2.64,True,employee279@insightforge-demo.com,+1-555-927-5805
+EMP-5249,employee_249,Engineering,Senior,Singapore,2017-05-18 18:09:43.783783776,96500.0,4.41,True,employee249@insightforge-demo.com,+1-555-114-3486
+EMP-5501,employee_501,Marketing,Mid,New York,2017-05-18 18:09:43.783783776,77900.0,3.89,True,employee501@insightforge-demo.com,+1-555-414-4635
+EMP-5047,employee_47,Marketing,Junior,Bangalore,2017-05-30 19:44:51.891891888,43900.0,4.51,True,employee47@insightforge-demo.com,+1-555-461-7385
+EMP-5199,employee_199,Operations,Senior,Toronto,2017-06-03 20:16:34.594594592,109000.0,4.29,True,employee199@insightforge-demo.com,+1-555-696-4443
+EMP-5375,employee_375,Customer Support,Junior,Remote,2017-06-07 20:48:17.297297296,37900.0,4.02,False,employee375@insightforge-demo.com,+1-555-957-8053
+EMP-5479,employee_479,HR,Mid,London,2017-06-07 20:48:17.297297296,74200.0,3.26,False,employee479@insightforge-demo.com,+1-555-482-3738
+EMP-5504,employee_504,Finance,Junior,New York,2017-06-15 21:51:42.702702704,34900.0,4.29,False,employee504@insightforge-demo.com,+1-555-207-9367
+EMP-5335,employee_335,Customer Support,Mid,London,2017-06-15 21:51:42.702702704,74500.0,3.12,False,employee335@insightforge-demo.com,+1-555-244-2143
+EMP-5562,employee_562,Sales,Mid,Singapore,2017-06-19 22:23:25.405405408,65800.0,3.86,True,employee562@insightforge-demo.com,+1-555-415-5062
+EMP-5407,employee_407,Operations,Senior,Bangalore,2017-06-23 22:55:08.108108112,99800.0,3.05,True,employee407@insightforge-demo.com,+1-555-347-4121
+EMP-5299,employee_299,Operations,Junior,London,2017-07-01 23:58:33.513513504,48700.0,4.74,False,employee299@insightforge-demo.com,+1-555-243-4229
+EMP-5368,employee_368,Marketing,Senior,New York,2017-07-01 23:58:33.513513504,88400.0,3.93,True,employee368@insightforge-demo.com,+1-555-342-1912
+EMP-5071,employee_71,Operations,Mid,New York,2017-07-06 00:30:16.216216208,70500.0,3.17,False,employee71@insightforge-demo.com,+1-555-453-3816
+EMP-5048,employee_48,Marketing,Junior,Singapore,2017-07-14 01:33:41.621621616,57500.0,4.15,False,employee48@insightforge-demo.com,+1-555-479-2392
+EMP-5474,employee_474,Sales,Manager,Singapore,2017-07-18 02:05:24.324324320,126900.0,4.35,False,employee474@insightforge-demo.com,+1-555-807-3783
+EMP-5169,employee_169,Sales,Lead,Toronto,2017-07-22 02:37:07.027027024,139500.0,4.33,False,employee169@insightforge-demo.com,+1-555-775-9082
+EMP-5116,employee_116,Engineering,Senior,Remote,2017-08-03 04:12:15.135135136,83700.0,3.63,False,employee116@insightforge-demo.com,+1-555-473-7427
+EMP-5049,employee_49,Customer Support,Mid,Bangalore,2017-08-03 04:12:15.135135136,70600.0,3.51,True,employee49@insightforge-demo.com,+1-555-980-4144
+EMP-5428,employee_428,Finance,Senior,London,2017-08-11 05:15:40.540540544,98500.0,4.15,True,employee428@insightforge-demo.com,+1-555-337-4389
+EMP-5441,employee_441,Engineering,Senior,Remote,2017-08-23 06:50:48.648648640,103200.0,3.3,False,employee441@insightforge-demo.com,+1-555-432-7403
+EMP-5153,employee_153,Operations,Senior,Bangalore,2017-08-23 06:50:48.648648640,95700.0,3.78,True,employee153@insightforge-demo.com,+1-555-384-9780
+EMP-5264,employee_264,Sales,Director,New York,2017-09-04 08:25:56.756756752,163800.0,2.08,False,employee264@insightforge-demo.com,+1-555-545-9713
+EMP-5243,employee_243,HR,Mid,Bangalore,2017-09-16 10:01:04.864864864,79500.0,3.74,True,employee243@insightforge-demo.com,+1-555-342-3135
+EMP-5257,employee_257,Marketing,Lead,New York,2017-09-24 11:04:30.270270272,113600.0,4.17,True,employee257@insightforge-demo.com,+1-555-401-5409
+EMP-5104,employee_104,HR,Junior,London,2017-10-02 12:07:55.675675664,50600.0,2.88,True,employee104@insightforge-demo.com,+1-555-956-8688
+EMP-5373,employee_373,Customer Support,Junior,London,2017-10-06 12:39:38.378378368,57300.0,3.89,False,employee373@insightforge-demo.com,+1-555-751-5408
+EMP-5211,employee_211,Engineering,Mid,New York,2017-10-14 13:43:03.783783776,77200.0,4.29,False,employee211@insightforge-demo.com,+1-555-742-8283
+EMP-5156,employee_156,Customer Support,Mid,Singapore,2017-10-14 13:43:03.783783776,84800.0,4.06,False,employee156@insightforge-demo.com,+1-555-207-2098
+EMP-5345,employee_345,Customer Support,Director,London,2017-10-18 14:14:46.486486480,161800.0,3.31,False,employee345@insightforge-demo.com,+1-555-796-4629
+EMP-5114,employee_114,Operations,Senior,Bangalore,2017-10-22 14:46:29.189189184,86300.0,2.79,True,employee114@insightforge-demo.com,+1-555-391-6444
+EMP-5000,employee_0,Finance,Junior,Toronto,2017-11-03 16:21:37.297297296,39300.0,3.7,False,employee0@insightforge-demo.com,+1-555-604-7467
+EMP-5144,employee_144,Customer Support,Mid,London,2017-11-15 17:56:45.405405408,81700.0,3.57,True,employee144@insightforge-demo.com,+1-555-226-3684
+EMP-5332,employee_332,Marketing,Junior,Remote,2017-11-15 17:56:45.405405408,57900.0,2.78,False,employee332@insightforge-demo.com,+1-555-608-9062
+EMP-5137,employee_137,Operations,Mid,Remote,2017-11-19 18:28:28.108108112,69400.0,3.86,True,employee137@insightforge-demo.com,+1-555-499-2999
+EMP-5022,employee_22,Sales,Director,Toronto,2017-11-27 19:31:53.513513504,174800.0,3.78,False,employee22@insightforge-demo.com,+1-555-580-1738
+EMP-5472,employee_472,Finance,Director,London,2017-12-01 20:03:36.216216208,192100.0,4.25,False,employee472@insightforge-demo.com,+1-555-446-1259
+EMP-5313,employee_313,Operations,Senior,Bangalore,2017-12-05 20:35:18.918918912,103800.0,3.46,False,employee313@insightforge-demo.com,+1-555-469-5625
+EMP-5149,employee_149,Engineering,Senior,Singapore,2017-12-09 21:07:01.621621616,110800.0,3.34,True,employee149@insightforge-demo.com,+1-555-689-8418
+EMP-5486,employee_486,Customer Support,Junior,New York,2017-12-13 21:38:44.324324320,45000.0,3.1,False,employee486@insightforge-demo.com,+1-555-308-7768
+EMP-5074,employee_74,Sales,Manager,London,2018-01-07 00:49:00.540540544,131000.0,,False,employee74@insightforge-demo.com,+1-555-926-8101
+EMP-5123,employee_123,Operations,Lead,Singapore,2018-01-07 00:49:00.540540544,120300.0,3.15,True,employee123@insightforge-demo.com,+1-555-783-4177
+EMP-5305,employee_305,HR,Senior,Remote,2018-01-11 01:20:43.243243232,91700.0,,False,employee305@insightforge-demo.com,+1-555-240-8885
+EMP-5579,employee_579,Operations,Lead,Singapore,2018-01-31 03:59:16.756756752,119400.0,3.39,False,employee579@insightforge-demo.com,+1-555-406-4033
+EMP-5151,employee_151,Engineering,Mid,Singapore,2018-02-08 05:02:42.162162160,58600.0,2.91,False,employee151@insightforge-demo.com,+1-555-614-7007
+EMP-5040,employee_40,HR,Mid,Remote,2018-02-08 05:02:42.162162160,80300.0,3.56,True,employee40@insightforge-demo.com,+1-555-990-9884
+EMP-5159,employee_159,Customer Support,Senior,Remote,2018-02-20 06:37:50.270270272,93300.0,3.98,True,employee159@insightforge-demo.com,+1-555-366-2190
+EMP-5215,employee_215,Customer Support,Mid,Singapore,2018-02-28 07:41:15.675675664,76900.0,2.63,False,employee215@insightforge-demo.com,+1-555-622-8714
+EMP-5081,employee_81,Finance,Lead,Bangalore,2018-03-12 09:16:23.783783776,130900.0,2.81,False,employee81@insightforge-demo.com,+1-555-862-5859
+EMP-5520,employee_520,Customer Support,Mid,Remote,2018-03-20 10:19:49.189189184,73900.0,3.01,False,employee520@insightforge-demo.com,+1-555-979-4114
+EMP-5267,employee_267,HR,Junior,Singapore,2018-03-20 10:19:49.189189184,55600.0,5.0,True,employee267@insightforge-demo.com,+1-555-667-7558
+EMP-5508,employee_508,Finance,Junior,Singapore,2018-03-28 11:23:14.594594592,56100.0,4.37,True,employee508@insightforge-demo.com,+1-555-937-8505
+EMP-5553,employee_553,Marketing,Lead,New York,2018-04-01 11:54:57.297297296,111900.0,2.76,True,employee553@insightforge-demo.com,+1-555-484-9555
+EMP-5035,employee_35,Finance,Junior,London,2018-04-09 12:58:22.702702704,63900.0,3.16,True,employee35@insightforge-demo.com,+1-555-945-6928
+EMP-5044,employee_44,Sales,Director,Remote,2018-04-09 12:58:22.702702704,190600.0,3.73,True,employee44@insightforge-demo.com,+1-555-665-1964
+EMP-5438,employee_438,Operations,Mid,Remote,2018-04-13 13:30:05.405405408,81200.0,4.11,True,employee438@insightforge-demo.com,+1-555-624-3641
+EMP-5408,employee_408,Marketing,Mid,Remote,2018-04-29 15:36:56.216216208,66700.0,2.87,False,employee408@insightforge-demo.com,+1-555-390-4166
+EMP-5061,employee_61,Finance,Mid,New York,2018-05-03 16:08:38.918918912,76400.0,3.09,False,employee61@insightforge-demo.com,+1-555-792-1126
+EMP-5056,employee_56,Customer Support,Mid,Remote,2018-05-07 16:40:21.621621616,76500.0,4.07,True,employee56@insightforge-demo.com,+1-555-672-1804
+EMP-5369,employee_369,Marketing,Senior,London,2018-05-07 16:40:21.621621616,104600.0,3.09,True,employee369@insightforge-demo.com,+1-555-625-2267
+EMP-5223,employee_223,Operations,Mid,New York,2018-05-23 18:47:12.432432432,74400.0,4.47,False,employee223@insightforge-demo.com,+1-555-217-6217
+EMP-5454,employee_454,Customer Support,Mid,New York,2018-05-27 19:18:55.135135136,70700.0,4.71,True,employee454@insightforge-demo.com,+1-555-773-9030
+EMP-5004,employee_4,HR,Mid,Remote,2018-05-27 19:18:55.135135136,80400.0,3.68,False,employee4@insightforge-demo.com,+1-555-437-1469
+EMP-5003,employee_3,Marketing,Mid,Toronto,2018-06-24 23:00:54.054054048,82600.0,4.66,True,employee3@insightforge-demo.com,+1-555-602-2968
+EMP-5111,employee_111,HR,Lead,London,2018-06-24 23:00:54.054054048,125200.0,4.3,True,employee111@insightforge-demo.com,+1-555-540-6802
+EMP-5431,employee_431,Marketing,Junior,London,2018-07-11 01:07:44.864864864,43200.0,3.12,True,employee431@insightforge-demo.com,+1-555-859-2126
+EMP-5466,employee_466,Customer Support,Lead,Bangalore,2018-07-15 01:39:27.567567568,119400.0,3.85,False,employee466@insightforge-demo.com,+1-555-821-4808
+EMP-5167,employee_167,Operations,Senior,London,2018-07-19 02:11:10.270270272,96000.0,3.16,False,employee167@insightforge-demo.com,+1-555-825-3053
+EMP-5079,employee_79,Customer Support,Senior,London,2018-07-23 02:42:52.972972976,112900.0,2.68,False,employee79@insightforge-demo.com,+1-555-913-2405
+EMP-5312,employee_312,HR,Junior,Toronto,2018-07-27 03:14:35.675675664,53200.0,2.71,True,employee312@insightforge-demo.com,+1-555-609-1298
+EMP-5471,employee_471,Finance,Director,Singapore,2018-08-04 04:18:01.081081072,179000.0,3.12,False,employee471@insightforge-demo.com,+1-555-589-3115
+EMP-5225,employee_225,Sales,Junior,Bangalore,2018-08-04 04:18:01.081081072,59600.0,,False,employee225@insightforge-demo.com,+1-555-233-5486
+EMP-5477,employee_477,Customer Support,Manager,New York,2018-08-16 05:53:09.189189184,134000.0,3.67,False,employee477@insightforge-demo.com,+1-555-619-5489
+EMP-5379,employee_379,HR,Junior,Remote,2018-08-20 06:24:51.891891888,53700.0,3.8,False,employee379@insightforge-demo.com,+1-555-731-3400
+EMP-5484,employee_484,Customer Support,Mid,Bangalore,2018-09-09 09:03:25.405405408,75200.0,3.66,False,employee484@insightforge-demo.com,+1-555-987-3942
+EMP-5296,employee_296,Marketing,Manager,London,2018-09-13 09:35:08.108108096,150200.0,3.92,True,employee296@insightforge-demo.com,+1-555-690-9943
+EMP-5581,employee_581,Sales,Junior,Toronto,2018-09-25 11:10:16.216216208,61100.0,3.71,True,employee581@insightforge-demo.com,+1-555-214-7752
+EMP-5497,employee_497,Customer Support,Senior,Toronto,2018-10-03 12:13:41.621621616,101200.0,4.04,False,employee497@insightforge-demo.com,+1-555-160-5627
+EMP-5013,employee_13,Marketing,Junior,Remote,2018-10-07 12:45:24.324324320,59600.0,3.84,True,employee13@insightforge-demo.com,+1-555-596-1249
+EMP-5240,employee_240,Marketing,Senior,London,2018-10-15 13:48:49.729729728,88000.0,2.88,False,employee240@insightforge-demo.com,+1-555-641-4585
+EMP-5168,employee_168,Sales,Mid,New York,2018-10-15 13:48:49.729729728,82800.0,3.41,True,employee168@insightforge-demo.com,+1-555-721-4009
+EMP-5209,employee_209,Engineering,Senior,Remote,2018-10-19 14:20:32.432432432,99000.0,3.76,False,employee209@insightforge-demo.com,+1-555-949-4712
+EMP-5187,employee_187,Engineering,Mid,New York,2018-10-23 14:52:15.135135136,91200.0,3.69,False,employee187@insightforge-demo.com,+1-555-332-1266
+EMP-5246,employee_246,Engineering,Manager,Remote,2018-10-31 15:55:40.540540528,139900.0,2.77,True,employee246@insightforge-demo.com,+1-555-521-7923
+EMP-5191,employee_191,Finance,Manager,Toronto,2018-11-28 19:37:39.459459456,138400.0,3.42,False,employee191@insightforge-demo.com,+1-555-309-8379
+EMP-5176,employee_176,Engineering,Junior,Remote,2019-01-08 00:54:46.486486480,48600.0,3.88,False,employee176@insightforge-demo.com,+1-555-443-2928
+EMP-5117,employee_117,Finance,Junior,Bangalore,2019-01-20 02:29:54.594594592,52600.0,3.42,False,employee117@insightforge-demo.com,+1-555-904-6698
+EMP-5381,employee_381,Marketing,Junior,Remote,2019-01-28 03:33:20.000000000,61400.0,4.29,False,employee381@insightforge-demo.com,+1-555-119-3804
+EMP-5084,employee_84,HR,Manager,London,2019-02-05 04:36:45.405405392,121300.0,2.77,True,employee84@insightforge-demo.com,+1-555-213-7787
+EMP-5388,employee_388,HR,Lead,Singapore,2019-02-09 05:08:28.108108096,110900.0,3.88,False,employee388@insightforge-demo.com,+1-555-552-6365
+EMP-5406,employee_406,Customer Support,Junior,New York,2019-03-01 07:47:01.621621616,49600.0,3.95,False,employee406@insightforge-demo.com,+1-555-991-1870
+EMP-5363,employee_363,Sales,Mid,London,2019-03-09 08:50:27.027027024,76900.0,4.2,True,employee363@insightforge-demo.com,+1-555-843-2736
+EMP-5058,employee_58,Operations,Lead,London,2019-03-13 09:22:09.729729728,140000.0,4.13,True,employee58@insightforge-demo.com,+1-555-153-4773
+EMP-5108,employee_108,Sales,Senior,Remote,2019-03-21 10:25:35.135135136,111000.0,3.52,False,employee108@insightforge-demo.com,+1-555-108-7311
+EMP-5321,employee_321,Finance,Manager,Remote,2019-04-26 15:10:59.459459456,135000.0,4.25,True,employee321@insightforge-demo.com,+1-555-655-7260
+EMP-5329,employee_329,Operations,Junior,Toronto,2019-04-30 15:42:42.162162160,44400.0,3.9,True,employee329@insightforge-demo.com,+1-555-169-8628
+EMP-5270,employee_270,Engineering,Junior,New York,2019-05-04 16:14:24.864864864,53000.0,3.73,False,employee270@insightforge-demo.com,+1-555-602-3347
+EMP-5288,employee_288,HR,Senior,Remote,2019-05-04 16:14:24.864864864,101700.0,3.07,True,employee288@insightforge-demo.com,+1-555-956-7929
+EMP-5092,employee_92,Customer Support,Senior,Remote,2019-05-12 17:17:50.270270272,95800.0,3.28,False,employee92@insightforge-demo.com,+1-555-749-8015
+EMP-5571,employee_571,Engineering,Junior,Remote,2019-05-12 17:17:50.270270272,56600.0,4.35,False,employee571@insightforge-demo.com,+1-555-443-9803
+EMP-5124,employee_124,Sales,Junior,Remote,2019-05-16 17:49:32.972972960,58200.0,3.63,False,employee124@insightforge-demo.com,+1-555-193-4191
+EMP-5241,employee_241,Sales,Junior,London,2019-05-16 17:49:32.972972960,41400.0,3.23,False,employee241@insightforge-demo.com,+1-555-221-6016
+EMP-5139,employee_139,HR,Senior,Toronto,2019-05-20 18:21:15.675675664,86500.0,3.24,True,employee139@insightforge-demo.com,+1-555-726-2827
+EMP-5322,employee_322,Sales,Mid,Remote,2019-05-28 19:24:41.081081072,75600.0,3.38,True,employee322@insightforge-demo.com,+1-555-738-2558
+EMP-5253,employee_253,Customer Support,Junior,New York,2019-06-05 20:28:06.486486480,54100.0,3.88,False,employee253@insightforge-demo.com,+1-555-760-6755
+EMP-5339,employee_339,Customer Support,Manager,Bangalore,2019-06-21 22:34:57.297297296,136900.0,2.77,True,employee339@insightforge-demo.com,+1-555-712-4846
+EMP-5202,employee_202,HR,Lead,Bangalore,2019-06-25 23:06:40.000000000,129200.0,3.8,True,employee202@insightforge-demo.com,+1-555-940-6226
+EMP-5578,employee_578,Engineering,Mid,Remote,2019-06-25 23:06:40.000000000,78600.0,3.2,False,employee578@insightforge-demo.com,+1-555-871-5334
+EMP-5089,employee_89,Operations,Mid,New York,2019-06-29 23:38:22.702702704,74700.0,3.51,False,employee89@insightforge-demo.com,+1-555-528-4427
+EMP-5327,employee_327,Engineering,Junior,Toronto,2019-07-20 02:16:56.216216208,67200.0,,False,employee327@insightforge-demo.com,+1-555-666-3190
+EMP-5338,employee_338,Operations,Mid,New York,2019-07-28 03:20:21.621621600,73000.0,3.68,True,employee338@insightforge-demo.com,+1-555-338-7550
+EMP-5197,employee_197,Finance,Senior,Toronto,2019-07-28 03:20:21.621621600,103300.0,3.12,True,employee197@insightforge-demo.com,+1-555-212-4668
+EMP-5054,employee_54,Marketing,Lead,Remote,2019-08-21 06:30:37.837837824,132500.0,3.97,True,employee54@insightforge-demo.com,+1-555-642-3683
+EMP-5330,employee_330,Finance,Senior,Toronto,2019-08-21 06:30:37.837837824,102000.0,4.22,False,employee330@insightforge-demo.com,+1-555-806-2658
+EMP-5031,employee_31,Marketing,Director,Bangalore,2019-08-21 06:30:37.837837824,181700.0,2.86,False,employee31@insightforge-demo.com,+1-555-330-5561
+EMP-5320,employee_320,Operations,Manager,Toronto,2019-08-29 07:34:03.243243232,142300.0,2.81,False,employee320@insightforge-demo.com,+1-555-137-7666
+EMP-5020,employee_20,Engineering,Senior,Remote,2019-08-29 07:34:03.243243232,94400.0,3.41,False,employee20@insightforge-demo.com,+1-555-173-7038
+EMP-5503,employee_503,Operations,Junior,Toronto,2019-09-06 08:37:28.648648640,46000.0,2.81,True,employee503@insightforge-demo.com,+1-555-415-7471
+EMP-5032,employee_32,Operations,Lead,Bangalore,2019-09-06 08:37:28.648648640,125900.0,3.77,True,employee32@insightforge-demo.com,+1-555-341-5476
+EMP-5377,employee_377,Finance,Mid,London,2019-09-10 09:09:11.351351360,84400.0,4.02,True,employee377@insightforge-demo.com,+1-555-899-3421
+EMP-5534,employee_534,HR,Manager,London,2019-09-18 10:12:36.756756736,124800.0,2.56,True,employee534@insightforge-demo.com,+1-555-631-5866
+EMP-5362,employee_362,Finance,Senior,Singapore,2019-09-18 10:12:36.756756736,103700.0,2.91,False,employee362@insightforge-demo.com,+1-555-736-5325
+EMP-5306,employee_306,Sales,Senior,Singapore,2019-09-26 11:16:02.162162144,83500.0,2.87,False,employee306@insightforge-demo.com,+1-555-343-6709
+EMP-5344,employee_344,Customer Support,Junior,New York,2019-09-30 11:47:44.864864864,47200.0,3.88,True,employee344@insightforge-demo.com,+1-555-121-9849
+EMP-5384,employee_384,Sales,Junior,New York,2019-09-30 11:47:44.864864864,68900.0,3.9,False,employee384@insightforge-demo.com,+1-555-360-9120
+EMP-5226,employee_226,HR,Junior,London,2019-10-08 12:51:10.270270272,55200.0,3.8,True,employee226@insightforge-demo.com,+1-555-934-1808
+EMP-5130,employee_130,Finance,Mid,Singapore,2019-10-08 12:51:10.270270272,86300.0,3.8,False,employee130@insightforge-demo.com,+1-555-952-4554
+EMP-5598,employee_598,Operations,Junior,Singapore,2019-10-12 13:22:52.972972960,52300.0,2.85,True,employee598@insightforge-demo.com,+1-555-657-8729
+EMP-5162,employee_162,Customer Support,Senior,Bangalore,2019-10-28 15:29:43.783783776,100300.0,2.97,True,employee162@insightforge-demo.com,+1-555-370-9323
+EMP-5025,employee_25,HR,Director,Singapore,2019-10-28 15:29:43.783783776,187800.0,3.71,False,employee25@insightforge-demo.com,+1-555-554-5218
+EMP-5418,employee_418,HR,Junior,Singapore,2019-11-05 16:33:09.189189184,66000.0,3.32,True,employee418@insightforge-demo.com,+1-555-340-7951
+EMP-5445,employee_445,Customer Support,Senior,London,2019-11-09 17:04:51.891891872,101500.0,3.53,True,employee445@insightforge-demo.com,+1-555-859-8215
+EMP-5478,employee_478,Customer Support,Mid,Toronto,2019-11-21 18:40:00.000000000,79200.0,3.83,True,employee478@insightforge-demo.com,+1-555-626-3012
+EMP-5129,employee_129,Engineering,Mid,Remote,2019-12-03 20:15:08.108108096,70800.0,3.08,False,employee129@insightforge-demo.com,+1-555-756-5405
+EMP-5295,employee_295,Finance,Mid,Toronto,2019-12-07 20:46:50.810810816,59200.0,,True,employee295@insightforge-demo.com,+1-555-677-5721
+EMP-5523,employee_523,Marketing,Lead,Bangalore,2019-12-07 20:46:50.810810816,131200.0,3.72,False,employee523@insightforge-demo.com,+1-555-846-2756
+EMP-5158,employee_158,Operations,Senior,London,2019-12-15 21:50:16.216216224,118700.0,3.78,True,employee158@insightforge-demo.com,+1-555-769-1142
+EMP-5593,employee_593,Engineering,Junior,London,2019-12-19 22:21:58.918918912,61600.0,3.89,False,employee593@insightforge-demo.com,+1-555-585-2581
+EMP-5213,employee_213,HR,Senior,Remote,2019-12-27 23:25:24.324324320,115100.0,4.1,False,employee213@insightforge-demo.com,+1-555-253-2526
+EMP-5366,employee_366,Customer Support,Junior,Singapore,2020-01-05 00:28:49.729729728,61300.0,3.67,False,employee366@insightforge-demo.com,+1-555-661-8698
+EMP-5599,employee_599,Operations,Junior,Remote,2020-01-09 01:00:32.432432416,54500.0,3.91,False,employee599@insightforge-demo.com,+1-555-673-2124
+EMP-5492,employee_492,Finance,Lead,Bangalore,2020-01-09 01:00:32.432432416,128400.0,3.93,True,employee492@insightforge-demo.com,+1-555-901-7742
+EMP-5537,employee_537,Customer Support,Director,London,2020-01-17 02:03:57.837837824,171900.0,5.0,True,employee537@insightforge-demo.com,+1-555-102-1041
+EMP-5315,employee_315,Finance,Senior,Singapore,2020-02-02 04:10:48.648648640,95400.0,3.55,False,employee315@insightforge-demo.com,+1-555-300-5589
+EMP-5027,employee_27,Engineering,Mid,Singapore,2020-02-10 05:14:14.054054048,71200.0,4.25,False,employee27@insightforge-demo.com,+1-555-468-9321
+EMP-5205,employee_205,HR,Senior,New York,2020-02-14 05:45:56.756756736,90800.0,3.41,False,employee205@insightforge-demo.com,+1-555-873-1351
+EMP-5359,employee_359,Operations,Junior,Toronto,2020-02-22 06:49:22.162162144,42700.0,3.81,False,employee359@insightforge-demo.com,+1-555-312-9902
+EMP-5112,employee_112,Operations,Manager,Bangalore,2020-02-22 06:49:22.162162144,149200.0,2.68,False,employee112@insightforge-demo.com,+1-555-611-6170
+EMP-5342,employee_342,Customer Support,Junior,Remote,2020-03-01 07:52:47.567567552,58500.0,3.74,True,employee342@insightforge-demo.com,+1-555-910-2761
+EMP-5568,employee_568,Marketing,Mid,Toronto,2020-03-01 07:52:47.567567552,77000.0,3.65,False,employee568@insightforge-demo.com,+1-555-151-6982
+EMP-5008,employee_8,Finance,Mid,Singapore,2020-03-09 08:56:12.972972960,85700.0,2.95,False,employee8@insightforge-demo.com,+1-555-361-2079
+EMP-5411,employee_411,Operations,Mid,Bangalore,2020-03-13 09:27:55.675675680,67200.0,2.67,False,employee411@insightforge-demo.com,+1-555-412-3325
+EMP-5370,employee_370,Operations,Senior,London,2020-03-13 09:27:55.675675680,93500.0,4.52,True,employee370@insightforge-demo.com,+1-555-810-4679
+EMP-5258,employee_258,HR,Senior,London,2020-03-17 09:59:38.378378368,96900.0,3.87,True,employee258@insightforge-demo.com,+1-555-738-8721
+EMP-5076,employee_76,Marketing,Lead,New York,2020-03-25 11:03:03.783783776,132600.0,3.88,True,employee76@insightforge-demo.com,+1-555-283-9363
+EMP-5494,employee_494,Customer Support,Junior,London,2020-04-06 12:38:11.891891872,60500.0,3.92,True,employee494@insightforge-demo.com,+1-555-646-6391
+EMP-5552,employee_552,Sales,Manager,Bangalore,2020-04-14 13:41:37.297297280,146400.0,3.23,False,employee552@insightforge-demo.com,+1-555-493-4662
+EMP-5222,employee_222,Finance,Senior,New York,2020-04-14 13:41:37.297297280,85700.0,3.53,False,employee222@insightforge-demo.com,+1-555-919-2580
+EMP-5128,employee_128,Customer Support,Senior,New York,2020-04-26 15:16:45.405405408,113800.0,3.41,False,employee128@insightforge-demo.com,+1-555-279-2016
+EMP-5528,employee_528,Finance,Mid,New York,2020-05-04 16:20:10.810810816,70500.0,3.05,False,employee528@insightforge-demo.com,+1-555-123-2806
+EMP-5026,employee_26,Customer Support,Mid,Toronto,2020-05-04 16:20:10.810810816,71500.0,3.81,False,employee26@insightforge-demo.com,+1-555-942-9372
+EMP-5416,employee_416,Finance,Senior,Bangalore,2020-05-08 16:51:53.513513504,102400.0,2.94,False,employee416@insightforge-demo.com,+1-555-562-6149
+EMP-5203,employee_203,HR,Lead,London,2020-05-12 17:23:36.216216224,123300.0,3.84,True,employee203@insightforge-demo.com,+1-555-189-4533
+EMP-5127,employee_127,Operations,Junior,Remote,2020-05-28 19:30:27.027027008,54500.0,3.47,False,employee127@insightforge-demo.com,+1-555-524-2534
+EMP-5042,employee_42,Customer Support,Senior,Singapore,2020-06-09 21:05:35.135135136,112600.0,3.28,True,employee42@insightforge-demo.com,+1-555-710-7431
+EMP-5387,employee_387,Operations,Junior,New York,2020-06-17 22:09:00.540540544,48700.0,4.08,False,employee387@insightforge-demo.com,+1-555-939-1013
+EMP-5424,employee_424,Marketing,Senior,New York,2020-06-17 22:09:00.540540544,113000.0,3.84,False,employee424@insightforge-demo.com,+1-555-315-8375
+EMP-5468,employee_468,Customer Support,Lead,London,2020-06-21 22:40:43.243243232,125700.0,3.59,False,employee468@insightforge-demo.com,+1-555-897-3105
+EMP-5536,employee_536,Marketing,Mid,New York,2020-06-25 23:12:25.945945952,64200.0,4.43,False,employee536@insightforge-demo.com,+1-555-414-1228
+EMP-5567,employee_567,Finance,Senior,Remote,2020-06-29 23:44:08.648648640,101000.0,3.64,False,employee567@insightforge-demo.com,+1-555-581-2261
+EMP-5533,employee_533,Customer Support,Senior,Remote,2020-06-29 23:44:08.648648640,102400.0,3.98,True,employee533@insightforge-demo.com,+1-555-946-3328
+EMP-5105,employee_105,Engineering,Lead,New York,2020-07-16 01:50:59.459459456,128400.0,3.34,True,employee105@insightforge-demo.com,+1-555-494-3071
+EMP-5340,employee_340,Operations,Mid,Singapore,2020-08-09 05:01:15.675675680,69400.0,3.24,True,employee340@insightforge-demo.com,+1-555-236-5357
+EMP-5234,employee_234,Finance,Lead,Toronto,2020-08-09 05:01:15.675675680,113200.0,4.22,False,employee234@insightforge-demo.com,+1-555-484-8411
+EMP-5558,employee_558,Operations,Junior,Bangalore,2020-08-13 05:32:58.378378368,66000.0,2.82,False,employee558@insightforge-demo.com,+1-555-420-1590
+EMP-5403,employee_403,Customer Support,Senior,London,2020-08-13 05:32:58.378378368,98800.0,3.45,False,employee403@insightforge-demo.com,+1-555-615-4274
+EMP-5469,employee_469,HR,Junior,Remote,2020-08-17 06:04:41.081081088,65000.0,3.35,True,employee469@insightforge-demo.com,+1-555-418-4705
+EMP-5475,employee_475,Engineering,Junior,Singapore,2020-08-21 06:36:23.783783776,63400.0,3.83,False,employee475@insightforge-demo.com,+1-555-533-9617
+EMP-5317,employee_317,Customer Support,Junior,Bangalore,2020-08-25 07:08:06.486486464,46600.0,2.89,False,employee317@insightforge-demo.com,+1-555-581-5587
+EMP-5318,employee_318,Sales,Lead,Toronto,2020-08-29 07:39:49.189189184,119000.0,3.2,False,employee318@insightforge-demo.com,+1-555-484-4934
+EMP-5185,employee_185,Finance,Mid,London,2020-09-02 08:11:31.891891872,68600.0,3.0,False,employee185@insightforge-demo.com,+1-555-561-6905
+EMP-5002,employee_2,Sales,Junior,London,2020-09-14 09:46:40.000000000,51200.0,4.38,False,employee2@insightforge-demo.com,+1-555-262-6137
+EMP-5298,employee_298,Operations,Senior,Toronto,2020-09-14 09:46:40.000000000,90400.0,3.43,False,employee298@insightforge-demo.com,+1-555-883-9589
+EMP-5252,employee_252,Engineering,Mid,Bangalore,2020-09-14 09:46:40.000000000,75700.0,2.85,False,employee252@insightforge-demo.com,+1-555-190-4522
+EMP-5539,employee_539,Marketing,Junior,Bangalore,2020-09-18 10:18:22.702702688,73400.0,4.22,True,employee539@insightforge-demo.com,+1-555-843-2255
+EMP-5255,employee_255,Sales,Manager,Toronto,2020-09-26 11:21:48.108108096,129200.0,3.26,False,employee255@insightforge-demo.com,+1-555-553-9936
+EMP-5481,employee_481,Finance,Senior,Toronto,2020-10-08 12:56:56.216216224,90600.0,3.95,False,employee481@insightforge-demo.com,+1-555-459-8401
+EMP-5088,employee_88,Operations,Junior,London,2020-10-20 14:32:04.324324320,64900.0,3.38,False,employee88@insightforge-demo.com,+1-555-600-8354
+EMP-5045,employee_45,Finance,Mid,London,2020-10-20 14:32:04.324324320,80000.0,4.29,True,employee45@insightforge-demo.com,+1-555-324-7449
+EMP-5051,employee_51,Engineering,Mid,New York,2020-10-24 15:03:47.027027008,75400.0,3.61,False,employee51@insightforge-demo.com,+1-555-521-9874
+EMP-5546,employee_546,Sales,Mid,London,2020-11-01 16:07:12.432432416,71100.0,4.19,False,employee546@insightforge-demo.com,+1-555-114-7345
+EMP-5421,employee_421,Finance,Junior,Toronto,2020-11-01 16:07:12.432432416,50800.0,3.5,False,employee421@insightforge-demo.com,+1-555-858-9651
+EMP-5075,employee_75,Engineering,Junior,Toronto,2020-11-05 16:38:55.135135136,44700.0,3.45,True,employee75@insightforge-demo.com,+1-555-241-1058
+EMP-5274,employee_274,Finance,Junior,Toronto,2020-11-09 17:10:37.837837824,61000.0,3.4,False,employee274@insightforge-demo.com,+1-555-192-6442
+EMP-5193,employee_193,HR,Junior,New York,2020-11-17 18:14:03.243243232,62400.0,2.31,True,employee193@insightforge-demo.com,+1-555-185-7238
+EMP-5507,employee_507,Finance,Director,Remote,2020-11-21 18:45:45.945945952,178100.0,3.23,True,employee507@insightforge-demo.com,+1-555-726-8537
+EMP-5057,employee_57,Customer Support,Senior,London,2020-12-23 22:59:27.567567552,109600.0,4.36,True,employee57@insightforge-demo.com,+1-555-396-4725
+EMP-5064,employee_64,Operations,Mid,Singapore,2020-12-27 23:31:10.270270272,75000.0,3.91,False,employee64@insightforge-demo.com,+1-555-803-8207
+EMP-5101,employee_101,Customer Support,Junior,Singapore,2021-01-05 00:34:35.675675680,55000.0,3.84,True,employee101@insightforge-demo.com,+1-555-762-7374
+EMP-5452,employee_452,Marketing,Mid,Toronto,2021-01-09 01:06:18.378378368,70600.0,3.83,False,employee452@insightforge-demo.com,+1-555-294-2123
+EMP-5273,employee_273,Finance,Senior,Singapore,2021-01-13 01:38:01.081081088,94400.0,4.02,False,employee273@insightforge-demo.com,+1-555-688-5772
+EMP-5196,employee_196,Marketing,Lead,Bangalore,2021-01-17 02:09:43.783783776,104700.0,3.64,False,employee196@insightforge-demo.com,+1-555-186-9409
+EMP-5590,employee_590,HR,Senior,Remote,2021-01-21 02:41:26.486486464,94300.0,3.11,True,employee590@insightforge-demo.com,+1-555-583-9078
+EMP-5499,employee_499,Customer Support,Mid,Bangalore,2021-01-29 03:44:51.891891872,81000.0,3.48,False,employee499@insightforge-demo.com,+1-555-525-2805
+EMP-5463,employee_463,Marketing,Manager,Remote,2021-02-10 05:20:00.000000000,134000.0,3.64,False,employee463@insightforge-demo.com,+1-555-481-5087
+EMP-5289,employee_289,Engineering,Senior,London,2021-02-10 05:20:00.000000000,101200.0,3.58,False,employee289@insightforge-demo.com,+1-555-860-7919
+EMP-5325,employee_325,Sales,Manager,Bangalore,2021-02-10 05:20:00.000000000,139000.0,4.15,True,employee325@insightforge-demo.com,+1-555-321-9697
+EMP-5272,employee_272,Operations,Senior,New York,2021-02-14 05:51:42.702702688,104300.0,,False,employee272@insightforge-demo.com,+1-555-938-2596
+EMP-5085,employee_85,Finance,Manager,Remote,2021-03-02 07:58:33.513513504,136300.0,3.43,False,employee85@insightforge-demo.com,+1-555-731-8427
+EMP-5586,employee_586,Engineering,Mid,Singapore,2021-03-06 08:30:16.216216192,77300.0,4.03,False,employee586@insightforge-demo.com,+1-555-194-5435
+EMP-5545,employee_545,Customer Support,Mid,Toronto,2021-03-06 08:30:16.216216192,81600.0,2.84,False,employee545@insightforge-demo.com,+1-555-318-3041
+EMP-5316,employee_316,Finance,Mid,New York,2021-04-03 12:12:15.135135136,86500.0,3.3,False,employee316@insightforge-demo.com,+1-555-261-5264
+EMP-5354,employee_354,Engineering,Junior,Bangalore,2021-04-23 14:50:48.648648640,61100.0,2.61,True,employee354@insightforge-demo.com,+1-555-386-5160
+EMP-5118,employee_118,Marketing,Senior,New York,2021-04-23 14:50:48.648648640,109500.0,4.26,False,employee118@insightforge-demo.com,+1-555-221-7006
+EMP-5526,employee_526,Sales,Director,Bangalore,2021-04-27 15:22:31.351351328,172100.0,3.6,False,employee526@insightforge-demo.com,+1-555-353-5458
+EMP-5021,employee_21,Customer Support,Director,Toronto,2021-05-05 16:25:56.756756736,178800.0,4.53,False,employee21@insightforge-demo.com,+1-555-451-4297
+EMP-5422,employee_422,Marketing,Junior,Bangalore,2021-05-13 17:29:22.162162144,60600.0,3.91,False,employee422@insightforge-demo.com,+1-555-449-4555
+EMP-5285,employee_285,Sales,Director,New York,2021-05-17 18:01:04.864864864,161800.0,4.32,False,employee285@insightforge-demo.com,+1-555-338-8866
+EMP-5457,employee_457,Sales,Junior,Remote,2021-05-21 18:32:47.567567552,49300.0,4.04,True,employee457@insightforge-demo.com,+1-555-722-2211
+EMP-5587,employee_587,Finance,Senior,Bangalore,2021-05-21 18:32:47.567567552,99100.0,3.69,False,employee587@insightforge-demo.com,+1-555-851-6309
+EMP-5188,employee_188,Marketing,Manager,Toronto,2021-06-02 20:07:55.675675680,144100.0,3.42,False,employee188@insightforge-demo.com,+1-555-569-8886
+EMP-5404,employee_404,Customer Support,Mid,New York,2021-06-06 20:39:38.378378368,68900.0,3.22,True,employee404@insightforge-demo.com,+1-555-525-7102
+EMP-5557,employee_557,Operations,Mid,London,2021-06-10 21:11:21.081081088,84900.0,4.0,True,employee557@insightforge-demo.com,+1-555-755-5025
+EMP-5268,employee_268,HR,Junior,New York,2021-06-18 22:14:46.486486464,59500.0,2.52,True,employee268@insightforge-demo.com,+1-555-886-1049
+EMP-5461,employee_461,Finance,Mid,Bangalore,2021-06-22 22:46:29.189189184,79400.0,3.71,False,employee461@insightforge-demo.com,+1-555-296-7721
+EMP-5591,employee_591,Operations,Junior,Singapore,2021-07-05 00:21:37.297297280,54600.0,1.88,False,employee591@insightforge-demo.com,+1-555-665-7613
+EMP-5395,employee_395,Sales,Senior,London,2021-07-13 01:25:02.702702688,104200.0,3.16,False,employee395@insightforge-demo.com,+1-555-283-7490
+EMP-5212,employee_212,Sales,Junior,Bangalore,2021-07-17 01:56:45.405405408,49800.0,3.52,False,employee212@insightforge-demo.com,+1-555-893-8892
+EMP-5419,employee_419,Engineering,Junior,Remote,2021-07-21 02:28:28.108108096,58400.0,4.62,False,employee419@insightforge-demo.com,+1-555-563-2941
+EMP-5173,employee_173,Marketing,Lead,Remote,2021-08-06 04:35:18.918918912,109900.0,3.79,False,employee173@insightforge-demo.com,+1-555-746-3238
+EMP-5531,employee_531,Finance,Junior,London,2021-08-26 07:13:52.432432416,53300.0,4.65,False,employee531@insightforge-demo.com,+1-555-595-3433
+EMP-5570,employee_570,Operations,Mid,Remote,2021-08-26 07:13:52.432432416,81700.0,2.81,True,employee570@insightforge-demo.com,+1-555-802-2934
+EMP-5355,employee_355,Operations,Manager,New York,2021-09-03 08:17:17.837837824,137200.0,2.96,False,employee355@insightforge-demo.com,+1-555-879-6436
+EMP-5005,employee_5,HR,Junior,London,2021-09-03 08:17:17.837837824,60100.0,4.06,False,employee5@insightforge-demo.com,+1-555-523-7093
+EMP-5029,employee_29,Engineering,Junior,Remote,2021-09-03 08:17:17.837837824,54700.0,,False,employee29@insightforge-demo.com,+1-555-371-7274
+EMP-5434,employee_434,Marketing,Senior,Toronto,2021-09-07 08:49:00.540540544,100500.0,2.94,False,employee434@insightforge-demo.com,+1-555-811-2574
+EMP-5348,employee_348,Finance,Mid,Remote,2021-09-11 09:20:43.243243232,89700.0,2.98,False,employee348@insightforge-demo.com,+1-555-819-2841
+EMP-5495,employee_495,Marketing,Mid,Toronto,2021-09-11 09:20:43.243243232,69000.0,4.04,True,employee495@insightforge-demo.com,+1-555-201-5843
+EMP-5483,employee_483,Engineering,Mid,Toronto,2021-09-15 09:52:25.945945952,83000.0,4.73,False,employee483@insightforge-demo.com,+1-555-644-8970
+EMP-5034,employee_34,Customer Support,Mid,Remote,2021-09-19 10:24:08.648648640,80800.0,3.21,True,employee34@insightforge-demo.com,+1-555-770-2577
+EMP-5024,employee_24,Customer Support,Junior,London,2021-10-13 13:34:24.864864864,54300.0,5.0,False,employee24@insightforge-demo.com,+1-555-665-6165
+EMP-5182,employee_182,Engineering,Junior,Singapore,2021-10-13 13:34:24.864864864,60200.0,3.38,False,employee182@insightforge-demo.com,+1-555-696-5331
+EMP-5360,employee_360,Customer Support,Junior,Singapore,2021-10-13 13:34:24.864864864,60200.0,3.26,True,employee360@insightforge-demo.com,+1-555-902-6140
+EMP-5433,employee_433,Operations,Manager,Bangalore,2021-10-17 14:06:07.567567552,146600.0,2.77,True,employee433@insightforge-demo.com,+1-555-651-3121
+EMP-5062,employee_62,Operations,Manager,London,2021-10-21 14:37:50.270270272,140000.0,3.19,True,employee62@insightforge-demo.com,+1-555-675-9135
+EMP-5435,employee_435,Engineering,Lead,London,2021-10-29 15:41:15.675675680,136700.0,3.81,False,employee435@insightforge-demo.com,+1-555-790-8947
+EMP-5565,employee_565,Engineering,Manager,Singapore,2021-10-29 15:41:15.675675680,132000.0,3.78,False,employee565@insightforge-demo.com,+1-555-784-5725
+EMP-5506,employee_506,Engineering,Junior,New York,2021-11-10 17:16:23.783783776,67200.0,3.61,False,employee506@insightforge-demo.com,+1-555-104-8375
+EMP-5319,employee_319,HR,Junior,Remote,2021-11-14 17:48:06.486486464,55100.0,3.04,False,employee319@insightforge-demo.com,+1-555-816-5552
+EMP-5217,employee_217,Customer Support,Junior,New York,2021-11-18 18:19:49.189189184,63000.0,4.07,False,employee217@insightforge-demo.com,+1-555-170-7259
+EMP-5094,employee_94,Customer Support,Junior,New York,2021-11-18 18:19:49.189189184,57200.0,2.77,True,employee94@insightforge-demo.com,+1-555-791-3952
+EMP-5039,employee_39,Marketing,Junior,Singapore,2021-11-22 18:51:31.891891872,44400.0,3.38,False,employee39@insightforge-demo.com,+1-555-416-4457
+EMP-5038,employee_38,Engineering,Manager,London,2021-11-22 18:51:31.891891872,138600.0,3.35,True,employee38@insightforge-demo.com,+1-555-478-8038
+EMP-5304,employee_304,Finance,Junior,Toronto,2021-11-30 19:54:57.297297280,40700.0,4.02,True,employee304@insightforge-demo.com,+1-555-144-3585
+EMP-5442,employee_442,Finance,Lead,Toronto,2021-12-24 23:05:13.513513504,131000.0,4.09,True,employee442@insightforge-demo.com,+1-555-155-3896
+EMP-5146,employee_146,Customer Support,Junior,Remote,2021-12-28 23:36:56.216216192,54300.0,3.36,False,employee146@insightforge-demo.com,+1-555-376-1527
+EMP-5154,employee_154,Sales,Junior,Singapore,2022-01-02 00:08:38.918918912,40900.0,2.74,False,employee154@insightforge-demo.com,+1-555-131-9655
+EMP-5444,employee_444,Marketing,Mid,Toronto,2022-01-02 00:08:38.918918912,69300.0,,True,employee444@insightforge-demo.com,+1-555-845-6377
+EMP-5464,employee_464,Customer Support,Mid,Toronto,2022-01-02 00:08:38.918918912,62000.0,3.07,True,employee464@insightforge-demo.com,+1-555-450-2412
+EMP-5351,employee_351,Engineering,Senior,Singapore,2022-01-18 02:15:29.729729728,92500.0,3.4,True,employee351@insightforge-demo.com,+1-555-381-5341
+EMP-5142,employee_142,Sales,Mid,Toronto,2022-02-07 04:54:03.243243232,73300.0,3.34,True,employee142@insightforge-demo.com,+1-555-346-5621
+EMP-5592,employee_592,Marketing,Mid,New York,2022-02-07 04:54:03.243243232,61100.0,2.97,False,employee592@insightforge-demo.com,+1-555-265-5140
+EMP-5230,employee_230,Finance,Lead,London,2022-03-07 08:36:02.162162144,114300.0,3.52,False,employee230@insightforge-demo.com,+1-555-442-6527
+EMP-5210,employee_210,Operations,Senior,Bangalore,2022-03-11 09:07:44.864864864,98300.0,3.74,False,employee210@insightforge-demo.com,+1-555-408-7604
+EMP-5513,employee_513,Marketing,Lead,Bangalore,2022-03-11 09:07:44.864864864,120500.0,3.94,False,employee513@insightforge-demo.com,+1-555-520-3700
+EMP-5161,employee_161,Customer Support,Director,Remote,2022-03-23 10:42:52.972972960,165200.0,3.42,False,employee161@insightforge-demo.com,+1-555-676-2889
+EMP-5323,employee_323,HR,Mid,Remote,2022-03-23 10:42:52.972972960,79900.0,2.28,False,employee323@insightforge-demo.com,+1-555-973-9912
+EMP-5172,employee_172,Customer Support,Lead,New York,2022-04-08 12:49:43.783783776,126700.0,4.9,False,employee172@insightforge-demo.com,+1-555-581-5150
+EMP-5098,employee_98,HR,Junior,Singapore,2022-04-12 13:21:26.486486464,63800.0,3.05,False,employee98@insightforge-demo.com,+1-555-567-8018
+EMP-5017,employee_17,Marketing,Junior,Bangalore,2022-04-12 13:21:26.486486464,55400.0,4.24,True,employee17@insightforge-demo.com,+1-555-781-5017
+EMP-5385,employee_385,Sales,Senior,Bangalore,2022-05-02 16:00:00.000000000,105100.0,3.52,False,employee385@insightforge-demo.com,+1-555-933-7064
+EMP-5121,employee_121,Customer Support,Manager,Bangalore,2022-05-10 17:03:25.405405408,145000.0,4.09,False,employee121@insightforge-demo.com,+1-555-483-2815
+EMP-5582,employee_582,Customer Support,Senior,Remote,2022-05-14 17:35:08.108108096,106100.0,4.3,True,employee582@insightforge-demo.com,+1-555-473-4139
+EMP-5009,employee_9,HR,Junior,Remote,2022-05-18 18:06:50.810810816,46600.0,3.56,False,employee9@insightforge-demo.com,+1-555-587-2834
+EMP-5447,employee_447,Customer Support,Manager,Remote,2022-05-26 19:10:16.216216192,130700.0,3.59,True,employee447@insightforge-demo.com,+1-555-162-8839
+EMP-5535,employee_535,Engineering,Mid,Toronto,2022-05-30 19:41:58.918918912,76300.0,3.12,False,employee535@insightforge-demo.com,+1-555-964-9514
+EMP-5263,employee_263,Engineering,Senior,Toronto,2022-06-11 21:17:07.027027008,96600.0,3.52,True,employee263@insightforge-demo.com,+1-555-233-2736
+EMP-5517,employee_517,Sales,Lead,Toronto,2022-06-11 21:17:07.027027008,110900.0,4.06,False,employee517@insightforge-demo.com,+1-555-800-5069
+EMP-5303,employee_303,Marketing,Director,Singapore,2022-06-15 21:48:49.729729728,181600.0,3.99,True,employee303@insightforge-demo.com,+1-555-563-2259
+EMP-5275,employee_275,Sales,Senior,Singapore,2022-06-15 21:48:49.729729728,110500.0,3.29,False,employee275@insightforge-demo.com,+1-555-231-5855
+EMP-5410,employee_410,HR,Manager,Bangalore,2022-06-15 21:48:49.729729728,149800.0,3.61,False,employee410@insightforge-demo.com,+1-555-786-8446
+EMP-5594,employee_594,Customer Support,Manager,London,2022-06-15 21:48:49.729729728,132300.0,3.62,True,employee594@insightforge-demo.com,+1-555-446-8482
+EMP-5326,employee_326,Finance,Senior,Singapore,2022-06-15 21:48:49.729729728,99700.0,3.14,False,employee326@insightforge-demo.com,+1-555-938-3384
+EMP-5001,employee_1,Operations,Senior,Toronto,2022-07-01 23:55:40.540540544,98100.0,4.27,False,employee1@insightforge-demo.com,+1-555-246-8873
+EMP-5426,employee_426,Sales,Senior,London,2022-07-06 00:27:23.243243232,100700.0,3.67,False,employee426@insightforge-demo.com,+1-555-923-8338
+EMP-5346,employee_346,Sales,Manager,Bangalore,2022-07-10 00:59:05.945945920,142100.0,3.04,False,employee346@insightforge-demo.com,+1-555-425-4481
+EMP-5113,employee_113,Sales,Mid,Singapore,2022-07-30 03:37:39.459459456,69000.0,3.45,False,employee113@insightforge-demo.com,+1-555-564-5967
+EMP-5077,employee_77,Sales,Manager,New York,2022-07-30 03:37:39.459459456,129000.0,3.14,True,employee77@insightforge-demo.com,+1-555-778-6177
+EMP-5248,employee_248,Marketing,Mid,Remote,2022-08-03 04:09:22.162162144,66400.0,4.08,False,employee248@insightforge-demo.com,+1-555-397-4083
+EMP-5427,employee_427,Marketing,Manager,New York,2022-08-15 05:44:30.270270272,149000.0,5.0,False,employee427@insightforge-demo.com,+1-555-370-2081
+EMP-5233,employee_233,Customer Support,Senior,Remote,2022-08-15 05:44:30.270270272,102800.0,2.93,True,employee233@insightforge-demo.com,+1-555-607-8249
+EMP-5549,employee_549,Finance,Lead,Toronto,2022-08-19 06:16:12.972972960,116900.0,3.59,False,employee549@insightforge-demo.com,+1-555-802-9371
+EMP-5065,employee_65,Customer Support,Director,Singapore,2022-08-23 06:47:55.675675680,168700.0,,True,employee65@insightforge-demo.com,+1-555-428-8821
+EMP-5236,employee_236,Operations,Junior,London,2022-08-27 07:19:38.378378368,62200.0,4.46,True,employee236@insightforge-demo.com,+1-555-511-6027
+EMP-5157,employee_157,Sales,Mid,Remote,2022-08-31 07:51:21.081081056,64900.0,4.18,False,employee157@insightforge-demo.com,+1-555-516-6760
+EMP-5067,employee_67,Engineering,Senior,Toronto,2022-08-31 07:51:21.081081056,91100.0,3.75,True,employee67@insightforge-demo.com,+1-555-771-8031
+EMP-5170,employee_170,Marketing,Junior,Toronto,2022-08-31 07:51:21.081081056,64000.0,2.83,False,employee170@insightforge-demo.com,+1-555-794-9289
+EMP-5488,employee_488,Customer Support,Mid,London,2022-09-04 08:23:03.783783776,78100.0,4.69,True,employee488@insightforge-demo.com,+1-555-719-5688
+EMP-5544,employee_544,HR,Senior,Remote,2022-09-04 08:23:03.783783776,94300.0,2.87,True,employee544@insightforge-demo.com,+1-555-596-9496
+EMP-5456,employee_456,HR,Lead,Toronto,2022-09-08 08:54:46.486486464,112300.0,3.24,False,employee456@insightforge-demo.com,+1-555-454-3992
+EMP-5207,employee_207,HR,Mid,Bangalore,2022-09-12 09:26:29.189189184,61900.0,4.33,False,employee207@insightforge-demo.com,+1-555-993-6949
+EMP-5417,employee_417,Operations,Senior,Bangalore,2022-09-12 09:26:29.189189184,105800.0,3.05,True,employee417@insightforge-demo.com,+1-555-527-5031
+EMP-5551,employee_551,Marketing,Senior,Remote,2022-09-20 10:29:54.594594592,93600.0,3.2,False,employee551@insightforge-demo.com,+1-555-993-9346
+EMP-5498,employee_498,Sales,Junior,Remote,2022-09-20 10:29:54.594594592,73900.0,4.48,False,employee498@insightforge-demo.com,+1-555-430-2177
+EMP-5102,employee_102,Operations,Manager,London,2022-10-06 12:36:45.405405408,163200.0,2.64,False,employee102@insightforge-demo.com,+1-555-400-6838
+EMP-5561,employee_561,Finance,Senior,Singapore,2022-10-10 13:08:28.108108096,106400.0,3.01,True,employee561@insightforge-demo.com,+1-555-844-5967
+EMP-5097,employee_97,Customer Support,Senior,London,2022-10-10 13:08:28.108108096,105200.0,3.32,False,employee97@insightforge-demo.com,+1-555-624-5063
+EMP-5177,employee_177,Operations,Senior,Singapore,2022-10-14 13:40:10.810810816,100000.0,2.69,False,employee177@insightforge-demo.com,+1-555-844-1618
+EMP-5301,employee_301,Marketing,Junior,Toronto,2022-11-15 17:53:52.432432416,60400.0,4.25,False,employee301@insightforge-demo.com,+1-555-221-5252
+EMP-5242,employee_242,HR,Lead,Remote,2022-11-23 18:57:17.837837824,125900.0,4.38,False,employee242@insightforge-demo.com,+1-555-594-2257
+EMP-5455,employee_455,Engineering,Lead,New York,2022-12-05 20:32:25.945945920,122700.0,4.07,False,employee455@insightforge-demo.com,+1-555-646-9960
+EMP-5491,employee_491,Sales,Lead,New York,2022-12-05 20:32:25.945945920,107300.0,4.33,True,employee491@insightforge-demo.com,+1-555-283-2420
+EMP-5309,employee_309,Engineering,Senior,New York,2022-12-13 21:35:51.351351328,116500.0,3.92,False,employee309@insightforge-demo.com,+1-555-359-7728
+EMP-5227,employee_227,HR,Senior,New York,2022-12-21 22:39:16.756756736,104700.0,4.4,False,employee227@insightforge-demo.com,+1-555-817-2131
+EMP-5476,employee_476,Marketing,Director,Bangalore,2022-12-21 22:39:16.756756736,160300.0,3.31,False,employee476@insightforge-demo.com,+1-555-482-8551
+EMP-5583,employee_583,Operations,Senior,London,2022-12-21 22:39:16.756756736,101700.0,4.11,True,employee583@insightforge-demo.com,+1-555-187-9982
+EMP-5014,employee_14,Finance,Senior,Toronto,2022-12-25 23:10:59.459459456,100800.0,3.29,True,employee14@insightforge-demo.com,+1-555-174-5512
+EMP-5429,employee_429,HR,Lead,Remote,2023-01-07 00:46:07.567567552,126400.0,2.95,False,employee429@insightforge-demo.com,+1-555-465-8399
+EMP-5376,employee_376,Sales,Senior,Toronto,2023-01-15 01:49:32.972972960,96900.0,3.29,False,employee376@insightforge-demo.com,+1-555-232-2049
+EMP-5221,employee_221,HR,Mid,Remote,2023-01-15 01:49:32.972972960,60400.0,3.26,True,employee221@insightforge-demo.com,+1-555-405-3260
+EMP-5555,employee_555,Finance,Manager,London,2023-01-27 03:24:41.081081056,135300.0,,False,employee555@insightforge-demo.com,+1-555-662-1555
+EMP-5333,employee_333,Engineering,Lead,Remote,2023-02-16 06:03:14.594594592,124200.0,3.03,False,employee333@insightforge-demo.com,+1-555-890-8496
+EMP-5103,employee_103,Engineering,Senior,Bangalore,2023-03-20 10:16:56.216216192,110100.0,3.68,False,employee103@insightforge-demo.com,+1-555-755-8089
+EMP-5131,employee_131,Marketing,Mid,New York,2023-03-24 10:48:38.918918912,79700.0,3.42,True,employee131@insightforge-demo.com,+1-555-299-2836
+EMP-5218,employee_218,Engineering,Director,Singapore,2023-04-01 11:52:04.324324320,179600.0,4.0,False,employee218@insightforge-demo.com,+1-555-864-9840
+EMP-5530,employee_530,Sales,Lead,New York,2023-04-05 12:23:47.027027008,116800.0,2.61,True,employee530@insightforge-demo.com,+1-555-460-1626
+EMP-5186,employee_186,HR,Mid,London,2023-04-29 15:34:03.243243232,88900.0,2.51,True,employee186@insightforge-demo.com,+1-555-237-8274
+EMP-5043,employee_43,Finance,Lead,New York,2023-05-03 16:05:45.945945920,135300.0,3.74,False,employee43@insightforge-demo.com,+1-555-921-9531
+EMP-5522,employee_522,Marketing,Junior,London,2023-05-03 16:05:45.945945920,51000.0,3.43,False,employee522@insightforge-demo.com,+1-555-234-3694
+EMP-5490,employee_490,Finance,Junior,Bangalore,2023-05-11 17:09:11.351351328,48600.0,4.39,True,employee490@insightforge-demo.com,+1-555-449-4579
+EMP-5378,employee_378,Marketing,Senior,New York,2023-05-15 17:40:54.054054048,96400.0,2.5,False,employee378@insightforge-demo.com,+1-555-787-6656
+EMP-5589,employee_589,HR,Mid,Remote,2023-05-19 18:12:36.756756736,67800.0,4.76,True,employee589@insightforge-demo.com,+1-555-951-4378
+EMP-5093,employee_93,Marketing,Mid,Bangalore,2023-05-31 19:47:44.864864864,70600.0,3.15,True,employee93@insightforge-demo.com,+1-555-799-4603
+EMP-5576,employee_576,Operations,Senior,Singapore,2023-05-31 19:47:44.864864864,120900.0,2.91,True,employee576@insightforge-demo.com,+1-555-426-5520
+EMP-5120,employee_120,Marketing,Manager,Remote,2023-06-12 21:22:52.972972960,148300.0,3.8,False,employee120@insightforge-demo.com,+1-555-272-9993
+EMP-5394,employee_394,Customer Support,Junior,New York,2023-06-12 21:22:52.972972960,53100.0,4.02,False,employee394@insightforge-demo.com,+1-555-261-2712
+EMP-5284,employee_284,Customer Support,Senior,London,2023-06-20 22:26:18.378378368,97200.0,3.01,False,employee284@insightforge-demo.com,+1-555-132-8802
+EMP-5341,employee_341,Operations,Lead,London,2023-06-24 22:58:01.081081056,127000.0,3.07,False,employee341@insightforge-demo.com,+1-555-254-5819
+EMP-5174,employee_174,Customer Support,Lead,Bangalore,2023-06-28 23:29:43.783783776,132200.0,3.87,False,employee174@insightforge-demo.com,+1-555-727-4974
+EMP-5262,employee_262,Operations,Junior,New York,2023-07-03 00:01:26.486486464,53500.0,2.8,True,employee262@insightforge-demo.com,+1-555-687-7779
+EMP-5328,employee_328,Sales,Mid,Bangalore,2023-07-07 00:33:09.189189184,70600.0,3.09,True,employee328@insightforge-demo.com,+1-555-134-3072
+EMP-5184,employee_184,Finance,Junior,Remote,2023-07-15 01:36:34.594594592,68600.0,3.27,True,employee184@insightforge-demo.com,+1-555-690-4625
+EMP-5250,employee_250,HR,Mid,Remote,2023-07-15 01:36:34.594594592,64400.0,3.84,False,employee250@insightforge-demo.com,+1-555-521-6634
+EMP-5336,employee_336,Engineering,Senior,London,2023-07-19 02:08:17.297297280,109900.0,4.19,True,employee336@insightforge-demo.com,+1-555-651-6925
+EMP-5564,employee_564,Operations,Junior,Bangalore,2023-07-19 02:08:17.297297280,58500.0,4.26,False,employee564@insightforge-demo.com,+1-555-542-4119
+EMP-5414,employee_414,Engineering,Mid,Toronto,2023-07-23 02:40:00.000000000,82300.0,2.86,False,employee414@insightforge-demo.com,+1-555-646-1704
+EMP-5502,employee_502,HR,Mid,London,2023-07-23 02:40:00.000000000,61000.0,3.21,False,employee502@insightforge-demo.com,+1-555-105-3704
+EMP-5086,employee_86,Finance,Director,Toronto,2023-08-04 04:15:08.108108096,181800.0,4.88,True,employee86@insightforge-demo.com,+1-555-242-9638
+EMP-5165,employee_165,Marketing,Junior,Remote,2023-08-08 04:46:50.810810784,77600.0,4.66,False,employee165@insightforge-demo.com,+1-555-361-7234
+EMP-5577,employee_577,HR,Senior,Bangalore,2023-08-12 05:18:33.513513504,101500.0,2.48,False,employee577@insightforge-demo.com,+1-555-769-4770
+EMP-5198,employee_198,HR,Junior,Singapore,2023-08-12 05:18:33.513513504,39900.0,3.37,False,employee198@insightforge-demo.com,+1-555-882-2250
+EMP-5194,employee_194,Customer Support,Junior,Bangalore,2023-08-12 05:18:33.513513504,45200.0,4.01,False,employee194@insightforge-demo.com,+1-555-122-8248
+EMP-5391,employee_391,Operations,Mid,Toronto,2023-08-16 05:50:16.216216192,80200.0,4.43,False,employee391@insightforge-demo.com,+1-555-669-9685
+EMP-5030,employee_30,HR,Lead,Toronto,2023-08-20 06:21:58.918918912,130300.0,3.35,True,employee30@insightforge-demo.com,+1-555-644-5253
+EMP-5439,employee_439,HR,Senior,Singapore,2023-08-28 07:25:24.324324320,106900.0,3.82,False,employee439@insightforge-demo.com,+1-555-281-4199
+EMP-5460,employee_460,Finance,Lead,Singapore,2023-08-28 07:25:24.324324320,129800.0,3.29,False,employee460@insightforge-demo.com,+1-555-664-7646
+EMP-5181,employee_181,Sales,Director,Remote,2023-08-28 07:25:24.324324320,180800.0,3.42,False,employee181@insightforge-demo.com,+1-555-328-2724
+EMP-5080,employee_80,HR,Junior,Remote,2023-09-13 09:32:15.135135136,68000.0,3.35,False,employee80@insightforge-demo.com,+1-555-382-2805
+EMP-5382,employee_382,Finance,Senior,London,2023-09-17 10:03:57.837837824,108200.0,3.57,False,employee382@insightforge-demo.com,+1-555-556-2839
+EMP-5115,employee_115,Sales,Junior,Toronto,2023-09-21 10:35:40.540540544,57600.0,3.75,True,employee115@insightforge-demo.com,+1-555-353-5422
+EMP-5518,employee_518,Customer Support,Lead,London,2023-10-03 12:10:48.648648640,117600.0,3.57,False,employee518@insightforge-demo.com,+1-555-661-1335
+EMP-5140,employee_140,Sales,Lead,London,2023-10-03 12:10:48.648648640,131700.0,2.91,False,employee140@insightforge-demo.com,+1-555-474-4097
+EMP-5515,employee_515,Engineering,Lead,London,2023-10-11 13:14:14.054054048,136000.0,3.67,False,employee515@insightforge-demo.com,+1-555-747-4601
+EMP-5364,employee_364,HR,Senior,Singapore,2023-10-31 15:52:47.567567552,101400.0,2.42,False,employee364@insightforge-demo.com,+1-555-349-1158
+EMP-5171,employee_171,Sales,Senior,Singapore,2023-11-04 16:24:30.270270272,90400.0,2.42,True,employee171@insightforge-demo.com,+1-555-585-1585
+EMP-5292,employee_292,HR,Mid,London,2023-11-08 16:56:12.972972960,79100.0,3.82,False,employee292@insightforge-demo.com,+1-555-272-7387
+EMP-5358,employee_358,Sales,Junior,New York,2023-11-20 18:31:21.081081056,56000.0,2.59,False,employee358@insightforge-demo.com,+1-555-389-4838
+EMP-5300,employee_300,Marketing,Junior,London,2023-11-28 19:34:46.486486464,56800.0,3.03,False,employee300@insightforge-demo.com,+1-555-767-5634
+EMP-5143,employee_143,Customer Support,Senior,New York,2023-12-06 20:38:11.891891872,105200.0,3.26,False,employee143@insightforge-demo.com,+1-555-930-4111
+EMP-5163,employee_163,Sales,Senior,Bangalore,2023-12-10 21:09:54.594594592,98900.0,2.68,True,employee163@insightforge-demo.com,+1-555-617-3149
+EMP-5259,employee_259,Engineering,Mid,Bangalore,2023-12-14 21:41:37.297297280,72200.0,3.9,True,employee259@insightforge-demo.com,+1-555-800-6960
+EMP-5540,employee_540,Sales,Senior,Singapore,2023-12-18 22:13:20.000000000,91400.0,3.91,True,employee540@insightforge-demo.com,+1-555-152-2533
+EMP-5397,employee_397,Marketing,Manager,Toronto,2023-12-22 22:45:02.702702688,137300.0,3.26,False,employee397@insightforge-demo.com,+1-555-188-8995
+EMP-5480,employee_480,Marketing,Junior,London,2023-12-26 23:16:45.405405408,53500.0,4.4,False,employee480@insightforge-demo.com,+1-555-781-6510
+EMP-5470,employee_470,Operations,Senior,Bangalore,2023-12-26 23:16:45.405405408,112300.0,,False,employee470@insightforge-demo.com,+1-555-854-7043
+EMP-5324,employee_324,Customer Support,Junior,Singapore,2023-12-30 23:48:28.108108096,70700.0,3.23,True,employee324@insightforge-demo.com,+1-555-231-2970
+EMP-5265,employee_265,HR,Manager,Bangalore,2024-01-04 00:20:10.810810784,134800.0,2.66,True,employee265@insightforge-demo.com,+1-555-102-8914
+EMP-5037,employee_37,Finance,Senior,Bangalore,2024-01-24 02:58:44.324324320,112600.0,3.33,False,employee37@insightforge-demo.com,+1-555-275-1421
+EMP-5239,employee_239,Engineering,Lead,Singapore,2024-02-01 04:02:09.729729728,119600.0,2.66,True,employee239@insightforge-demo.com,+1-555-393-3599
+EMP-5548,employee_548,Engineering,Senior,Remote,2024-02-09 05:05:35.135135136,103300.0,3.66,False,employee548@insightforge-demo.com,+1-555-542-7516
+EMP-5596,employee_596,Finance,Junior,Bangalore,2024-02-21 06:40:43.243243200,53300.0,2.75,True,employee596@insightforge-demo.com,+1-555-939-9985
+EMP-5538,employee_538,Sales,Junior,Singapore,2024-02-25 07:12:25.945945920,59800.0,4.32,True,employee538@insightforge-demo.com,+1-555-802-7658
+EMP-5383,employee_383,Customer Support,Junior,Bangalore,2024-02-25 07:12:25.945945920,32800.0,,True,employee383@insightforge-demo.com,+1-555-356-9850
+EMP-5310,employee_310,Engineering,Senior,Remote,2024-02-25 07:12:25.945945920,101900.0,2.95,False,employee310@insightforge-demo.com,+1-555-550-3115
+EMP-5458,employee_458,Customer Support,Senior,New York,2024-03-04 08:15:51.351351360,104100.0,3.78,False,employee458@insightforge-demo.com,+1-555-919-8020
+EMP-5122,employee_122,HR,Mid,London,2024-03-08 08:47:34.054054016,94300.0,2.71,True,employee122@insightforge-demo.com,+1-555-220-6852
+EMP-5307,employee_307,Sales,Senior,Toronto,2024-03-28 11:26:07.567567552,92800.0,2.42,False,employee307@insightforge-demo.com,+1-555-214-4974
+EMP-5266,employee_266,Customer Support,Junior,Toronto,2024-04-09 13:01:15.675675648,51900.0,3.41,True,employee266@insightforge-demo.com,+1-555-274-3416
+EMP-5294,employee_294,Finance,Manager,London,2024-04-09 13:01:15.675675648,140900.0,3.06,False,employee294@insightforge-demo.com,+1-555-158-6712
+EMP-5451,employee_451,Customer Support,Mid,Toronto,2024-04-13 13:32:58.378378368,74900.0,3.11,False,employee451@insightforge-demo.com,+1-555-824-5801
+EMP-5141,employee_141,Customer Support,Mid,Singapore,2024-04-17 14:04:41.081081088,65100.0,4.32,False,employee141@insightforge-demo.com,+1-555-901-8117
+EMP-5574,employee_574,Customer Support,Junior,Singapore,2024-04-29 15:39:49.189189184,50200.0,3.42,False,employee574@insightforge-demo.com,+1-555-470-1061
+EMP-5183,employee_183,Marketing,Mid,Remote,2024-04-29 15:39:49.189189184,65200.0,3.42,False,employee183@insightforge-demo.com,+1-555-307-8858
+EMP-5068,employee_68,Finance,Lead,Remote,2024-04-29 15:39:49.189189184,129200.0,3.06,False,employee68@insightforge-demo.com,+1-555-960-8715
+EMP-5087,employee_87,Finance,Mid,New York,2024-05-03 16:11:31.891891904,72300.0,3.84,False,employee87@insightforge-demo.com,+1-555-814-1995
+EMP-5542,employee_542,Engineering,Junior,New York,2024-05-03 16:11:31.891891904,49200.0,4.2,True,employee542@insightforge-demo.com,+1-555-694-8999
+EMP-5367,employee_367,Marketing,Junior,New York,2024-05-27 19:21:48.108108096,53400.0,4.55,False,employee367@insightforge-demo.com,+1-555-630-5008
+EMP-5432,employee_432,Customer Support,Mid,Toronto,2024-05-31 19:53:30.810810816,72700.0,3.87,False,employee432@insightforge-demo.com,+1-555-234-9172
+EMP-5597,employee_597,HR,Junior,New York,2024-06-24 23:03:47.027027008,55300.0,3.39,False,employee597@insightforge-demo.com,+1-555-278-8698
+EMP-5106,employee_106,Marketing,Mid,Bangalore,2024-06-28 23:35:29.729729728,80800.0,4.93,False,employee106@insightforge-demo.com,+1-555-187-6163
+EMP-5487,employee_487,Engineering,Manager,Toronto,2024-07-07 00:38:55.135135104,133500.0,4.49,False,employee487@insightforge-demo.com,+1-555-259-8827
+EMP-5485,employee_485,Customer Support,Senior,Toronto,2024-07-11 01:10:37.837837824,93400.0,2.94,False,employee485@insightforge-demo.com,+1-555-334-8519
+EMP-5166,employee_166,Finance,Mid,Toronto,2024-07-23 02:45:45.945945920,71000.0,3.05,False,employee166@insightforge-demo.com,+1-555-560-1623
+EMP-5337,employee_337,Sales,Director,Remote,2024-08-12 05:24:19.459459456,165100.0,3.34,False,employee337@insightforge-demo.com,+1-555-893-1812
+EMP-5550,employee_550,Customer Support,Lead,Remote,2024-08-12 05:24:19.459459456,122100.0,2.92,False,employee550@insightforge-demo.com,+1-555-749-9283
+EMP-5556,employee_556,HR,Manager,Remote,2024-08-16 05:56:02.162162176,145500.0,3.95,False,employee556@insightforge-demo.com,+1-555-537-2752
+EMP-5380,employee_380,Marketing,Senior,Toronto,2024-08-16 05:56:02.162162176,108300.0,3.35,False,employee380@insightforge-demo.com,+1-555-381-5993
+EMP-5459,employee_459,Customer Support,Lead,Singapore,2024-08-24 06:59:27.567567552,127600.0,4.39,False,employee459@insightforge-demo.com,+1-555-130-2684
+EMP-5519,employee_519,Operations,Junior,New York,2024-09-01 08:02:52.972972928,44800.0,3.87,False,employee519@insightforge-demo.com,+1-555-649-7111
+EMP-5145,employee_145,Finance,Junior,Remote,2024-09-01 08:02:52.972972928,40800.0,3.24,False,employee145@insightforge-demo.com,+1-555-645-9929
+EMP-5572,employee_572,Finance,Senior,Toronto,2024-09-01 08:02:52.972972928,96500.0,4.24,True,employee572@insightforge-demo.com,+1-555-131-7800
+EMP-5400,employee_400,HR,Mid,London,2024-09-05 08:34:35.675675648,83700.0,3.12,False,employee400@insightforge-demo.com,+1-555-169-6493
+EMP-5509,employee_509,Finance,Mid,Singapore,2024-09-13 09:38:01.081081088,62600.0,4.11,False,employee509@insightforge-demo.com,+1-555-658-8545
+EMP-5541,employee_541,Operations,Junior,Toronto,2024-09-29 11:44:51.891891904,53800.0,3.09,False,employee541@insightforge-demo.com,+1-555-662-1080
+EMP-5133,employee_133,Sales,Junior,Toronto,2024-10-23 14:55:08.108108096,59300.0,3.54,False,employee133@insightforge-demo.com,+1-555-392-6886
+EMP-5450,employee_450,HR,Mid,Toronto,2024-10-27 15:26:50.810810816,78300.0,3.54,True,employee450@insightforge-demo.com,+1-555-234-2068
+EMP-5078,employee_78,Sales,Senior,Bangalore,2024-11-08 17:01:58.918918912,104400.0,2.61,False,employee78@insightforge-demo.com,+1-555-667-4719
+EMP-5134,employee_134,Finance,Senior,Toronto,2024-11-12 17:33:41.621621632,102100.0,3.93,False,employee134@insightforge-demo.com,+1-555-601-2032
+EMP-5224,employee_224,Sales,Director,Remote,2024-11-12 17:33:41.621621632,173400.0,4.62,False,employee224@insightforge-demo.com,+1-555-616-6049
+EMP-5374,employee_374,Engineering,Senior,New York,2024-11-16 18:05:24.324324288,99200.0,3.07,False,employee374@insightforge-demo.com,+1-555-806-6086
+EMP-5229,employee_229,Marketing,Senior,New York,2024-11-20 18:37:07.027027008,99900.0,3.37,True,employee229@insightforge-demo.com,+1-555-367-5701
+EMP-5125,employee_125,Engineering,Senior,Bangalore,2024-11-20 18:37:07.027027008,96500.0,3.98,False,employee125@insightforge-demo.com,+1-555-698-2025
+EMP-5164,employee_164,Sales,Junior,New York,2024-11-28 19:40:32.432432448,43100.0,4.65,False,employee164@insightforge-demo.com,+1-555-939-2787
+EMP-5453,employee_453,Sales,Junior,Singapore,2024-12-02 20:12:15.135135104,65000.0,3.58,False,employee453@insightforge-demo.com,+1-555-170-3322
+EMP-5467,employee_467,HR,Junior,Remote,2024-12-14 21:47:23.243243200,47200.0,4.37,True,employee467@insightforge-demo.com,+1-555-441-8700
+EMP-5216,employee_216,Customer Support,Mid,Remote,2024-12-22 22:50:48.648648640,76600.0,2.23,True,employee216@insightforge-demo.com,+1-555-858-8319
+EMP-5420,employee_420,Operations,Mid,New York,2024-12-26 23:22:31.351351360,60300.0,3.44,True,employee420@insightforge-demo.com,+1-555-335-4947
+EMP-5415,employee_415,Sales,Manager,Singapore,2025-01-04 00:25:56.756756736,146400.0,2.37,False,employee415@insightforge-demo.com,+1-555-845-3429
+EMP-5179,employee_179,Engineering,Senior,Remote,2025-01-08 00:57:39.459459456,97900.0,3.66,True,employee179@insightforge-demo.com,+1-555-240-9249
+EMP-5033,employee_33,Engineering,Lead,New York,2025-01-08 00:57:39.459459456,132600.0,4.46,False,employee33@insightforge-demo.com,+1-555-405-8996
+EMP-5050,employee_50,Marketing,Senior,Bangalore,2025-01-16 02:01:04.864864832,101700.0,3.23,False,employee50@insightforge-demo.com,+1-555-350-1623
+EMP-5091,employee_91,HR,Manager,Singapore,2025-01-24 03:04:30.270270272,137800.0,4.62,True,employee91@insightforge-demo.com,+1-555-984-6467
+EMP-5189,employee_189,Marketing,Mid,London,2025-01-28 03:36:12.972972928,83300.0,2.77,True,employee189@insightforge-demo.com,+1-555-759-3775
+EMP-5052,employee_52,Operations,Mid,Singapore,2025-02-05 04:39:38.378378368,78800.0,3.95,True,employee52@insightforge-demo.com,+1-555-243-3202
+EMP-5073,employee_73,Marketing,Manager,Toronto,2025-02-05 04:39:38.378378368,146200.0,3.84,True,employee73@insightforge-demo.com,+1-555-919-2331
+EMP-5291,employee_291,Operations,Senior,Singapore,2025-02-09 05:11:21.081081088,100600.0,3.66,False,employee291@insightforge-demo.com,+1-555-576-4090
+EMP-5069,employee_69,Marketing,Junior,Singapore,2025-02-09 05:11:21.081081088,55100.0,,False,employee69@insightforge-demo.com,+1-555-479-6057
+EMP-5204,employee_204,Engineering,Senior,Singapore,2025-02-13 05:43:03.783783744,101900.0,,False,employee204@insightforge-demo.com,+1-555-319-6781
+EMP-5286,employee_286,Sales,Mid,New York,2025-02-13 05:43:03.783783744,78700.0,3.47,True,employee286@insightforge-demo.com,+1-555-285-5874
+EMP-5276,employee_276,Finance,Junior,New York,2025-03-05 08:21:37.297297280,53500.0,3.65,False,employee276@insightforge-demo.com,+1-555-671-1649
+EMP-5256,employee_256,Operations,Junior,London,2025-03-09 08:53:20.000000000,54000.0,2.94,False,employee256@insightforge-demo.com,+1-555-638-6373
+EMP-5261,employee_261,Operations,Junior,New York,2025-03-17 09:56:45.405405376,51400.0,3.71,False,employee261@insightforge-demo.com,+1-555-342-3187
+EMP-5280,employee_280,HR,Director,London,2025-03-21 10:28:28.108108096,172500.0,4.13,True,employee280@insightforge-demo.com,+1-555-952-8480
+EMP-5095,employee_95,HR,Mid,New York,2025-04-02 12:03:36.216216192,68800.0,3.66,False,employee95@insightforge-demo.com,+1-555-625-3721
+EMP-5390,employee_390,Engineering,Lead,Singapore,2025-04-14 13:38:44.324324288,122800.0,3.01,False,employee390@insightforge-demo.com,+1-555-354-5522
+EMP-5314,employee_314,Customer Support,Junior,Toronto,2025-04-14 13:38:44.324324288,42500.0,2.91,False,employee314@insightforge-demo.com,+1-555-935-7596
+EMP-5311,employee_311,Sales,Senior,New York,2025-04-22 14:42:09.729729728,94900.0,3.66,False,employee311@insightforge-demo.com,+1-555-995-9437
+EMP-5237,employee_237,Finance,Senior,London,2025-05-16 17:52:25.945945920,101800.0,2.62,False,employee237@insightforge-demo.com,+1-555-215-2001
+EMP-5109,employee_109,Finance,Junior,Remote,2025-05-24 18:55:51.351351360,53700.0,5.0,False,employee109@insightforge-demo.com,+1-555-807-7495
+EMP-5011,employee_11,Engineering,Senior,London,2025-05-28 19:27:34.054054016,106000.0,3.78,False,employee11@insightforge-demo.com,+1-555-697-2702
+EMP-5297,employee_297,Finance,Manager,London,2025-06-01 19:59:16.756756736,143300.0,3.47,True,employee297@insightforge-demo.com,+1-555-853-4955
+EMP-5063,employee_63,Operations,Mid,Remote,2025-06-01 19:59:16.756756736,79200.0,3.75,False,employee63@insightforge-demo.com,+1-555-883-3909
+EMP-5053,employee_53,HR,Senior,Bangalore,2025-06-05 20:30:59.459459456,99200.0,4.09,False,employee53@insightforge-demo.com,+1-555-260-1846
+EMP-5524,employee_524,HR,Junior,New York,2025-06-09 21:02:42.162162176,55600.0,3.94,False,employee524@insightforge-demo.com,+1-555-230-1286
+EMP-5392,employee_392,Operations,Mid,Toronto,2025-06-13 21:34:24.864864832,83600.0,2.85,False,employee392@insightforge-demo.com,+1-555-600-2096
+EMP-5160,employee_160,Finance,Mid,Toronto,2025-06-17 22:06:07.567567552,75700.0,4.91,False,employee160@insightforge-demo.com,+1-555-231-7716
+EMP-5505,employee_505,HR,Junior,Bangalore,2025-06-21 22:37:50.270270272,68800.0,3.33,False,employee505@insightforge-demo.com,+1-555-215-6874
+EMP-5214,employee_214,Marketing,Senior,Toronto,2025-06-25 23:09:32.972972928,101300.0,2.58,True,employee214@insightforge-demo.com,+1-555-284-6645
+EMP-5389,employee_389,HR,Lead,Remote,2025-07-04 00:12:58.378378368,125100.0,2.22,False,employee389@insightforge-demo.com,+1-555-853-9054
+EMP-5543,employee_543,Marketing,Senior,Toronto,2025-07-08 00:44:41.081081088,93000.0,2.94,True,employee543@insightforge-demo.com,+1-555-231-7648
+EMP-5254,employee_254,Operations,Mid,London,2025-07-12 01:16:23.783783744,99500.0,3.38,False,employee254@insightforge-demo.com,+1-555-625-5574
+EMP-5353,employee_353,Operations,Mid,Singapore,2025-07-20 02:19:49.189189184,82000.0,,False,employee353@insightforge-demo.com,+1-555-718-3739
+EMP-5412,employee_412,Operations,Mid,Singapore,2025-07-24 02:51:31.891891904,75000.0,2.53,False,employee412@insightforge-demo.com,+1-555-708-1536
+EMP-5437,employee_437,HR,Junior,London,2025-08-01 03:54:57.297297280,41500.0,3.9,False,employee437@insightforge-demo.com,+1-555-757-8922
+EMP-5228,employee_228,HR,Junior,Bangalore,2025-08-05 04:26:40.000000000,45000.0,3.45,False,employee228@insightforge-demo.com,+1-555-310-9082
+EMP-5245,employee_245,Engineering,Senior,London,2025-08-09 04:58:22.702702720,104800.0,3.12,False,employee245@insightforge-demo.com,+1-555-125-3400
+EMP-5006,employee_6,Marketing,Director,Singapore,2025-08-17 06:01:48.108108096,187300.0,2.73,False,employee6@insightforge-demo.com,+1-555-377-5839
+EMP-5448,employee_448,Operations,Junior,Bangalore,2025-08-29 07:36:56.216216192,53400.0,3.65,False,employee448@insightforge-demo.com,+1-555-702-8374
+EMP-5015,employee_15,Engineering,Manager,Singapore,2025-09-02 08:08:38.918918912,148600.0,3.02,True,employee15@insightforge-demo.com,+1-555-590-3967
+EMP-5350,employee_350,Operations,Junior,Singapore,2025-09-14 09:43:47.027027008,70900.0,3.53,False,employee350@insightforge-demo.com,+1-555-684-7543
+EMP-5096,employee_96,Sales,Lead,Bangalore,2025-09-18 10:15:29.729729728,132600.0,2.76,False,employee96@insightforge-demo.com,+1-555-944-7570
+EMP-5023,employee_23,Finance,Lead,Singapore,2025-09-18 10:15:29.729729728,121700.0,1.75,True,employee23@insightforge-demo.com,+1-555-438-9748
+EMP-5136,employee_136,Finance,Junior,Singapore,2025-09-22 10:47:12.432432448,53300.0,3.14,False,employee136@insightforge-demo.com,+1-555-279-7419
+EMP-5393,employee_393,Customer Support,Lead,Remote,2025-09-26 11:18:55.135135104,124300.0,4.13,True,employee393@insightforge-demo.com,+1-555-930-5611
+EMP-5155,employee_155,Engineering,Lead,Toronto,2025-10-04 12:22:20.540540544,123700.0,4.06,False,employee155@insightforge-demo.com,+1-555-228-2025
+EMP-5462,employee_462,Finance,Junior,Singapore,2025-10-04 12:22:20.540540544,71700.0,3.54,False,employee462@insightforge-demo.com,+1-555-526-7076
+EMP-5588,employee_588,Operations,Junior,London,2025-10-16 13:57:28.648648640,62200.0,3.85,True,employee588@insightforge-demo.com,+1-555-588-2070
+EMP-5554,employee_554,Customer Support,Junior,London,2025-11-05 16:36:02.162162176,44300.0,3.3,False,employee554@insightforge-demo.com,+1-555-353-7770
+EMP-5423,employee_423,Operations,Senior,New York,2025-11-09 17:07:44.864864832,95000.0,3.46,False,employee423@insightforge-demo.com,+1-555-216-5910
+EMP-5361,employee_361,Engineering,Mid,London,2025-11-13 17:39:27.567567552,72900.0,3.08,False,employee361@insightforge-demo.com,+1-555-507-7855
+EMP-5440,employee_440,Operations,Junior,New York,2025-11-21 18:42:52.972972928,53500.0,3.7,True,employee440@insightforge-demo.com,+1-555-150-7287
+EMP-5060,employee_60,Engineering,Junior,Toronto,2025-11-21 18:42:52.972972928,68500.0,3.1,False,employee60@insightforge-demo.com,+1-555-553-8174
+EMP-5500,employee_500,Customer Support,Mid,Singapore,2025-12-03 20:18:01.081081088,76100.0,3.41,False,employee500@insightforge-demo.com,+1-555-319-9008
+EMP-5152,employee_152,Engineering,Lead,Remote,2025-12-07 20:49:43.783783744,131500.0,3.64,False,employee152@insightforge-demo.com,+1-555-980-8966
+EMP-5007,employee_7,Engineering,Mid,Toronto,2025-12-15 21:53:09.189189184,72100.0,3.86,False,employee7@insightforge-demo.com,+1-555-957-3111
+EMP-5046,employee_46,Finance,Mid,Remote,2025-12-19 22:24:51.891891904,76800.0,4.7,True,employee46@insightforge-demo.com,+1-555-646-4923

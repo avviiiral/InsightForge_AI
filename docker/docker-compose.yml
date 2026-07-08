@@ -1,0 +1,50 @@
+# ============================================================
+# InsightForge-AI — docker-compose
+# Brings up both the FastAPI backend and the Streamlit frontend.
+# Usage: docker compose -f docker/docker-compose.yml up --build
+# ============================================================
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend
+    container_name: insightforge-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ../.env
+    environment:
+      - APP_ENV=production
+    volumes:
+      - ../data:/app/data
+      - ../logs:/app/logs
+    restart: unless-stopped
+    networks:
+      - insightforge-net
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    container_name: insightforge-frontend
+    ports:
+      - "8501:8501"
+    env_file:
+      - ../.env
+    environment:
+      - APP_ENV=production
+      - BACKEND_BASE_URL=http://backend:8000
+    volumes:
+      - ../data:/app/data
+      - ../logs:/app/logs
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - insightforge-net
+
+networks:
+  insightforge-net:
+    driver: bridge
