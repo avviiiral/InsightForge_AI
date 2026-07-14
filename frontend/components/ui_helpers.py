@@ -33,7 +33,7 @@ def render_kpi_row(kpis: list[dict[str, Any]]) -> None:
         st.info("No KPIs available yet — run the analysis first.")
         return
 
-    cols = st.columns(len(kpis))
+    cols = st.columns(len(kpis), gap="small")
 
     for col, kpi in zip(cols, kpis):
         trend = kpi.get("trend")
@@ -52,7 +52,9 @@ def render_kpi_row(kpis: list[dict[str, Any]]) -> None:
                 <div class="if-card">
                     <div class="if-kpi-label">{kpi["name"].title()}</div>
                     <div class="if-kpi-value">{kpi["formatted_value"]}</div>
-                    {trend_html}
+                    <div class="if-kpi-trend">
+                        {trend_html if trend_html else "&nbsp;"}
+                    </div>
                 </div>
                 """,
                 unsafe_allow_html=True,
