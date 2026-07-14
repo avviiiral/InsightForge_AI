@@ -55,36 +55,93 @@ def build_langgraph_pipeline():
     insight_agent = InsightAgent(llm_router=get_llm_router())
 
     def node_schema(state: PipelineState) -> PipelineState:
-        result = schema_agent.run(dataframe=state["dataframe"])
+        dataframe = state.get("dataframe")
+        if dataframe is None:
+            raise ValueError("PipelineState missing 'dataframe'")
+
+        result = schema_agent.run(dataframe=dataframe)
         return {"column_types": result.data.get("column_types", {})}
 
     def node_quality(state: PipelineState) -> PipelineState:
-        result = quality_agent.run(dataframe=state["dataframe"])
+        dataframe = state.get("dataframe")
+        if dataframe is None:
+            raise ValueError("PipelineState missing 'dataframe'")
+
+        result = quality_agent.run(dataframe=dataframe)
         return {"quality": result.data}
 
     def node_statistics(state: PipelineState) -> PipelineState:
-        numeric_cols = [c for c, i in state["column_types"].items() if i["semantic_type"] in ("numeric", "currency")]
-        result = statistics_agent.run(dataframe=state["dataframe"], numeric_columns=numeric_cols)
+        dataframe = state.get("dataframe")
+        if dataframe is None:
+            raise ValueError("PipelineState missing 'dataframe'")
+
+        column_types = state.get("column_types", {})
+
+        numeric_cols = [
+            c
+            for c, info in column_types.items()
+            if info["semantic_type"] in ("numeric", "currency")
+        ]
+
+        result = statistics_agent.run(
+            dataframe=dataframe,
+            numeric_columns=numeric_cols,
+        )
+
         return {"statistics": result.data}
 
     def node_correlation(state: PipelineState) -> PipelineState:
-        numeric_cols = [c for c, i in state["column_types"].items() if i["semantic_type"] in ("numeric", "currency")]
-        result = correlation_agent.run(dataframe=state["dataframe"], numeric_columns=numeric_cols)
+        dataframe = state.get("dataframe")
+        if dataframe is None:
+            raise ValueError("PipelineState missing 'dataframe'")
+
+        column_types = state.get("column_types", {})
+
+        numeric_cols = [
+            c
+            for c, info in column_types.items()
+            if info["semantic_type"] in ("numeric", "currency")
+        ]
+
+        result = correlation_agent.run(
+            dataframe=dataframe,
+            numeric_columns=numeric_cols,
+        )
+
         return {"correlation": result.data}
 
     def node_kpis(state: PipelineState) -> PipelineState:
-        numeric_cols = [c for c, i in state["column_types"].items() if i["semantic_type"] in ("numeric", "currency")]
-        result = kpi_agent.run(dataframe=state["dataframe"], numeric_columns=numeric_cols)
+        dataframe = state.get("dataframe")
+        if dataframe is None:
+            raise ValueError("PipelineState missing 'dataframe'")
+
+        column_types = state.get("column_types", {})
+
+        numeric_cols = [
+            c
+            for c, info in column_types.items()
+            if info["semantic_type"] in ("numeric", "currency")
+        ]
+
+        result = kpi_agent.run(
+            dataframe=dataframe,
+            numeric_columns=numeric_cols,
+        )
+
         return {"kpis": result.data.get("kpis", [])}
 
     def node_insights(state: PipelineState) -> PipelineState:
         result = insight_agent.run(
-            quality=state.get("quality"), statistics=state.get("statistics"),
-            correlation=state.get("correlation"), kpis=state.get("kpis"),
+            quality=state.get("quality"),
+            statistics=state.get("statistics"),
+            correlation=state.get("correlation"),
+            kpis=state.get("kpis"),
         )
+
         return {"insights": result.data.get("insights", [])}
 
     graph = StateGraph(PipelineState)
+
     graph.add_node("schema_detection", node_schema)
     graph.add_node("data_quality", node_quality)
     graph.add_node("statistics", node_statistics)
@@ -93,6 +150,7 @@ def build_langgraph_pipeline():
     graph.add_node("insights", node_insights)
 
     graph.set_entry_point("schema_detection")
+
     graph.add_edge("schema_detection", "data_quality")
     graph.add_edge("data_quality", "statistics")
     graph.add_edge("statistics", "correlation")

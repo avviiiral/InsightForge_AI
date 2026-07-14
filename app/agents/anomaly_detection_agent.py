@@ -49,11 +49,29 @@ class AnomalyDetectionAgent(BaseAgent):
         ranked = sorted(zip(anomaly_indices, scores[anomaly_mask]), key=lambda t: t[1])
 
         top_rows = []
-        for idx, score in ranked[:max_rows_returned]:
-            row = dataframe.loc[idx, numeric_columns].to_dict()
-            row = {k: (round(float(v), 4) if pd.notna(v) else None) for k, v in row.items()}
-            top_rows.append({"row_index": int(idx), "anomaly_score": round(float(score), 4), "values": row})
 
+        top_indices = [idx for idx, _ in ranked[:max_rows_returned]]
+
+        top_df = dataframe.loc[top_indices, numeric_columns]
+
+        for idx, (_, score) in zip(top_df.index, ranked[:max_rows_returned]):
+
+            values = {}
+
+            for col, value in top_df.loc[idx].items():
+
+                if pd.isna(value):
+                    values[col] = None
+                else:
+                    values[col] = round(float(value), 4)
+
+            top_rows.append(
+                {
+                    "row_index": int(idx),
+                    "anomaly_score": round(float(score), 4),
+                    "values": values,
+                }
+            )
         return {
             "anomaly_count": int(anomaly_mask.sum()),
             "anomaly_pct": round(100 * anomaly_mask.sum() / len(subset), 2),

@@ -28,6 +28,9 @@ class VisualizationAgent(BaseAgent):
     name = "visualization_agent"
     description = "Builds interactive Plotly charts from a chart specification."
 
+    MAX_POINTS = 10000
+    MAX_MATRIX_POINTS = 2000
+
     DISPATCH = {
         "bar": "build_bar",
         "line": "build_line",
@@ -48,13 +51,24 @@ class VisualizationAgent(BaseAgent):
         "correlation_heatmap": "build_correlation_heatmap",
         "kpi_card": "build_kpi_indicator",
     }
+    @classmethod
+    def _sample(cls, df: pd.DataFrame, limit: int | None = None) -> pd.DataFrame:
+        if limit is None:
+            limit = cls.MAX_POINTS
 
+        if len(df) <= limit:
+            return df
+
+        return df.sample(limit, random_state=42)
     def _execute(self, dataframe: pd.DataFrame, spec: dict[str, Any]) -> dict[str, Any]:
         fig = self.render(dataframe, spec)
-        return {"figure_json": fig.to_json(), "chart_type": spec.get("chart_type")}
+        return {
+            "figure_json": fig.to_json(),
+            "chart_type": str(spec["chart_type"]),
+        }
 
     def render(self, dataframe: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
-        chart_type = spec.get("chart_type")
+        chart_type = str(spec["chart_type"])
         method_name = self.DISPATCH.get(chart_type)
         if not method_name:
             raise ValueError(f"Unsupported chart_type '{chart_type}'")
@@ -115,30 +129,63 @@ class VisualizationAgent(BaseAgent):
 
     def build_scatter(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         x, y = spec["x"], spec["y"]
-        data = df[[x, y]].dropna()
+        data = self._sample(
+            df[[x, y]].dropna()
+        )
         return px.scatter(data, x=x, y=y, title=spec.get("title"), trendline="ols",
                            color_discrete_sequence=COLOR_SEQUENCE, opacity=0.7)
 
     def build_bubble(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         x, y, size = spec["x"], spec["y"], spec.get("size")
         cols = [c for c in (x, y, size) if c]
-        data = df[cols].dropna()
+        data = self._sample(
+            df[cols].dropna()
+        )
         return px.scatter(data, x=x, y=y, size=size if size else None, title=spec.get("title"),
                            color_discrete_sequence=COLOR_SEQUENCE, opacity=0.7, size_max=40)
 
     def build_histogram(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         col = spec["x"]
-        return px.histogram(df, x=col, title=spec.get("title"), nbins=30,
-                             color_discrete_sequence=COLOR_SEQUENCE, marginal="box")
+        data = self._sample(df[[col]].dropna())
+
+        return px.histogram(
+            data,
+            x=col,
+            title=spec.get("title"),
+            nbins=30,
+            color_discrete_sequence=COLOR_SEQUENCE,
+            marginal="box",
+        )
 
     def build_violin(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         x, y = spec.get("x"), spec["y"]
-        return px.violin(df, x=x, y=y, box=True, points="outliers", title=spec.get("title"),
-                          color_discrete_sequence=COLOR_SEQUENCE)
+        data = self._sample(
+            df[[c for c in [x, y] if c]].dropna()
+        )
+
+        return px.violin(
+            data,
+            x=x,
+            y=y,
+            box=True,
+            points="outliers",
+            title=spec.get("title"),
+            color_discrete_sequence=COLOR_SEQUENCE,
+        )
 
     def build_box(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         x, y = spec.get("x"), spec["y"]
-        return px.box(df, x=x, y=y, title=spec.get("title"), color_discrete_sequence=COLOR_SEQUENCE)
+        data = self._sample(
+        df[[c for c in [x, y] if c]].dropna()
+        )
+
+        return px.box(
+            data,
+            x=x,
+            y=y,
+            title=spec.get("title"),
+            color_discrete_sequence=COLOR_SEQUENCE,
+        )
 
     def build_waterfall(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         x, y = spec["x"], spec["y"]
@@ -165,13 +212,19 @@ class VisualizationAgent(BaseAgent):
 
     def build_parallel_coordinates(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         numeric_cols = spec.get("columns") or list(df.select_dtypes("number").columns)[:6]
-        data = df[numeric_cols].dropna()
+        data = self._sample(
+            df[numeric_cols].dropna(),
+            self.MAX_MATRIX_POINTS,
+        )
         return px.parallel_coordinates(data, color=numeric_cols[0] if numeric_cols else None,
                                         title=spec.get("title"))
 
     def build_pair_plot(self, df: pd.DataFrame, spec: dict[str, Any]) -> go.Figure:
         numeric_cols = spec.get("columns") or list(df.select_dtypes("number").columns)[:5]
-        data = df[numeric_cols].dropna()
+        data = self._sample(
+            df[numeric_cols].dropna(),
+            self.MAX_MATRIX_POINTS,
+        )
         fig = px.scatter_matrix(data, dimensions=numeric_cols, title=spec.get("title"),
                                  color_discrete_sequence=COLOR_SEQUENCE)
         fig.update_traces(diagonal_visible=False, showupperhalf=False)

@@ -13,6 +13,7 @@ from __future__ import annotations
 import json
 import re
 from typing import Any, Optional
+from collections.abc import Hashable
 
 import pandas as pd
 
@@ -64,6 +65,7 @@ class QueryAgent(BaseAgent):
             f"Only use column names from this exact list: {columns}. "
             "Respond with ONLY the JSON object, no explanation, no markdown fences."
         )
+        assert self.llm_router is not None
         raw = self.llm_router.generate(system_prompt, question, max_tokens=200)
         if not raw:
             return None
@@ -136,7 +138,7 @@ class QueryAgent(BaseAgent):
 
     def _execute_intent(
         self, df: pd.DataFrame, intent: dict[str, Any], columns: list[str]
-    ) -> tuple[str, Optional[list[dict[str, Any]]]]:
+    ) -> tuple[str, Optional[list[dict[Hashable, Any]]]]:
         kind = intent["intent"]
         column, group_by, agg, n = intent.get("column"), intent.get("group_by"), intent.get("agg"), intent.get("n", 5)
 

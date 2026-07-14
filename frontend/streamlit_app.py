@@ -50,7 +50,15 @@ if "dataset_name" not in st.session_state:
 if "pending_df" not in st.session_state:
     st.session_state["pending_df"] = None
 
-
+@st.cache_data(show_spinner=False)
+def run_pipeline(df, dataset_name: str, clean_data: bool):
+    orchestrator = Orchestrator()
+    return orchestrator.run_full_pipeline(
+        dataframe=df,
+        dataset_name=dataset_name,
+        clean_data=clean_data,
+    )
+    
 def main() -> None:
     with st.sidebar:
         sidebar_state = render_sidebar()
@@ -75,11 +83,10 @@ def main() -> None:
             st.warning("Please load a dataset from the sidebar first.")
         else:
             with st.spinner("Running the full agent pipeline — this may take a few seconds..."):
-                orchestrator = Orchestrator()
-                context = orchestrator.run_full_pipeline(
+                context = run_pipeline(
                     st.session_state["pending_df"],
-                    dataset_name=st.session_state["dataset_name"] or "dataset",
-                    clean_data=sidebar_state["clean_data"],
+                    st.session_state["dataset_name"] or "dataset",
+                    sidebar_state["clean_data"],
                 )
                 st.session_state["context"] = context
             st.toast("Analysis complete!", icon="✅")

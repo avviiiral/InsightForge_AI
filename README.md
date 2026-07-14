@@ -2,7 +2,7 @@
 
 **Enterprise-grade AI Data Analytics Agent Platform.**
 
-Upload *any* dataset — CSV, Excel, JSON, Parquet, SQLite, PostgreSQL, or MySQL — and get
+Upload _any_ dataset — CSV, Excel, JSON, Parquet, SQLite, PostgreSQL, or MySQL — and get
 instant, agent-powered analytics: automatic schema detection, data quality scoring, statistics,
 correlation & anomaly analysis, an auto-built dashboard, forecasts, natural-language querying,
 and one-click exports to PDF / Excel / Markdown / PowerPoint. No predefined schema. No column-name
@@ -50,33 +50,33 @@ recommending and rendering charts, forecasting, generating insights and recommen
 exporting reports.
 
 **Nothing in the codebase depends on specific column names.** Every agent works off the
-*semantic type* of a column (numeric, categorical, datetime, currency, email, phone, identifier,
+_semantic type_ of a column (numeric, categorical, datetime, currency, email, phone, identifier,
 location, boolean, text) rather than what it happens to be called, so the exact same pipeline
 runs unmodified on a sales ledger, an HR roster, or a scientific dataset.
 
 **LLMs are optional, not required.** Every agent that would benefit from an LLM (insights,
 recommendations, executive summaries, natural-language querying) has a **deterministic,
 rule-based fallback** that runs with zero configuration. If you plug in an API key, those same
-agents produce richer, LLM-generated narratives layered *on top of* — not instead of — the
+agents produce richer, LLM-generated narratives layered _on top of_ — not instead of — the
 deterministic output, so results stay reproducible either way.
 
 **Key capabilities:**
 
-| Capability | Details |
-|---|---|
-| Data sources | CSV, TSV, Excel (.xlsx/.xls), JSON, Parquet, SQLite, PostgreSQL, MySQL |
-| Schema detection | dtype + 10 semantic types, all without hard-coded column names |
-| Data quality | Health score, missing values, duplicates, constant/high-cardinality columns |
-| Statistics | Descriptive stats, distribution shape, normality testing |
-| Correlation | Pearson correlation matrix + ranked strongest relationships |
-| Outliers & anomalies | IQR/Z-score (per-column) + Isolation Forest (multivariate) |
-| Charts | 17 Plotly chart types, auto-recommended from column semantics |
-| Forecasting | Holt-Winters seasonal / linear trend, auto seasonality detection |
-| Natural language querying | Safe, whitelisted intent execution — never `eval()`s LLM output |
-| Reports | PDF, Excel, Markdown, PowerPoint, CSV — one click each |
-| LLM providers | OpenAI, Azure OpenAI, Anthropic, Gemini, Ollama, LM Studio, OpenRouter, DeepSeek, Mistral, or none |
-| Frontend | 100% Streamlit — no React/Vue/Next.js/Flask templates anywhere |
-| Backend | FastAPI REST API (optional companion to the Streamlit UI) |
+| Capability                | Details                                                                                            |
+| ------------------------- | -------------------------------------------------------------------------------------------------- |
+| Data sources              | CSV, TSV, Excel (.xlsx/.xls), JSON, Parquet, SQLite, PostgreSQL, MySQL                             |
+| Schema detection          | dtype + 10 semantic types, all without hard-coded column names                                     |
+| Data quality              | Health score, missing values, duplicates, constant/high-cardinality columns                        |
+| Statistics                | Descriptive stats, distribution shape, normality testing                                           |
+| Correlation               | Pearson correlation matrix + ranked strongest relationships                                        |
+| Outliers & anomalies      | IQR/Z-score (per-column) + Isolation Forest (multivariate)                                         |
+| Charts                    | 17 Plotly chart types, auto-recommended from column semantics                                      |
+| Forecasting               | Holt-Winters seasonal / linear trend, auto seasonality detection                                   |
+| Natural language querying | Safe, whitelisted intent execution — never `eval()`s LLM output                                    |
+| Reports                   | PDF, Excel, Markdown, PowerPoint, CSV — one click each                                             |
+| LLM providers             | OpenAI, Azure OpenAI, Anthropic, Gemini, Ollama, LM Studio, OpenRouter, DeepSeek, Mistral, or none |
+| Frontend                  | 100% Streamlit — no React/Vue/Next.js/Flask templates anywhere                                     |
+| Backend                   | FastAPI REST API (optional companion to the Streamlit UI)                                          |
 
 ---
 
@@ -136,32 +136,32 @@ a script, or a CI job. Both layers are always in sync because they import the sa
 
 ### The 24 Agents
 
-| # | Agent | File | Responsibility |
-|---|---|---|---|
-| 1 | Data Loader | `data_loader_agent.py` | Reads CSV/Excel/JSON/Parquet/SQLite/Postgres/MySQL into a DataFrame |
-| 2 | Schema Detection | `schema_detection_agent.py` | Infers dtype + semantic type per column |
-| 3 | Data Quality | `data_quality_agent.py` | Health score, missing values, duplicates, warnings |
-| 4 | Data Cleaning | `data_cleaning_agent.py` | Trims strings, dedups, imputes missing values |
-| 5 | Profiling | `profiling_agent.py` | Per-column counts, top values, numeric summaries |
-| 6 | Statistics | `statistics_agent.py` | Descriptive stats, skew/kurtosis, normality |
-| 7 | Correlation | `correlation_agent.py` | Correlation matrix + ranked strongest pairs |
-| 8 | Outlier Detection | `outlier_detection_agent.py` | Per-column IQR/Z-score outliers |
-| 9 | Anomaly Detection | `anomaly_detection_agent.py` | Multivariate anomalies via Isolation Forest |
-| 10 | Feature Engineering | `feature_engineering_agent.py` | Suggests/generates derived features |
-| 11 | Chart Recommendation | `chart_recommendation_agent.py` | Decides which chart types fit the data |
-| 12 | Visualization | `visualization_agent.py` | Renders 17 Plotly chart types |
-| 13 | KPI | `kpi_agent.py` | Headline totals/averages/growth cards |
-| 14 | Forecast | `forecast_agent.py` | Time-series forecasting with seasonality |
-| 15 | Insight | `insight_agent.py` | Plain-English insights (rule-based + optional LLM) |
-| 16 | Recommendation | `recommendation_agent.py` | Prioritized, actionable recommendations |
-| 17 | Root Cause Analysis | `root_cause_agent.py` | Ranks candidate drivers behind a target metric |
-| 18 | Business Analyst | `business_analyst_agent.py` | Business-readable narrative synthesis |
-| 19 | Executive Summary | `executive_summary_agent.py` | 4-5 bullet C-suite summary |
-| 20 | Query | `query_agent.py` | Natural-language querying (safe intent executor) |
-| 21 | Report | `report_agent.py` | Assembles all outputs into one report structure |
-| 22 | Export | `export_agent.py` | PDF / Excel / Markdown / PPTX / CSV generation |
-| 23 | Dashboard Builder | `dashboard_builder_agent.py` | Lays out KPIs + charts into a grid |
-| 24 | Orchestrator | `orchestrator.py` | Runs every agent above in sequence, logs each step |
+| #   | Agent                | File                            | Responsibility                                                      |
+| --- | -------------------- | ------------------------------- | ------------------------------------------------------------------- |
+| 1   | Data Loader          | `data_loader_agent.py`          | Reads CSV/Excel/JSON/Parquet/SQLite/Postgres/MySQL into a DataFrame |
+| 2   | Schema Detection     | `schema_detection_agent.py`     | Infers dtype + semantic type per column                             |
+| 3   | Data Quality         | `data_quality_agent.py`         | Health score, missing values, duplicates, warnings                  |
+| 4   | Data Cleaning        | `data_cleaning_agent.py`        | Trims strings, dedups, imputes missing values                       |
+| 5   | Profiling            | `profiling_agent.py`            | Per-column counts, top values, numeric summaries                    |
+| 6   | Statistics           | `statistics_agent.py`           | Descriptive stats, skew/kurtosis, normality                         |
+| 7   | Correlation          | `correlation_agent.py`          | Correlation matrix + ranked strongest pairs                         |
+| 8   | Outlier Detection    | `outlier_detection_agent.py`    | Per-column IQR/Z-score outliers                                     |
+| 9   | Anomaly Detection    | `anomaly_detection_agent.py`    | Multivariate anomalies via Isolation Forest                         |
+| 10  | Feature Engineering  | `feature_engineering_agent.py`  | Suggests/generates derived features                                 |
+| 11  | Chart Recommendation | `chart_recommendation_agent.py` | Decides which chart types fit the data                              |
+| 12  | Visualization        | `visualization_agent.py`        | Renders 17 Plotly chart types                                       |
+| 13  | KPI                  | `kpi_agent.py`                  | Headline totals/averages/growth cards                               |
+| 14  | Forecast             | `forecast_agent.py`             | Time-series forecasting with seasonality                            |
+| 15  | Insight              | `insight_agent.py`              | Plain-English insights (rule-based + optional LLM)                  |
+| 16  | Recommendation       | `recommendation_agent.py`       | Prioritized, actionable recommendations                             |
+| 17  | Root Cause Analysis  | `root_cause_agent.py`           | Ranks candidate drivers behind a target metric                      |
+| 18  | Business Analyst     | `business_analyst_agent.py`     | Business-readable narrative synthesis                               |
+| 19  | Executive Summary    | `executive_summary_agent.py`    | 4-5 bullet C-suite summary                                          |
+| 20  | Query                | `query_agent.py`                | Natural-language querying (safe intent executor)                    |
+| 21  | Report               | `report_agent.py`               | Assembles all outputs into one report structure                     |
+| 22  | Export               | `export_agent.py`               | PDF / Excel / Markdown / PPTX / CSV generation                      |
+| 23  | Dashboard Builder    | `dashboard_builder_agent.py`    | Lays out KPIs + charts into a grid                                  |
+| 24  | Orchestrator         | `orchestrator.py`               | Runs every agent above in sequence, logs each step                  |
 
 Every agent extends `BaseAgent` (`app/agents/base_agent.py`), which gives it, for free:
 
@@ -229,7 +229,7 @@ If you don't have Python, install it:
 ### Step 2 — Clone the repository
 
 ```bash
-git clone https://github.com/your-org/insightforge-ai.git
+git clone https://github.com/avviiiral/InsightForge_AI.git
 cd insightforge-ai
 ```
 
@@ -433,22 +433,22 @@ scipy/pandas/reportlab wheels, and include a `HEALTHCHECK` directive.
 All configuration lives in `.env` (copy from `.env.example`). **Every variable is optional** —
 the platform runs fully offline with zero configuration.
 
-| Variable | Default | Purpose |
-|---|---|---|
-| `APP_ENV` | `development` | `development` / `production` |
-| `LOG_LEVEL` | `INFO` | Loguru log level |
-| `BACKEND_HOST` / `BACKEND_PORT` | `0.0.0.0` / `8000` | FastAPI bind address |
-| `LLM_PROVIDER` | `none` | `none, openai, azure_openai, anthropic, gemini, ollama, lmstudio, openrouter, deepseek, mistral` |
-| `OPENAI_API_KEY` / `OPENAI_MODEL` | — | OpenAI credentials |
-| `AZURE_OPENAI_*` | — | Azure OpenAI endpoint, deployment, API version |
-| `ANTHROPIC_API_KEY` / `ANTHROPIC_MODEL` | — | Anthropic (Claude) credentials |
-| `GEMINI_API_KEY` / `GEMINI_MODEL` | — | Google Gemini credentials |
-| `OLLAMA_BASE_URL` / `OLLAMA_MODEL` | `http://localhost:11434` | Local Ollama daemon |
-| `LMSTUDIO_BASE_URL` / `LMSTUDIO_MODEL` | `http://localhost:1234/v1` | Local LM Studio server |
-| `OPENROUTER_API_KEY` / `OPENROUTER_MODEL` | — | OpenRouter credentials |
-| `DEEPSEEK_API_KEY` / `DEEPSEEK_MODEL` | — | DeepSeek credentials |
-| `MISTRAL_API_KEY` / `MISTRAL_MODEL` | — | Mistral credentials |
-| `POSTGRES_URI` / `MYSQL_URI` | — | Example connection strings for the DB source tab |
+| Variable                                  | Default                    | Purpose                                                                                          |
+| ----------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------ |
+| `APP_ENV`                                 | `development`              | `development` / `production`                                                                     |
+| `LOG_LEVEL`                               | `INFO`                     | Loguru log level                                                                                 |
+| `BACKEND_HOST` / `BACKEND_PORT`           | `0.0.0.0` / `8000`         | FastAPI bind address                                                                             |
+| `LLM_PROVIDER`                            | `none`                     | `none, openai, azure_openai, anthropic, gemini, ollama, lmstudio, openrouter, deepseek, mistral` |
+| `OPENAI_API_KEY` / `OPENAI_MODEL`         | —                          | OpenAI credentials                                                                               |
+| `AZURE_OPENAI_*`                          | —                          | Azure OpenAI endpoint, deployment, API version                                                   |
+| `ANTHROPIC_API_KEY` / `ANTHROPIC_MODEL`   | —                          | Anthropic (Claude) credentials                                                                   |
+| `GEMINI_API_KEY` / `GEMINI_MODEL`         | —                          | Google Gemini credentials                                                                        |
+| `OLLAMA_BASE_URL` / `OLLAMA_MODEL`        | `http://localhost:11434`   | Local Ollama daemon                                                                              |
+| `LMSTUDIO_BASE_URL` / `LMSTUDIO_MODEL`    | `http://localhost:1234/v1` | Local LM Studio server                                                                           |
+| `OPENROUTER_API_KEY` / `OPENROUTER_MODEL` | —                          | OpenRouter credentials                                                                           |
+| `DEEPSEEK_API_KEY` / `DEEPSEEK_MODEL`     | —                          | DeepSeek credentials                                                                             |
+| `MISTRAL_API_KEY` / `MISTRAL_MODEL`       | —                          | Mistral credentials                                                                              |
+| `POSTGRES_URI` / `MYSQL_URI`              | —                          | Example connection strings for the DB source tab                                                 |
 
 **If `LLM_PROVIDER=none` (or is left unset), or if the configured provider fails for any
 reason** (missing key, network error, rate limit), every LLM-touching agent transparently falls
@@ -532,7 +532,7 @@ crashing the whole dashboard.
 
 1. Create `app/llm/my_provider.py` implementing the `LLMProvider` interface
    (`app/llm/base_provider.py`) — just one method, `complete(system_prompt, user_prompt,
-   max_tokens)`, that returns a string or raises `LLMProviderError`.
+max_tokens)`, that returns a string or raises `LLMProviderError`.
 2. Register it in `_PROVIDER_BUILDERS` in `app/llm/llm_factory.py`.
 3. Add its config fields to `Settings` in `app/config.py` and to `.env.example`.
 
@@ -574,19 +574,19 @@ UI (they're read the same way as `.env` variables through `pydantic-settings`).
 
 ## 14. Troubleshooting & Common Errors
 
-| Symptom | Cause | Fix |
-|---|---|---|
-| `ModuleNotFoundError: No module named 'app'` | Streamlit launched from the wrong directory, or PYTHONPATH not set | Always run `streamlit run frontend/streamlit_app.py` from the project root; the entry point auto-adds the root to `sys.path`, but the command itself must be run from there |
-| `pip install` fails on `psycopg2-binary` | Missing PostgreSQL system headers | Linux: `sudo apt install libpq-dev`; macOS: `brew install postgresql` |
-| `ResolutionImpossible` during `pip install` | A dependency version conflicts with something already installed in your environment | Use a clean virtual environment (Step 3 in Installation) — don't install into a shared/global Python |
-| Excel upload fails with a sheet error | Multi-sheet workbook | The sidebar will prompt you to pick a sheet — if it doesn't, verify the file isn't password-protected |
-| SQLite upload fails with a table error | Multi-table database file | The sidebar will prompt you to pick a table |
-| "Need at least 2 numeric columns" on Correlation tab | Dataset has 0-1 numeric columns | Expected behavior — correlation requires ≥2 numeric columns |
-| Forecast tab shows "No datetime column was detected" | `SchemaDetectionAgent` didn't classify any column as `datetime` | Ensure dates are in a standard, parseable format (`YYYY-MM-DD`, `MM/DD/YYYY`, ISO 8601, etc.) |
-| LLM features aren't producing AI narratives | `LLM_PROVIDER` is `none`/unset, or the credentials are invalid | This is expected/by-design fallback behavior — check the sidebar's LLM status badge and your `.env` |
-| `psycopg2.OperationalError` / `pymysql.err.OperationalError` connecting to a database | Wrong URI, firewall, or the DB isn't reachable from where the app is running | Verify the connection URI works with a plain DB client first; if running in Docker, `localhost` inside the container is NOT your host machine — use `host.docker.internal` (Mac/Windows) or the service name (Compose) |
-| `streamlit run` opens but the page is blank | Browser extension blocking WebSockets, or a stale cache | Try an incognito window, or run with `streamlit run frontend/streamlit_app.py --server.headless true` and open the printed URL manually |
-| Docker build fails installing `scipy`/`pandas` wheels | Missing `build-essential` in a customized base image | Use the provided Dockerfiles as-is — they already include the required system packages |
+| Symptom                                                                               | Cause                                                                               | Fix                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ModuleNotFoundError: No module named 'app'`                                          | Streamlit launched from the wrong directory, or PYTHONPATH not set                  | Always run `streamlit run frontend/streamlit_app.py` from the project root; the entry point auto-adds the root to `sys.path`, but the command itself must be run from there                                            |
+| `pip install` fails on `psycopg2-binary`                                              | Missing PostgreSQL system headers                                                   | Linux: `sudo apt install libpq-dev`; macOS: `brew install postgresql`                                                                                                                                                  |
+| `ResolutionImpossible` during `pip install`                                           | A dependency version conflicts with something already installed in your environment | Use a clean virtual environment (Step 3 in Installation) — don't install into a shared/global Python                                                                                                                   |
+| Excel upload fails with a sheet error                                                 | Multi-sheet workbook                                                                | The sidebar will prompt you to pick a sheet — if it doesn't, verify the file isn't password-protected                                                                                                                  |
+| SQLite upload fails with a table error                                                | Multi-table database file                                                           | The sidebar will prompt you to pick a table                                                                                                                                                                            |
+| "Need at least 2 numeric columns" on Correlation tab                                  | Dataset has 0-1 numeric columns                                                     | Expected behavior — correlation requires ≥2 numeric columns                                                                                                                                                            |
+| Forecast tab shows "No datetime column was detected"                                  | `SchemaDetectionAgent` didn't classify any column as `datetime`                     | Ensure dates are in a standard, parseable format (`YYYY-MM-DD`, `MM/DD/YYYY`, ISO 8601, etc.)                                                                                                                          |
+| LLM features aren't producing AI narratives                                           | `LLM_PROVIDER` is `none`/unset, or the credentials are invalid                      | This is expected/by-design fallback behavior — check the sidebar's LLM status badge and your `.env`                                                                                                                    |
+| `psycopg2.OperationalError` / `pymysql.err.OperationalError` connecting to a database | Wrong URI, firewall, or the DB isn't reachable from where the app is running        | Verify the connection URI works with a plain DB client first; if running in Docker, `localhost` inside the container is NOT your host machine — use `host.docker.internal` (Mac/Windows) or the service name (Compose) |
+| `streamlit run` opens but the page is blank                                           | Browser extension blocking WebSockets, or a stale cache                             | Try an incognito window, or run with `streamlit run frontend/streamlit_app.py --server.headless true` and open the printed URL manually                                                                                |
+| Docker build fails installing `scipy`/`pandas` wheels                                 | Missing `build-essential` in a customized base image                                | Use the provided Dockerfiles as-is — they already include the required system packages                                                                                                                                 |
 
 ---
 
@@ -598,7 +598,7 @@ purely optional enhancements for richer natural-language narratives.
 
 **Q: Does it work on datasets with columns it's never seen before?**
 Yes — that's the core design goal. Nothing depends on specific column names; every agent reasons
-from detected *semantic type* (numeric, categorical, datetime, etc.), not naming conventions.
+from detected _semantic type_ (numeric, categorical, datetime, etc.), not naming conventions.
 
 **Q: What's the largest dataset this can handle?**
 It's been tested comfortably into the low millions of rows for most agents; `AnomalyDetectionAgent`

@@ -25,17 +25,34 @@ def render_visualization_tab(context: dict[str, Any]) -> None:
     if not recommendations:
         st.info("No chart recommendations available.")
     else:
-        for i in range(0, len(recommendations), 2):
-            cols = st.columns(2)
-            for col, spec in zip(cols, recommendations[i:i + 2]):
-                with col:
-                    try:
-                        fig = visualization_agent.render(dataframe, spec)
-                        st.plotly_chart(fig, use_container_width=True, key=f"reco_{spec['title']}_{i}")
-                        st.caption(f"💡 {spec.get('reason', '')}")
-                    except Exception as exc:  # noqa: BLE001
-                        st.warning(f"Could not render '{spec.get('title')}': {exc}")
+        for i, spec in enumerate(recommendations):
+            
+            with st.expander(
+                f"{spec['title']}",
+                expanded=(i == 0)
+            ):
 
+                try:
+
+                    fig = visualization_agent.render(
+                        dataframe,
+                        spec,
+                    )
+
+                    st.plotly_chart(
+                        fig,
+                        use_container_width=True,
+                        key=f"chart_{i}",
+                    )
+
+                    st.caption(
+                        f"💡 {spec.get('reason','')}"
+                    )
+
+                except Exception as exc:
+
+                    st.warning(str(exc))
+                    
     st.divider()
     render_section_title("🛠️", "Build Your Own Chart")
     numeric_cols = context.get("numeric_columns", list(dataframe.select_dtypes("number").columns))

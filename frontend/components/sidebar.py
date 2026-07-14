@@ -14,7 +14,22 @@ from app.llm.llm_factory import get_llm_router
 from app.utils import db_utils
 
 loader_agent = DataLoaderAgent()
+@st.cache_data(show_spinner=False)
+def load_dataset(
+    file_path: str,
+    sheet_name: str | None = None,
+    table_name: str | None = None,
+):
+    result = loader_agent.run(
+        file_path=file_path,
+        sheet_name=sheet_name,
+        table_name=table_name,
+    )
 
+    if not result.success:
+        raise RuntimeError(result.error)
+
+    return result.data["dataframe"]
 
 def _sample_files() -> list[Path]:
     if not SAMPLES_DIR.exists():
@@ -61,12 +76,15 @@ def render_sidebar() -> dict:
             if tmp_path.suffix.lower() in (".db", ".sqlite", ".sqlite3"):
                 tables = DataLoaderAgent.list_sqlite_tables(str(tmp_path))
                 table_name = st.selectbox("Table", tables)
-            result = loader_agent.run(file_path=str(tmp_path), sheet_name=sheet_name, table_name=table_name)
-            if result.success:
-                loaded_df = result.data["dataframe"]
+            try:
+                loaded_df = load_dataset(
+                    str(tmp_path),
+                    sheet_name=sheet_name,
+                    table_name=table_name,
+                )
                 dataset_name = uploaded.name
-            else:
-                st.error(f"Failed to load file: {result.error}")
+            except Exception as exc:
+                st.error(f"Failed to load file: {exc}")
 
     elif source == "Sample Dataset":
         samples = _sample_files()
@@ -75,13 +93,11 @@ def render_sidebar() -> dict:
         else:
             choice = st.selectbox("Choose a sample dataset", [f.name for f in samples])
             chosen_path = next(f for f in samples if f.name == choice)
-            result = loader_agent.run(file_path=str(chosen_path))
-            if result.success:
-                loaded_df = result.data["dataframe"]
+            try:
+                loaded_df = load_dataset(str(chosen_path))
                 dataset_name = choice
-            else:
-                st.error(f"Failed to load sample: {result.error}")
-
+            except Exception as exc:
+                st.error(f"Failed to load sample: {exc}")
     else:  # Database Connection
         db_type = st.selectbox("Database type", ["PostgreSQL", "MySQL"])
         default_uri = "postgresql+psycopg2://user:password@localhost:5432/mydb" if db_type == "PostgreSQL" \

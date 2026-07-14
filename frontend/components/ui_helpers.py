@@ -32,26 +32,32 @@ def render_kpi_row(kpis: list[dict[str, Any]]) -> None:
     if not kpis:
         st.info("No KPIs available yet — run the analysis first.")
         return
+
     cols = st.columns(len(kpis))
+
     for col, kpi in zip(cols, kpis):
         trend = kpi.get("trend")
         trend_html = ""
+
         if trend and trend in _TREND_ARROWS:
             trend_html = (
-                f'<span class="{_TREND_CLASS[trend]}">{_TREND_ARROWS[trend]} '
-                f'{kpi.get("delta", "")}%</span>'
+                f'<span class="{_TREND_CLASS[trend]}">'
+                f'{_TREND_ARROWS[trend]} {kpi.get("delta", "")}%'
+                "</span>"
             )
+
         with col:
             st.markdown(
-                f"""<div class="if-card">
-                        <div class="if-kpi-label">{kpi['name']}</div>
-                        <div class="if-kpi-value">{kpi['formatted_value']}</div>
-                        {trend_html}
-                    </div>""",
+                f"""
+                <div class="if-card">
+                    <div class="if-kpi-label">{kpi["name"].title()}</div>
+                    <div class="if-kpi-value">{kpi["formatted_value"]}</div>
+                    {trend_html}
+                </div>
+                """,
                 unsafe_allow_html=True,
-            )
-
-
+            )                
+            
 def render_insight_card(insight: dict[str, Any]) -> None:
     severity = insight.get("severity", "info")
     badge_class = f"if-badge-{severity}"

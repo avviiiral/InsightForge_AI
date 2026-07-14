@@ -38,6 +38,8 @@ class KPIAgent(BaseAgent):
             kpis.append(
                 {
                     "name": f"Total {col}",
+                    "column": col,
+                    "aggregation": "SUM",
                     "value": round(total, 2),
                     "formatted_value": self._format_number(total),
                     "trend": self._trend_label(growth),
@@ -47,6 +49,8 @@ class KPIAgent(BaseAgent):
             kpis.append(
                 {
                     "name": f"Average {col}",
+                    "column": col,
+                    "aggregation": "AVG",
                     "value": round(mean, 2),
                     "formatted_value": self._format_number(mean),
                     "trend": None,
@@ -54,13 +58,17 @@ class KPIAgent(BaseAgent):
                 }
             )
 
-        kpis.append({
-            "name": "Total Records",
-            "value": int(len(dataframe)),
-            "formatted_value": f"{len(dataframe):,}",
-            "trend": None,
-            "delta": None,
-        })
+        kpis.append(
+            {
+                "name": "Total Records",
+                "column": "All Rows",
+                "aggregation": "COUNT",
+                "value": int(len(dataframe)),
+                "formatted_value": f"{len(dataframe):,}",
+                "trend": None,
+                "delta": None,
+            }
+        )
 
         return {"kpis": kpis[: max_kpis + 1]}
 
