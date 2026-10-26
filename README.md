@@ -687,3 +687,8 @@ notice is retained.
 ---
 
 <p align="center">Built with 🧠 agents, 🐼 pandas, and ☕ — no predefined schema required.</p>
+
+
+## Project Keywords
+
+`ai-data-analyst` `data-analytics` `python` `fastapi` `streamlit` `data-quality` `anomaly-detection` `forecasting` `llm` `natural-language-querying` `automated-reporting`
